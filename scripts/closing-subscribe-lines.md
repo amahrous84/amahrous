@@ -19,13 +19,13 @@ Follows "A Day on Venus Is Longer Than Its Year" (403 views), and can link to th
 - **Closing line:** "On Venus, the Sun rises in the west. Unreal, but true. Subscribe."
 - **Alternate:** "Venus breaks the rules. Subscribe for one strange-but-true fact a day."
 - **On-screen text (last 2s):** SUBSCRIBE · New fact daily
-- **Pinned comment:** "Tomorrow: a lake on Earth that turns animals to stone. Subscribe so you don't miss it. Full Venus deep-dive: [link the Venus long video]"
+- **Pinned comment:** "Tomorrow: the lake that leaves animals looking like statues. Subscribe so you don't miss it. Full Venus deep-dive: [link the Venus long video]"
 
-### 2. The Lake That Turns Animals to Stone (Lake Natron)
-Visual-mystery format, like Blood Falls (718 views, best subscriber rate).
-- **Closing line:** "A lake that makes statues. Real place. Subscribe for more like it."
-- **Alternate:** "It's real, and it's in Tanzania. Subscribe for tomorrow's."
-- **On-screen text:** SUBSCRIBE · It's real
+### 2. The Lake That Leaves Animal "Statues" (Lake Natron)
+Visual-mystery format, like Blood Falls (718 views, best subscriber rate). Fact-checkers rate the viral "touch it and you turn to stone" claim as false. Tell the true version instead: animals die in or near the lake, and its salty, alkaline water preserves their bodies so they look like statues. Busting the myth fits the channel's "no fiction" promise.
+- **Closing line:** "Not stone, but preserved like statues. Unreal, but true. Subscribe."
+- **Alternate:** "The truth is stranger than the myth. Subscribe for tomorrow's."
+- **On-screen text:** SUBSCRIBE · Myth vs truth
 - **Pinned comment:** "Tomorrow: a planet that would float in your bathtub. Subscribe to catch it."
 
 ### 3. Saturn Would Float in Water
