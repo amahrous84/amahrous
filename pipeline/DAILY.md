@@ -22,6 +22,10 @@ Each daily run makes and publishes one Short for **Unreal But True**.
    - Plain title, no emoji, no hashtags in the title. `#shorts` goes in the description.
    - Check every number against a reliable source before using it.
    - Put numbers the voice must read in words in `say`.
+   - Give every segment an `image` prompt: one concrete, realistic scene, no text in
+     the picture. The Short maker makes it with fal.ai FLUX schnell (about $0.004 each,
+     needs FAL_KEY) and adds a slow zoom. Use a drawn `scene` (map, globe, counter)
+     instead only where a diagram explains better than a photo.
    - Last line ends with "Unreal, but true. Subscribe."
 4. Render: `python3 pipeline/make_short.py pipeline/specs/<slug>.json shorts/videos/<date>-<slug>.mp4`
 5. Look at frames from the video before publishing (ffmpeg `-ss` grabs).

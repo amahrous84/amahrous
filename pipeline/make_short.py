@@ -14,6 +14,7 @@ Spec format (see pipeline/specs/ for examples):
         text      what the captions show
         say       optional: what the voice says, if it differs from text
         big       optional: large label shown above the scene
+        image     optional: a picture prompt; the segment shows an AI image (fal.ai)
         scene     one of SCENES below, plus its own options in "params"
         sfx       optional: boom, whoosh, rumble, ping
 """
@@ -25,6 +26,8 @@ import re
 import subprocess
 import sys
 import tempfile
+import hashlib
+import urllib.request
 
 import numpy as np
 import soundfile as sf
@@ -486,11 +489,68 @@ def scene_stars(layer, t, dur, p, c):
         d.ellipse((x - s, y - s, x + s, y + s), fill=(255, 255, 255, int(255 * tw)))
 
 
+# ------------------------------------------------------------ AI images
+
+IMG_W, IMG_H = 864, 1536
+IMG_CACHE = os.path.join(HERE, '.images')
+STYLE = ('vertical 9:16, photorealistic, cinematic documentary still, dramatic natural light, '
+         'rich detail, no text, no letters, no watermark')
+
+
+def fetch_image(prompt, seed=1):
+    """Generate one picture with fal.ai FLUX schnell (about $0.004) and cache it."""
+    full = f'{prompt}, {STYLE}'
+    os.makedirs(IMG_CACHE, exist_ok=True)
+    path = os.path.join(IMG_CACHE, hashlib.sha1(f'{full}|{seed}'.encode()).hexdigest()[:16] + '.jpg')
+    if os.path.exists(path):
+        return path
+    body = json.dumps({'prompt': full, 'image_size': {'width': IMG_W, 'height': IMG_H},
+                       'num_images': 1, 'seed': seed, 'num_inference_steps': 4}).encode()
+    req = urllib.request.Request('https://fal.run/fal-ai/flux/schnell', data=body, headers={
+        'Authorization': 'Key ' + os.environ['FAL_KEY'], 'Content-Type': 'application/json'})
+    with urllib.request.urlopen(req, timeout=180) as r:
+        url = json.load(r)['images'][0]['url']
+    # The cloud proxy blocks v3b.fal.media, but the same file is served on v3.fal.media.
+    url = url.replace('://v3b.fal.media/', '://v3.fal.media/')
+    with urllib.request.urlopen(url, timeout=120) as r, open(path, 'wb') as fh:
+        fh.write(r.read())
+    return path
+
+
+_img_cache = {}
+
+
+def scene_image(layer, t, dur, p, c):
+    """Full-screen AI picture with a slow zoom and pan (Ken Burns)."""
+    img = _img_cache.get(p['_path'])
+    if img is None:
+        img = Image.open(p['_path']).convert('RGB')
+        img = img.resize((int(W * 1.18), int(H * 1.18)), Image.LANCZOS)
+        _img_cache[p['_path']] = img
+    k = ease_out(t / max(dur, 0.1)) if p.get('ease', False) else min(t / max(dur, 0.1), 1)
+    z = 1.16 - 0.12 * k if p.get('zoom', 'in') == 'out' else 1.04 + 0.12 * k
+    cw, ch = W * 1.18 / z, H * 1.18 / z
+    pan = p.get('pan', 0)
+    cx = img.width / 2 + pan * (img.width - cw) / 2 * (2 * k - 1)
+    cy = img.height / 2
+    box = (cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2)
+    frame = img.resize((W, H), Image.BILINEAR, box=box).convert('RGBA')
+    shade = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(shade)
+    for i in range(60):
+        a = int(150 * (i / 60) ** 1.5)
+        y0 = 1180 + i * 12
+        sd.rectangle((0, y0, W, y0 + 12), fill=(0, 0, 0, a))
+        sd.rectangle((0, 380 - i * 6, W, 386 - i * 6), fill=(0, 0, 0, int(a * 0.6)))
+    frame.alpha_composite(shade)
+    layer.alpha_composite(frame)
+
+
 SCENES = {
     'explosion': scene_explosion, 'map': scene_map, 'globe': scene_globe,
     'waves': scene_waves, 'ship': scene_ship, 'planet': scene_planet,
     'counter': scene_counter, 'shaft': scene_shaft, 'drift': scene_drift,
-    'stars': scene_stars,
+    'stars': scene_stars, 'image': scene_image,
 }
 
 
@@ -511,6 +571,13 @@ def render(spec, out_path):
     clips = synth_voice(segs, spec.get('voice', 'am_michael'), spec.get('speed', 1.05))
     audio, starts, durs, total = build_audio(clips, segs, rng)
 
+    for k, seg in enumerate(segs):
+        if seg.get('image'):
+            seg['scene'] = 'image'
+            seg.setdefault('params', {})
+            seg['params']['_path'] = fetch_image(seg['image'], seed=spec.get('seed', 1) + k)
+            seg['params'].setdefault('pan', [-1, 1, 0][k % 3] * 0.6)
+            seg['params'].setdefault('zoom', 'out' if k % 2 else 'in')
     pal = spec['palette']
     c = Ctx(pal, random.Random(1))
     bg = background(pal)
