@@ -1,0 +1,29 @@
+{
+  "slug": "krakatoa",
+  "title": "The Loudest Sound in History",
+  "description": "In 1883 a volcano exploded so loudly it was heard 3,000 miles away. #shorts #science #history",
+  "tags": ["Krakatoa", "loudest sound", "volcano", "1883", "science", "history", "shorts"],
+  "voice": "am_michael",
+  "speed": 1.05,
+  "palette": {"bg1": "#140a08", "bg2": "#3a160a", "accent": "#ffb21a", "ink": "#ffffff"},
+  "keywords": ["3,000", "40 MILES", "SEVEN", "EARDRUMS", "SUBSCRIBE"],
+  "segments": [
+    {"text": "This sound was heard 3,000 miles away.", "say": "This sound was heard three thousand miles away.",
+     "big": "3,000 miles", "scene": "explosion", "sfx": "boom"},
+    {"text": "August 27th, 1883. The volcano Krakatoa, in Indonesia, blew itself apart.",
+     "say": "August twenty seventh, eighteen eighty-three. The volcano Krakatoa, in Indonesia, blew itself apart.",
+     "big": "1883", "scene": "map", "sfx": "rumble",
+     "params": {"point": [0.5, 0.5], "land": [[0.25, 0.28, 0.3, 0.14], [0.72, 0.68, 0.34, 0.1]]}},
+    {"text": "On an island near Africa, people heard what sounded like distant cannon fire. It came from the other side of the ocean.",
+     "big": "Across the ocean", "scene": "map", "sfx": "whoosh",
+     "params": {"point": [0.82, 0.3], "to": [0.18, 0.75], "land": [[0.88, 0.22, 0.12, 0.12], [0.1, 0.85, 0.2, 0.08]]}},
+    {"text": "Sailors on a ship 40 miles away had their eardrums burst.",
+     "say": "Sailors on a ship forty miles away had their eardrums burst.",
+     "big": "40 miles away", "scene": "ship", "sfx": "boom"},
+    {"text": "The pressure wave was so strong that barometers around the world recorded it passing seven times, over five days.",
+     "big": "7 times", "scene": "globe", "sfx": "whoosh", "params": {"period": 1.0, "counter": 7}},
+    {"text": "Heard 3,000 miles away. Unreal, but true. Subscribe.",
+     "say": "Heard three thousand miles away. Unreal, but true. Subscribe.",
+     "big": "Unreal but true", "scene": "explosion", "sfx": "rumble", "params": {"flash": false}}
+  ]
+}
