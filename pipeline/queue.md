@@ -1,6 +1,6 @@
 # Topic queue
 
-- [ ] krakatoa: The Loudest Sound in History
+- [x] krakatoa: The Loudest Sound in History (2026-10-11, https://youtube.com/shorts/Dkmv8nfcAlE)
 - [ ] lake-natron: The Lake That "Turns Animals to Stone" (The Real Story)
 - [ ] venus-west: On Venus, the Sun Rises in the West
 - [ ] mponeng: The Deepest Mine on Earth
