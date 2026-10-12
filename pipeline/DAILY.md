@@ -5,7 +5,8 @@ Each daily run makes and publishes one Short for **Unreal But True**.
 1. `bash pipeline/setup.sh` (skips downloads that already exist).
 2. Pick the topic from data, not just the queue order:
    - Read the channel stats with my-youtube `get_my_channel_analytics` and
-     `get_channel_videos` (they lag about 2 days). Note views, subs gained and
+     `get_channel_videos` (analytics lag about 2 days, so also read live view
+     counts with `get_video_info` for Shorts from the last 3 days). Note views, subs gained and
      subscribe rate per Short in `performance.md`.
    - See which themes win (space, Earth, history, the body, myth-busting) and
      which flop, and lean the next topics toward the winners.
