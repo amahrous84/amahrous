@@ -1,0 +1,32 @@
+{
+  "slug": "moon-dust-smell",
+  "title": "The Moon Smells Like Gunpowder",
+  "description": "Apollo astronauts said Moon dust smelled like spent gunpowder. Strangely, Moon samples back on Earth don't smell at all.\n\nSources: NASA Science, \"The Mysterious Smell of Moondust\" (2006); NASA on lunar dust and Harrison Schmitt's \"lunar hay fever\" (Apollo 17).\nNarration is AI-generated text-to-speech and the pictures are AI-generated illustrations.\n\n#shorts #moon #space #science",
+  "tags": ["moon", "moon dust", "apollo", "astronauts", "space", "science", "shorts"],
+  "voice": "am_michael",
+  "speed": 1.05,
+  "seed": 12,
+  "palette": {"bg1": "#0a0c10", "bg2": "#1c2028", "accent": "#ffc23a", "ink": "#ffffff"},
+  "keywords": ["GUNPOWDER", "NO SMELL", "BROKEN GLASS", "HAY FEVER", "SUBSCRIBE"],
+  "segments": [
+    {"text": "Astronauts say the Moon smells like gunpowder.",
+     "big": "Gunpowder", "sfx": "boom",
+     "image": "close-up of an Apollo-era astronaut helmet visor covered in grey lunar dust, harsh sunlight, black sky, lunar surface reflected in the gold visor"},
+    {"text": "After moonwalks, Apollo crews climbed back into the lander with their suits caked in Moon dust.",
+     "big": "Moon dust",
+     "image": "cramped interior of a 1970s lunar module cabin, two astronauts in dusty white spacesuits with helmets off, grey dust on the floor and on their suits, dim instrument lights"},
+    {"text": "When they took off their helmets, it smelled like spent gunpowder. Crew after crew said the same thing.",
+     "big": "Spent gunpowder", "sfx": "whoosh",
+     "image": "faint wisps of grey smoke drifting in the air like after a gunshot, dark moody background, soft rim light"},
+    {"text": "But Moon samples brought back to Earth smell of nothing. Scientists think the fresh dust reacted with the air in the cabin.",
+     "big": "No smell on Earth",
+     "image": "a grey Moon rock sample sitting inside a stainless steel laboratory glovebox, gloved hands, clean white lab light"},
+    {"text": "And it is nasty stuff. With no wind or water to smooth it, each grain is jagged like broken glass. One astronaut even got lunar hay fever.",
+     "say": "And it is nasty stuff. With no wind or water to smooth it, each grain is jagged, like broken glass. One astronaut even got lunar hay fever.",
+     "big": "Like broken glass",
+     "image": "extreme macro of jagged sharp grey mineral grains like crushed glass, scanning electron microscope style lighting, black background"},
+    {"text": "The Moon smells like gunpowder. Unreal, but true. Subscribe.",
+     "big": "Unreal but true", "sfx": "rumble",
+     "image": "the grey cratered lunar surface with footprints in the dust, the blue Earth rising above the horizon in a black sky"}
+  ]
+}

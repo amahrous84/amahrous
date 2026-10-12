@@ -8,3 +8,9 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Flops: emoji or news-style titles (Saturn 22); long videos (near zero).
 - Today's pick: Krakatoa. Highest-median topic in the 2026-10-05 search check (1.8K median, 32M top).
 - Published 2026-10-11 15:28 UTC (late: PC was offline at 17:48 Riyadh): https://youtube.com/shorts/Dkmv8nfcAlE
+
+## 2026-10-12
+- Channel stats: not read (PC offline, my-youtube unavailable).
+- Comments so far: 2 viewer comments (Krakatoa, Moon Disappeared Short). Replies drafted for Ahmed.
+- Niche check (search medians): moon facts 7,300; earth's second moon 1,000; boiling river 891; moon dust smell 866; mponeng 649; tardigrade 621; lake natron 504; venus west 289; sailing stones 60.
+- Today's pick: The Moon Smells Like Gunpowder. Moon is the channel's best niche (Moon Is Leaving, 1,144 views) and the topic has strong search demand. First Short with AI images.
