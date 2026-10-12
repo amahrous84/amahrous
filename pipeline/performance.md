@@ -14,3 +14,4 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Comments so far: 2 viewer comments (Krakatoa, Moon Disappeared Short). Replies drafted for Ahmed.
 - Niche check (search medians): moon facts 7,300; earth's second moon 1,000; boiling river 891; moon dust smell 866; mponeng 649; tardigrade 621; lake natron 504; venus west 289; sailing stones 60.
 - Today's pick: The Moon Smells Like Gunpowder. Moon is the channel's best niche (Moon Is Leaving, 1,144 views) and the topic has strong search demand. First Short with AI images.
+- Published 2026-10-12 20:12 UTC (late: PC offline at 17:48 Riyadh): https://youtube.com/shorts/k_5DPyiMvh4

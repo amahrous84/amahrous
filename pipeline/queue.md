@@ -3,7 +3,7 @@
 Reordered 2026-10-12 by YouTube search medians (top 25 Shorts per query).
 
 - [x] krakatoa: The Loudest Sound in History (2026-10-11, https://youtube.com/shorts/Dkmv8nfcAlE)
-- [ ] moon-dust-smell: The Moon Smells Like Gunpowder (moon dust median 866, top 4.6M; Moon is the channel's best niche)
+- [x] moon-dust-smell: The Moon Smells Like Gunpowder (2026-10-12, https://youtube.com/shorts/k_5DPyiMvh4; moon dust median 866, top 4.6M; Moon is the channel's best niche)
 - [ ] earths-second-moon: Earth Has a Second "Moon" (median 1,000, top 11M; check facts on quasi-moons carefully)
 - [ ] boiling-river: The River That Boils Animals Alive (median 891)
 - [ ] mponeng: The Deepest Mine on Earth (median 649)
