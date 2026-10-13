@@ -23,3 +23,5 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Today's pick: Earth Has a Second Moon (Sort Of). Next-best search median (1,000) after Moon facts, and Moon is the lead niche.
 - my-youtube failed on every call at first (PC online); worked after Ahmed restarted it.
 - Published 2026-10-13 14:41 UTC (on time, before 17:48 Riyadh): https://youtube.com/shorts/_AU4IDLo4L0
+- Live counts 2026-10-13 14:45 UTC: Krakatoa 1,522 (31 likes); Moon Half as Far 1,258; Moon Leaving 1,128; Mercury 763; Blood Falls 720; Venus day 405; Deepest Hole 375; Moon Disappeared Tonight 360; Songs Stuck (Short) 228; Time Speeds Up 47 (~23h); Moon Smells Like Gunpowder 33 (~18h, posted 11 pm Riyadh); Fremdscham 0 after 4 days (check it is public and not restricted).
+- Read: space and history Shorts clear 1,000; psychology Shorts stay under 250. Gunpowder is the first of my Shorts to stall early; watch whether Second Moon (AI images, on-time) does the same before blaming the image style.
