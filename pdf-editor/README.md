@@ -22,7 +22,8 @@ A simple PDF editor that runs in the browser. Open `index.html` in Chrome, Edge,
 
 ## Limits
 
-- "Edit text" covers the old text with white and puts new text on top. That works well on plain backgrounds, and the font is matched to the nearest standard one (sans, serif or mono).
+- "Edit text" covers the old line with its background color and writes the new line on top, using the PDF's own font, size, color and slant. PDFs usually embed only the letters they use, so a character the document never contained is drawn in the closest standard font (Helvetica, Times or Courier, bold or italic to match). Changing the font, bold or italic of an edited line switches the whole line to a standard font.
+- Covering works best on solid backgrounds. Text over a photo or gradient will show the cover patch.
 - Password-protected PDFs can't be opened. Remove the password in another app first.
 - An internet connection is needed the first time the page loads, to fetch pdf.js and pdf-lib from cdnjs.
 
