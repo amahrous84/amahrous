@@ -17,3 +17,9 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Published 2026-10-12 20:12 UTC (late: PC offline at 17:48 Riyadh): https://youtube.com/shorts/k_5DPyiMvh4
 - Channel stats read later on 2026-10-12 (Oct 1-12, data lags ~2 days): What If the Moon Were Half as Far Away? 1,241 views (66% avg viewed); The Moon Is Leaving at Fingernail Speed 1,157; Mercury 745; Deepest Hole 366; Moon Disappeared Tonight 363. Moon Shorts hold 3 of the top 5, which confirms Moon as the lead niche.
 - Correction (live view counts, 2026-10-12 20:16 UTC): analytics lag ~2 days and missed Krakatoa. Live counts: The Loudest Sound in History (Krakatoa) 1,498 views, 30 likes, 2 comments in ~29 hours, now the channel's top Short. Moon Half as Far 1,252; Moon Leaving 1,127. Use live view counts (get_video_info) for recent Shorts, not analytics alone.
+
+## 2026-10-13
+- Channel (live): 5,261 views, 12 subscribers, 18 videos.
+- Today's pick: Earth Has a Second Moon (Sort Of). Next-best search median (1,000) after Moon facts, and Moon is the lead niche.
+- my-youtube failed on every call at first (PC online); worked after Ahmed restarted it.
+- Published 2026-10-13 14:41 UTC (on time, before 17:48 Riyadh): https://youtube.com/shorts/_AU4IDLo4L0
