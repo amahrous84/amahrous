@@ -32,3 +32,7 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Shares: 3 in total across all videos. About one subscriber per 600 views.
 - Live 2026-10-14 07:40 UTC: Second Moon 243 in ~17h; Gunpowder 48; Krakatoa 1,528.
 - Change: shorter Shorts (20-25 s), a 2-second hook, a bright first frame, a looping ending and a share prompt (see DAILY.md).
+
+## 2026-10-14
+- Today's pick: The River That Boils (next in queue, median 891). First Short in the new format: 25 s, 5 segments, bright first frame, looping question ending.
+- Rendered and pushed at 14:55 UTC. PC offline at run time (device not connected), so not uploaded yet.
