@@ -1,0 +1,30 @@
+{
+  "slug": "boiling-river",
+  "title": "The River That Boils",
+  "description": "Deep in Peru's Amazon, the Shanay-Timpishka river runs hot enough to kill animals that fall in, with readings close to 100°C. The nearest volcano is about 700 km away: rainwater sinks deep underground, heats up and comes back to the surface.\n\nSources: Andrés Ruzo, The Boiling River (TED Books, 2016); Discover Wildlife, \"Shanay-Timpishka boiling river\".\nNarration is AI-generated text-to-speech and the pictures are AI-generated illustrations.\n\n#shorts #amazon #peru #nature #science",
+  "tags": ["boiling river", "Shanay-Timpishka", "Amazon", "Peru", "nature", "science", "shorts"],
+  "voice": "am_michael",
+  "speed": 1.08,
+  "seed": 14,
+  "palette": {"bg1": "#07100c", "bg2": "#12261c", "accent": "#ffcf3a", "ink": "#ffffff"},
+  "keywords": ["BOILS", "100°C", "700 KM", "NO VOLCANO"],
+  "segments": [
+    {"text": "This river is hot enough to cook anything that falls in.",
+     "big": "It boils", "sfx": "boom",
+     "image": "a bright turquoise river in a lush green sunlit Amazon jungle with thick white steam billowing off the water, vivid saturated colours, dramatic sunbeams"},
+    {"text": "It's in the Amazon jungle of Peru, and parts of it get close to 100 degrees Celsius.",
+     "say": "It's in the Amazon jungle of Peru, and parts of it get close to one hundred degrees Celsius.",
+     "big": "Close to 100°C", "sfx": "whoosh",
+     "image": "close-up of steaming bubbling hot water rushing over dark rocks in a jungle river, white steam, green leaves, bright daylight"},
+    {"text": "Small animals that slip in don't make it out.",
+     "big": "No way out",
+     "image": "a small green frog sitting on a wet rock at the edge of a steaming jungle river, mist all around, shallow depth of field"},
+    {"text": "And the strange part? The nearest volcano is about 700 kilometres away. Rainwater sinks deep underground, heats up, and comes back boiling.",
+     "say": "And the strange part? The nearest volcano is about seven hundred kilometres away. Rainwater sinks deep underground, heats up, and comes back boiling.",
+     "big": "No volcano", "sfx": "rumble",
+     "image": "cutaway illustration of rainwater seeping down through layers of rock deep underground, glowing hot rock below, water rising back up as steam into a jungle river"},
+    {"text": "Would you touch it? Unreal, but true.",
+     "big": "Would you touch it?", "sfx": "ping",
+     "image": "a hand hovering just above a steaming turquoise jungle river, thick steam rising, bright sunlight through the trees"}
+  ]
+}
