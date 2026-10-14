@@ -35,4 +35,4 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 
 ## 2026-10-14
 - Today's pick: The River That Boils (next in queue, median 891). First Short in the new format: 25 s, 5 segments, bright first frame, looping question ending.
-- Rendered and pushed at 14:55 UTC. PC offline at run time (device not connected), so not uploaded yet.
+- Rendered 14:55 UTC; PC offline at run time. Published 16:49 UTC after Ahmed restarted Claude Desktop: https://youtube.com/shorts/hmU3Xq4wBeY

@@ -5,7 +5,7 @@ Reordered 2026-10-12 by YouTube search medians (top 25 Shorts per query).
 - [x] krakatoa: The Loudest Sound in History (2026-10-11, https://youtube.com/shorts/Dkmv8nfcAlE)
 - [x] moon-dust-smell: The Moon Smells Like Gunpowder (2026-10-12, https://youtube.com/shorts/k_5DPyiMvh4; moon dust median 866, top 4.6M; Moon is the channel's best niche)
 - [x] earths-second-moon (_AU4IDLo4L0): Earth Has a Second "Moon" (median 1,000, top 11M; check facts on quasi-moons carefully)
-- [ ] boiling-river: The River That Boils Animals Alive (median 891)
+- [x] boiling-river (2026-10-14, https://youtube.com/shorts/hmU3Xq4wBeY): The River That Boils Animals Alive (median 891)
 - [ ] mponeng: The Deepest Mine on Earth (median 649)
 - [ ] tardigrades: The Animal That Survives Space (median 621, top 2.7M)
 - [ ] lake-natron: The Lake That "Turns Animals to Stone" (The Real Story) (median 504)
