@@ -25,3 +25,10 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Published 2026-10-13 14:41 UTC (on time, before 17:48 Riyadh): https://youtube.com/shorts/_AU4IDLo4L0
 - Live counts 2026-10-13 14:45 UTC: Krakatoa 1,522 (31 likes); Moon Half as Far 1,258; Moon Leaving 1,128; Mercury 763; Blood Falls 720; Venus day 405; Deepest Hole 375; Moon Disappeared Tonight 360; Songs Stuck (Short) 228; Time Speeds Up 47 (~23h); Moon Smells Like Gunpowder 33 (~18h, posted 11 pm Riyadh); Fremdscham 0 after 4 days (check it is public and not restricted).
 - Read: space and history Shorts clear 1,000; psychology Shorts stay under 250. Gunpowder is the first of my Shorts to stall early; watch whether Second Moon (AI images, on-time) does the same before blaming the image style.
+
+## 2026-10-14 diagnosis (why views stop near 1.5K)
+- Analytics Sep 24 to Oct 13: 87% of views come from the Shorts feed, only 659 from search. Long videos: Venus 68 views (37% watched), Moon long 6.
+- Engaged views as a share of views (a rough "stayed to watch" rate): Moon Half as Far 51%, Moon Leaving 49%, Krakatoa 42%, Mercury 40%, Venus day 37%, Moon Disappeared 32%, Songs 24%.
+- Shares: 3 in total across all videos. About one subscriber per 600 views.
+- Live 2026-10-14 07:40 UTC: Second Moon 243 in ~17h; Gunpowder 48; Krakatoa 1,528.
+- Change: shorter Shorts (20-25 s), a 2-second hook, a bright first frame, a looping ending and a share prompt (see DAILY.md).

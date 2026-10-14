@@ -19,7 +19,18 @@ Each daily run makes and publishes one Short for **Unreal But True**.
      1% or more. Until both hold, keep changing topics and hooks; once they
      hold, keep the formula and keep checking weekly.
 3. Write `pipeline/specs/<slug>.json` (copy the shape of `specs/krakatoa.json`).
-   - About 80 to 95 words of voiceover, 6 segments, a hook in the first line.
+   - About 50 to 65 words of voiceover (20 to 25 seconds), 4 or 5 segments.
+     Shorts here stall near 1.5K because about half of viewers swipe away in the
+     first seconds (engaged views are 40-50% of views, as of 2026-10-14). The
+     21-second Short kept people best.
+   - The first line is the hook and must land within 2 seconds: the strangest
+     fact, said as a claim, no setup. Put the payoff number on screen at once.
+   - The first image must be bright, high-contrast and full of motion or
+     colour (an explosion, glowing lava, a lit Earth). Never a mostly black frame.
+   - Make it loop: the last line should lead straight back into the first, so a
+     replay feels natural. Keep the sign-off short.
+   - One line that invites a reply or a share (a question, "send this to
+     someone who..."), because shares are currently zero.
    - Plain title, no emoji, no hashtags in the title. `#shorts` goes in the description.
    - Check every number against a reliable source before using it.
    - Put numbers the voice must read in words in `say`.
@@ -27,7 +38,7 @@ Each daily run makes and publishes one Short for **Unreal But True**.
      the picture. The Short maker makes it with fal.ai FLUX schnell (about $0.004 each,
      needs FAL_KEY) and adds a slow zoom. Use a drawn `scene` (map, globe, counter)
      instead only where a diagram explains better than a photo.
-   - Last line ends with "Unreal, but true. Subscribe."
+   - Last line ends with "Unreal, but true." (add "Subscribe." only if it still loops).
 4. Render: `python3 pipeline/make_short.py pipeline/specs/<slug>.json shorts/videos/<date>-<slug>.mp4`
 5. Look at frames from the video before publishing (ffmpeg `-ss` grabs).
 6. Commit the spec and video, push, then upload with my-youtube
