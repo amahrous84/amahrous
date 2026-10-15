@@ -36,3 +36,7 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 ## 2026-10-14
 - Today's pick: The River That Boils (next in queue, median 891). First Short in the new format: 25 s, 5 segments, bright first frame, looping question ending.
 - Rendered 14:55 UTC; PC offline at run time. Published 16:49 UTC after Ahmed restarted Claude Desktop: https://youtube.com/shorts/hmU3Xq4wBeY
+
+## 2026-10-15
+- Today's pick: The Animal That Survived Space (tardigrades; median 621, top 2.7M). Chosen over Mponeng for its stronger hook. 25 s, new format.
+- Stats not read: PC offline at run time. Rendered and pushed ~15:05 UTC; waiting to upload.
