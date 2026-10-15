@@ -3,6 +3,8 @@
 >
 > **Use in this repo:** it is registered in the root `.mcp.json` as `qwen-max` and started by `start.sh`, which installs and builds it on first run.
 > Set `DASHSCOPE_API_KEY` (from Alibaba Cloud Model Studio, international endpoint) in your environment, then approve the server when Claude Code asks.
+>
+> **Local Ollama instead of DashScope:** set `QWEN_BASE_URL=http://localhost:11434/v1`, `QWEN_MODEL=qwen3:8b` (any pulled model) and `DASHSCOPE_API_KEY=ollama` (any non-empty value).
 
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/66julienmartin-mcp-server-qwen-max-badge.png)](https://mseep.ai/app/66julienmartin-mcp-server-qwen-max)
 

@@ -12,7 +12,10 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const QWEN_BASE_URL = "https://dashscope-intl.aliyuncs.com/compatible-mode/v1";
+// QWEN_BASE_URL and QWEN_MODEL allow pointing at any OpenAI-compatible server,
+// e.g. a local Ollama at http://localhost:11434/v1 with model qwen3:8b.
+const QWEN_BASE_URL = process.env.QWEN_BASE_URL || "https://dashscope-intl.aliyuncs.com/compatible-mode/v1";
+const QWEN_MODEL = process.env.QWEN_MODEL || "qwen-max-latest";
 const API_KEY = process.env.DASHSCOPE_API_KEY;
 
 if (!API_KEY) {
@@ -61,7 +64,7 @@ class QwenMaxServer {
             async () => ({
                 tools: [{
                     name: "qwen_max",
-                    description: "Generate text using Qwen Max model",
+                    description: `Generate text using the Qwen model ${QWEN_MODEL}`,
                     inputSchema: {
                         type: "object",
                         properties: {
@@ -103,7 +106,7 @@ class QwenMaxServer {
 
                 try {
                     const completion = await this.openai.chat.completions.create({
-                        model: "qwen-max-latest",
+                        model: QWEN_MODEL,
                         messages: [{ role: "user", content: prompt }],
                         max_tokens,
                         temperature
