@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "qwen-max": {
+      "command": "sh",
+      "args": ["mcp-servers/qwen-max/start.sh"],
+      "env": {
+        "DASHSCOPE_API_KEY": "${DASHSCOPE_API_KEY}"
+      }
+    }
+  }
+}
