@@ -2,17 +2,28 @@
 
 ## New direction (2026-10-15)
 
-Ahmed is bored with the quirky-fact topics and they stopped getting views. Only two
-formats passed 700 views: "most extreme ever" (Krakatoa 1,547, Blood Falls 720,
-Mercury 764) and "what if" (Moon Half as Far 1,261, Moon Leaving 1,128). Niche facts
-stayed under 400. Ahmed was asked to pick a series; until he answers, use the
-"most extreme ever" list below, top first. The old list further down is parked.
+Ahmed is bored with the quirky-fact topics and they stopped getting views. On his
+channel only "most extreme ever" (Krakatoa 1,547) and "what if" (Moon Half as Far
+1,261) passed 1K. A YouTube scan of this week's top Shorts (search, "this week"
+filter, 27 queries) showed "what if" scenarios as the clear winner in the facts
+space: What if all your DNA vanished 1.3M, binary galaxies collided 165K, what if
+you fell into a black hole 80K, spaghettification 55K, all men disappeared 46K.
+Next: space "X vs Y" scale battles (Earth vs diamond planet 123K) and list-style
+weird history (too weird to be true 78K, coincidences 67K). Generic "did you know",
+body facts, money facts were weak. "What if the Sun vanished" is heavily copied.
 
+Default until Ahmed picks a series on the card: "what if", top first.
+
+- [ ] what-if-earth-stopped: What If Earth Stopped Spinning for One Second?
+- [ ] what-if-black-hole: What If a Tiny Black Hole Hit Earth?
+- [ ] what-if-oxygen: What If Earth Lost Its Oxygen for 5 Seconds?
+- [ ] what-if-moon-crashed: What If the Moon Crashed Into Earth?
+- [ ] what-if-no-gravity: What If Gravity Switched Off for 5 Seconds?
+
+Most extreme ever (backup series):
 - [ ] biggest-wave: The Biggest Wave Ever Recorded (Lituya Bay, Alaska, 1958, 524 m run-up)
 - [ ] biggest-explosion: The Biggest Explosion Humans Ever Made (Tsar Bomba, 1961)
 - [ ] coldest-place: The Coldest Place on Earth (East Antarctic plateau, about -94 C by satellite)
-- [ ] hottest-temperature: The Hottest Place on Earth (Lut Desert ground temperature)
-- [ ] biggest-storm: The Biggest Storm in the Solar System (Jupiter's Great Red Spot)
 
 ## Parked (old list)
 
