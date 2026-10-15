@@ -1,5 +1,21 @@
 # Topic queue
 
+## New direction (2026-10-15)
+
+Ahmed is bored with the quirky-fact topics and they stopped getting views. Only two
+formats passed 700 views: "most extreme ever" (Krakatoa 1,547, Blood Falls 720,
+Mercury 764) and "what if" (Moon Half as Far 1,261, Moon Leaving 1,128). Niche facts
+stayed under 400. Ahmed was asked to pick a series; until he answers, use the
+"most extreme ever" list below, top first. The old list further down is parked.
+
+- [ ] biggest-wave: The Biggest Wave Ever Recorded (Lituya Bay, Alaska, 1958, 524 m run-up)
+- [ ] biggest-explosion: The Biggest Explosion Humans Ever Made (Tsar Bomba, 1961)
+- [ ] coldest-place: The Coldest Place on Earth (East Antarctic plateau, about -94 C by satellite)
+- [ ] hottest-temperature: The Hottest Place on Earth (Lut Desert ground temperature)
+- [ ] biggest-storm: The Biggest Storm in the Solar System (Jupiter's Great Red Spot)
+
+## Parked (old list)
+
 Reordered 2026-10-12 by YouTube search medians (top 25 Shorts per query).
 
 - [x] krakatoa: The Loudest Sound in History (2026-10-11, https://youtube.com/shorts/Dkmv8nfcAlE)
