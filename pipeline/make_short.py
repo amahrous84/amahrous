@@ -18,7 +18,8 @@ Spec format (see pipeline/specs/ for examples):
         big       optional: large label shown above the scene
         image     optional: a picture prompt; the segment shows an AI image (fal.ai)
         scene     one of SCENES below, plus its own options in "params"
-        sfx       optional: boom, whoosh, rumble, ping
+        sfx       optional: boom, whoosh, rumble, ping (only heard when the spec sets
+                  "effects": true; off by default, voice only)
 """
 import json
 import math
@@ -153,7 +154,7 @@ def music_bed(n, rng):
     return (pad + pulse) * 0.06
 
 
-def build_audio(clips, segments, rng):
+def build_audio(clips, segments, rng, effects=False):
     starts, t = [], 0.0
     for c in clips:
         starts.append(t)
@@ -165,13 +166,14 @@ def build_audio(clips, segments, rng):
     for s, c, seg in zip(starts, clips, segments):
         i = int(s * SR)
         voice[i:i + len(c)] += c[:n - i]
-        if seg.get('sfx'):
+        if effects and seg.get('sfx'):
             e = sfx(seg['sfx'], rng)
             j = max(i - int(0.05 * SR), 0)
             fx[j:j + len(e)] += e[:n - j]
     voice /= max(np.abs(voice).max(), 1e-6) / 0.9
     fx = fx / max(np.abs(fx).max(), 1e-6) * 0.55
-    mix = voice + fx + music_bed(n, rng)
+    # Synth effects and music bed are off by default (Ahmed found them annoying, 2026-10-15).
+    mix = voice + (fx + music_bed(n, rng) if effects else 0)
     mix /= max(np.abs(mix).max(), 1.0)
     fade = int(0.4 * SR)
     mix[-fade:] *= np.linspace(1, 0, fade)
@@ -586,7 +588,7 @@ def render(spec, out_path):
     rng = np.random.default_rng(spec.get('seed', 1))
     segs = spec['segments']
     clips = synth_voice(segs, spec.get('voice', 'am_michael'), spec.get('speed', 1.05))
-    audio, starts, durs, total = build_audio(clips, segs, rng)
+    audio, starts, durs, total = build_audio(clips, segs, rng, spec.get('effects', False))
 
     for k, seg in enumerate(segs):
         if seg.get('image'):
