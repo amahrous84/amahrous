@@ -12,7 +12,7 @@ Next: space "X vs Y" scale battles (Earth vs diamond planet 123K) and list-style
 weird history (too weird to be true 78K, coincidences 67K). Generic "did you know",
 body facts, money facts were weak. "What if the Sun vanished" is heavily copied.
 
-Default until Ahmed picks a series on the card: "what if", top first.
+Ahmed agreed to the "what if" series on 2026-10-15. Use this list, top first.
 
 - [ ] what-if-earth-stopped: What If Earth Stopped Spinning for One Second?
 - [ ] what-if-black-hole: What If a Tiny Black Hole Hit Earth?
