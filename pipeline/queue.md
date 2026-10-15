@@ -7,7 +7,7 @@ Reordered 2026-10-12 by YouTube search medians (top 25 Shorts per query).
 - [x] earths-second-moon (_AU4IDLo4L0): Earth Has a Second "Moon" (median 1,000, top 11M; check facts on quasi-moons carefully)
 - [x] boiling-river (2026-10-14, https://youtube.com/shorts/hmU3Xq4wBeY): The River That Boils Animals Alive (median 891)
 - [ ] mponeng: The Deepest Mine on Earth (median 649)
-- [ ] tardigrades: The Animal That Survives Space (median 621, top 2.7M)
+- [x] tardigrades (2026-10-15, https://youtube.com/shorts/hvffgAkXxgw): The Animal That Survives Space (median 621, top 2.7M)
 - [ ] lake-natron: The Lake That "Turns Animals to Stone" (The Real Story) (median 504)
 - [ ] venus-west: On Venus, the Sun Rises in the West (median 289; overlaps the Venus day Short)
 - [ ] sailing-stones: The Rocks That Move by Themselves (median dropped to 60 on 2026-10-12)
