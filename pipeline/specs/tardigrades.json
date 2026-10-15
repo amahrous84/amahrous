@@ -2,28 +2,61 @@
   "slug": "tardigrades",
   "title": "The Animal That Survived Space",
   "description": "In 2007, the European Space Agency put dried-out tardigrades (water bears) outside a capsule in orbit, in open space. Most survived the vacuum, some even survived the Sun's raw UV, and the survivors went on to have babies back on Earth.\n\nSources: ESA, \"Tiny animals survive exposure to space\" (FOTON-M3, 2007); Jönsson et al., Current Biology (2008).\nNarration is AI-generated text-to-speech and the pictures are AI-generated illustrations.\n\n#shorts #tardigrade #space #animals #science",
-  "tags": ["tardigrade", "water bear", "animal in space", "FOTON-M3", "space", "science", "shorts"],
+  "tags": [
+    "tardigrade",
+    "water bear",
+    "animal in space",
+    "FOTON-M3",
+    "space",
+    "science",
+    "shorts"
+  ],
   "voice": "am_michael",
   "speed": 1.08,
   "seed": 15,
-  "palette": {"bg1": "#060a12", "bg2": "#122036", "accent": "#7cffb2", "ink": "#ffffff"},
-  "keywords": ["SPACE", "10 DAYS", "VACUUM", "BABIES"],
+  "palette": {
+    "bg1": "#060a12",
+    "bg2": "#122036",
+    "accent": "#7cffb2",
+    "ink": "#ffffff"
+  },
+  "keywords": [
+    "SPACE",
+    "10 DAYS",
+    "VACUUM",
+    "BABIES"
+  ],
   "segments": [
-    {"text": "This animal survived in open space. No suit. No ship.",
-     "big": "Survived space", "sfx": "boom",
-     "image": "a cute chubby tardigrade water bear floating in front of a bright blue glowing Earth in space, vivid colours, sunlit, macro style, highly detailed"},
-    {"text": "It's a tardigrade, a water bear smaller than a grain of sand.",
-     "big": "Water bear", "sfx": "ping",
-     "image": "extreme macro of a translucent chubby eight-legged tardigrade walking on bright green moss, colourful soft lighting, high detail"},
-    {"text": "In 2007, scientists dried them out and put them outside a spacecraft for about 10 days.",
-     "say": "In two thousand seven, scientists dried them out and put them outside a spacecraft for about ten days.",
-     "big": "10 days outside", "sfx": "whoosh",
-     "image": "a small robotic space capsule in orbit above Earth with a tray of tiny samples exposed to space, bright sunlight glinting"},
-    {"text": "Most survived the vacuum. Some even survived the Sun's raw radiation, and later had babies.",
-     "big": "Then had babies", "sfx": "rumble",
-     "image": "macro of a tardigrade beside tiny round eggs on a glistening moss leaf, glowing warm light, scientific illustration style"},
-    {"text": "So, what's tougher than a tardigrade? Unreal, but true.",
-     "big": "Tougher than this?", "sfx": "ping",
-     "image": "a heroic tardigrade water bear standing on a moon rock with the sun flaring behind it, epic cinematic lighting, vivid colours"}
+    {
+      "text": "This animal survived in open space. No suit. No ship.",
+      "big": "Survived space",
+      "sfx": "boom",
+      "image": "a cute chubby tardigrade water bear floating in front of a bright blue glowing Earth in space, vivid colours, sunlit, macro style, highly detailed"
+    },
+    {
+      "text": "It's a tardigrade, a water bear smaller than a grain of sand.",
+      "big": "Water bear",
+      "sfx": "ping",
+      "image": "a cute chubby orange segmented tardigrade water bear with short stubby legs crawling on a bright green moss leaf, side view, macro photo, vivid colours, soft light"
+    },
+    {
+      "text": "In 2007, scientists dried them out and put them outside a spacecraft for about 10 days.",
+      "say": "In two thousand seven, scientists dried them out and put them outside a spacecraft for about ten days.",
+      "big": "10 days outside",
+      "sfx": "whoosh",
+      "image": "a small robotic space capsule in orbit above Earth with a tray of tiny samples exposed to space, bright sunlight glinting"
+    },
+    {
+      "text": "Most survived the vacuum. Some even survived the Sun's raw radiation, and later had babies.",
+      "big": "Then had babies",
+      "sfx": "rumble",
+      "image": "a microscopic tardigrade (water bear): plump translucent barrel-shaped segmented body, eight short stubby legs with tiny claws, small round tube-shaped mouth, no antennae, no long legs, resting beside a cluster of tiny round eggs on a glistening moss leaf, glowing warm light, colourised microscope style"
+    },
+    {
+      "text": "So, what's tougher than a tardigrade? Unreal, but true.",
+      "big": "Tougher than this?",
+      "sfx": "ping",
+      "image": "a heroic tardigrade water bear standing on a moon rock with the sun flaring behind it, epic cinematic lighting, vivid colours"
+    }
   ]
 }
