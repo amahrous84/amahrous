@@ -13,6 +13,8 @@ Spec format (see pipeline/specs/ for examples):
     segments                      list of:
         text      what the captions show
         say       optional: what the voice says, if it differs from text
+        audio     optional: a recorded voice file (e.g. ElevenLabs mp3) used
+                  instead of Kokoro; path relative to the repo root
         big       optional: large label shown above the scene
         image     optional: a picture prompt; the segment shows an AI image (fal.ai)
         scene     one of SCENES below, plus its own options in "params"
@@ -70,12 +72,27 @@ def font(size):
 
 # ---------------------------------------------------------------- audio
 
+def load_audio(path):
+    """Decode any audio file to mono float32 at SR with ffmpeg."""
+    if not os.path.isabs(path):
+        path = os.path.join(HERE, '..', path)
+    raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-f', 'f32le',
+                          '-ac', '1', '-ar', str(SR), '-'],
+                         check=True, capture_output=True).stdout
+    return np.frombuffer(raw, dtype=np.float32).copy()
+
+
 def synth_voice(segments, voice, speed):
-    from kokoro_onnx import Kokoro
-    k = Kokoro(os.path.join(TTS_DIR, 'kokoro-v1.0.onnx'),
-               os.path.join(TTS_DIR, 'voices-v1.0.bin'))
+    k = None
     clips = []
     for seg in segments:
+        if seg.get('audio'):
+            clips.append(trim_silence(load_audio(seg['audio'])))
+            continue
+        if k is None:
+            from kokoro_onnx import Kokoro
+            k = Kokoro(os.path.join(TTS_DIR, 'kokoro-v1.0.onnx'),
+                       os.path.join(TTS_DIR, 'voices-v1.0.bin'))
         samples, sr = k.create(seg.get('say', seg['text']), voice=voice,
                                speed=speed, lang='en-us')
         assert sr == SR

@@ -39,10 +39,19 @@ Each daily run makes and publishes one Short for **Unreal But True**.
      needs FAL_KEY) and adds a slow zoom. Use a drawn `scene` (map, globe, counter)
      instead only where a diagram explains better than a photo.
    - Last line ends with "Unreal, but true." (add "Subscribe." only if it still loops).
-4. Render: `python3 pipeline/make_short.py pipeline/specs/<slug>.json shorts/videos/<date>-<slug>.mp4`
-5. Look at frames from the video before publishing (ffmpeg `-ss` grabs).
-6. Commit the spec and video, push, then upload with my-youtube
+4. Voice it with ElevenLabs (Ahmed asked for this on 2026-10-15, replacing Kokoro):
+   - For each segment, call the ElevenLabs connector `creative_generate_speech` with
+     the segment's `say` (or `text`), model `eleven_v4`, voice "Atlas - Deep, Gravelly
+     Narrator" (voice_id `3YzGaTGef0x5PLEK9yGq`), `generations_count` 1. Never
+     re-call to retry a slow one; poll `creative_get_flow_run_status` instead.
+   - Download each `content_url` (storage.googleapis.com, reachable from the cloud)
+     to `pipeline/audio/<slug>/NN.mp3` and set that path as the segment's `audio`.
+   - About 350 credits per Short. If the connector is missing or fails, render with
+     Kokoro (leave `audio` out) and say so in the 7 pm reminder.
+5. Render: `python3 pipeline/make_short.py pipeline/specs/<slug>.json shorts/videos/<date>-<slug>.mp4`
+6. Look at frames from the video before publishing (ffmpeg `-ss` grabs).
+7. Commit the spec and video, push, then upload with my-youtube
    `upload_video_from_url` using
    `https://raw.githubusercontent.com/amahrous84/amahrous/<branch>/shorts/videos/<date>-<slug>.mp4`,
    category 28, privacy public.
-7. Tick the topic in `queue.md` with the date and the video link, and commit.
+8. Tick the topic in `queue.md` with the date and the video link, and commit.
