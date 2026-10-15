@@ -41,8 +41,8 @@ Each daily run makes and publishes one Short for **Unreal But True**.
    - Last line ends with "Unreal, but true." (add "Subscribe." only if it still loops).
 4. Voice it with ElevenLabs (Ahmed asked for this on 2026-10-15, replacing Kokoro):
    - For each segment, call the ElevenLabs connector `creative_generate_speech` with
-     the segment's `say` (or `text`), model `eleven_v4`, voice "Atlas - Deep, Gravelly
-     Narrator" (voice_id `3YzGaTGef0x5PLEK9yGq`), `generations_count` 1. Never
+     the segment's `say` (or `text`), model `eleven_v4`, voice "Liam - Energetic, Social Media
+     Creator" (voice_id `TX3LPaxmHKxFdv7VOQHJ`, Ahmed picked it 2026-10-15), `generations_count` 1. Never
      re-call to retry a slow one; poll `creative_get_flow_run_status` instead.
    - Download each `content_url` (storage.googleapis.com, reachable from the cloud)
      to `pipeline/audio/<slug>/NN.mp3` and set that path as the segment's `audio`.
