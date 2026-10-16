@@ -1,6 +1,7 @@
 # Daily Short: run book
 
 Each daily run makes and publishes one Short for **Unreal But True**.
+If `queue.md` already has a topic ticked with today's date, today's Short is done: post nothing new.
 
 1. `bash pipeline/setup.sh` (skips downloads that already exist).
 2. Pick the topic from data, not just the queue order:
@@ -39,7 +40,13 @@ Each daily run makes and publishes one Short for **Unreal But True**.
      needs FAL_KEY) and adds a slow zoom. Use a drawn `scene` (map, globe, counter)
      instead only where a diagram explains better than a photo.
    - Last line ends with "Unreal, but true." (add "Subscribe." only if it still loops).
-4. Voice it with ElevenLabs (Ahmed asked for this on 2026-10-15, replacing Kokoro):
+4. Voice it with ElevenLabs (Ahmed asked for this on 2026-10-15, replacing Kokoro).
+   Since 2026-10-16 the ElevenLabs connector refuses most lines ("Free Tier access has
+   been disabled"), so use ElevenLabs through fal.ai instead: POST
+   `https://fal.run/fal-ai/elevenlabs/tts/eleven-v3` with header `Authorization: Key $FAL_KEY`
+   and body `{"text": <say or text>, "voice": "TX3LPaxmHKxFdv7VOQHJ"}`; download
+   `audio.url` (swap host v3b.fal.media for v3.fal.media) to `pipeline/audio/<slug>/NN.mp3`.
+   The connector steps below are the old route, only if fal.ai fails:
    - For each segment, call the ElevenLabs connector `creative_generate_speech` with
      the segment's `say` (or `text`), model `eleven_v4`, voice "Liam - Energetic, Social Media
      Creator" (voice_id `TX3LPaxmHKxFdv7VOQHJ`, Ahmed picked it 2026-10-15), `generations_count` 1. Never
