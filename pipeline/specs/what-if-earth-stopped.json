@@ -1,0 +1,43 @@
+{
+  "slug": "what-if-earth-stopped",
+  "title": "What If Earth Stopped Spinning for One Second?",
+  "description": "Earth's surface at the equator moves at about 1,670 km/h. If the planet suddenly stopped turning, everything not bolted to the rock (you, the air, the oceans) would keep moving east at that speed. And if it never started again, the Sun would take a whole year to cross the sky: one day would last a year.\n\nSources: NASA Space Place / Earth rotation speed (about 465 m/s at the equator); USGS and NASA Q&A \"What if Earth stopped spinning?\".\nNarration is AI-generated (ElevenLabs) and the pictures are AI-generated illustrations. This is a thought experiment: Earth cannot actually stop.\n\n#shorts #whatif #earth #space #science",
+  "tags": ["what if", "what if earth stopped spinning", "earth rotation", "earth stopped spinning", "space", "science", "shorts"],
+  "voice": "am_michael",
+  "speed": 1.08,
+  "seed": 16,
+  "palette": {"bg1": "#060a12", "bg2": "#122036", "accent": "#ffd23f", "ink": "#ffffff"},
+  "keywords": ["ONE SECOND", "1,600 KM/H", "HURRICANE", "A WHOLE YEAR"],
+  "segments": [
+    {
+      "text": "If Earth stopped spinning for one second, you'd fly east at up to 1,600 km/h.",
+      "audio": "pipeline/audio/what-if-earth-stopped/01.mp3",
+      "big": "1,600 km/h",
+      "image": "a brightly sunlit blue and green planet Earth in space with a huge glowing orange shockwave ring sweeping across its surface, vivid colours, dramatic, cinematic, highly detailed"
+    },
+    {
+      "text": "The ground stops. But you, the air and the oceans keep going.",
+      "audio": "pipeline/audio/what-if-earth-stopped/02.mp3",
+      "big": "You keep going",
+      "image": "people, cars and trees being swept sideways off a sunny city street by an invisible force, motion blur, bright daylight, dramatic action shot, vivid colours"
+    },
+    {
+      "text": "Winds faster than any hurricane. Oceans crashing over the land.",
+      "audio": "pipeline/audio/what-if-earth-stopped/03.mp3",
+      "big": "Faster than any hurricane",
+      "image": "a colossal turquoise ocean wave crashing over a coastal city skyline in bright daylight, spray and wind, epic disaster movie shot, vivid colours"
+    },
+    {
+      "text": "And if it never started again, one day would last a whole year.",
+      "audio": "pipeline/audio/what-if-earth-stopped/04.mp3",
+      "big": "1 day = 1 year",
+      "image": "a planet Earth seen from space split exactly in half, one side in blazing golden sunlight and the other in deep blue night with glowing city lights, sharp day night line, vivid colours"
+    },
+    {
+      "text": "Send this to someone who thinks one second is nothing. Unreal, but true.",
+      "audio": "pipeline/audio/what-if-earth-stopped/05.mp3",
+      "big": "One second",
+      "image": "a giant glowing golden clock floating above a bright blue planet Earth in space, its second hand frozen, cinematic lighting, vivid colours"
+    }
+  ]
+}
