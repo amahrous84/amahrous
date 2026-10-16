@@ -4,31 +4,134 @@
   "seed": 160,
   "accent": "#ffd23f",
   "segments": [
-    {"chapter": "Right now", "text": "Right now, you are moving at up to 1,600 km/h. You can't feel it, because everything around you is moving too.", "say": "Right now, you are moving at up to sixteen hundred kilometres an hour. You can't feel it, because everything around you is moving too.", "image": "a brightly sunlit planet Earth spinning in space seen from orbit, glowing blue atmosphere, motion streaks of clouds, vivid colours"},
-    {"text": "The ground, the air, the oceans. All of it spinning together, once every 24 hours.", "say": "The ground, the air, the oceans. All of it spinning together, once every twenty-four hours.", "image": "aerial view of a coastline at golden hour with ocean, clouds and green land, vivid colours"},
-    {"text": "So what happens if Earth just stopped? Not slowed down. Stopped. For one second.", "image": "a giant golden clock frozen in front of planet Earth in space, second hand stopped, cinematic"},
-    {"text": "Let's go through it, second by second.", "image": "a dramatic view of Earth from space at sunrise with a bright sun flare on the horizon"},
-    {"chapter": "The first second", "text": "At the equator, the ground moves about 465 metres every second. Where Europe and the United States are, it's still over 1,000 km/h.", "say": "At the equator, the ground moves about four hundred and sixty-five metres every second. Where Europe and the United States are, it's still over a thousand kilometres an hour.", "image": "a world globe with a glowing golden line along the equator and bright speed arrows pointing east, space background, vivid"},
-    {"text": "If the planet stopped in one second, the ground would stop. But you would not. Your body would keep flying east at the same speed.", "image": "people, cars and trees being flung sideways off a sunny city street by an invisible force, motion blur, dramatic action shot"},
-    {"text": "Near the equator, that's a jolt of nearly 50 times the force of gravity. Far worse than any car crash.", "say": "Near the equator, that's a jolt of nearly fifty times the force of gravity. Far worse than any car crash.", "image": "a crash test dummy in a car at the moment of impact, glass shattering, dramatic studio lighting"},
-    {"chapter": "The first minute", "text": "Then the air hits. The atmosphere isn't glued to the ground, so it keeps moving too.", "image": "a gigantic wall of dust and clouds racing across a desert landscape under a bright sky, epic scale"},
-    {"text": "That means winds of over 1,000 km/h sweeping around the planet. The strongest gust ever measured was about 408 km/h.", "say": "That means winds of over a thousand kilometres an hour sweeping around the planet. The strongest gust ever measured was about four hundred and eight kilometres an hour.", "image": "a violent hurricane hitting a coastal town, palm trees bent flat, sheets of rain, dramatic light"},
-    {"text": "Near the equator, the wind would be faster than the speed of sound. Forests, buildings, even loose rock, scoured away.", "image": "a tropical rainforest being torn apart by a supersonic wind blast, trees ripped from the ground, debris flying, dramatic"},
-    {"text": "And the oceans keep moving as well. Walls of water would surge east across the continents, far bigger than any tsunami ever recorded.", "image": "a colossal turquoise ocean wave crashing over a coastal city skyline in bright daylight, epic disaster movie shot"},
-    {"text": "The safest places would be near the North and South Poles, where the ground barely moves at all.", "image": "a calm bright polar ice landscape with a research station under a clear blue sky, sunlit snow"},
-    {"chapter": "If it never started again", "text": "Now imagine Earth didn't start again. The planet still goes around the Sun, but it no longer turns.", "image": "planet Earth orbiting the Sun seen from deep space, bright sun on the left, dramatic lighting"},
-    {"text": "One side faces the Sun, and the Sun creeps across the sky so slowly that one day would last a whole year.", "image": "a huge sun hanging low and motionless over a desert horizon, long shadows, golden light"},
-    {"text": "Six months of daylight. Then six months of night.", "image": "planet Earth from space split exactly in half, one side in blazing golden sunlight and the other in deep blue night with glowing city lights"},
-    {"text": "The day side would bake for months on end. The night side would freeze, colder than Antarctica.", "image": "split scene: on the left a cracked scorching desert under a blazing sun, on the right a frozen icy landscape under a dark starry sky"},
-    {"text": "Without the spin, hurricanes would stop swirling. The weather would become one giant river of air from the hot side to the cold side.", "image": "satellite view of Earth with long straight streams of clouds flowing from a bright day side to a dark night side, no spiral storms"},
-    {"chapter": "Earth changes shape", "text": "Here's the strangest part. Earth's spin makes it bulge at the middle. It's about 43 km wider at the equator than from pole to pole.", "say": "Here's the strangest part. Earth's spin makes it bulge at the middle. It's about forty-three kilometres wider at the equator than from pole to pole.", "image": "planet Earth slightly squashed and bulging at the equator with a glowing ring marking the bulge, space background, scientific illustration style"},
-    {"text": "The spin holds the oceans in that bulge. Take the spin away, and over time, the water slides toward the poles.", "image": "illustration of planet Earth with the oceans flowing away from the equator towards the north and south poles, bright blue water, vivid"},
-    {"text": "A giant belt of dry land would rise around the middle of the planet, with a huge ocean at each pole.", "image": "planet Earth from space with one continuous brown and green continent wrapped around the equator and big blue oceans covering both poles"},
-    {"chapter": "Could it really happen?", "text": "The good news: no. Nothing in the solar system could stop Earth in a second.", "image": "a peaceful bright view of Earth and the Moon together in space, sunlit, calm"},
-    {"text": "But Earth's spin is slowing down, very gently. The Moon's pull on our oceans works like a brake.", "image": "a full Moon rising over a calm ocean at dusk with a bright tide line on the beach"},
-    {"text": "About 1.4 billion years ago, a day on Earth lasted only around 18 hours.", "say": "About one point four billion years ago, a day on Earth lasted only around eighteen hours.", "image": "ancient Earth landscape with volcanoes, a rocky shore and a huge bright Moon close in the sky, primordial, vivid colours"},
-    {"text": "And the same braking pushes the Moon away from us, about 3.8 cm a year. That's roughly how fast your fingernails grow.", "say": "And the same braking pushes the Moon away from us, about three point eight centimetres a year. That's roughly how fast your fingernails grow.", "image": "the Moon slowly drifting away from Earth in space, faint dotted path between them, bright sunlight"},
-    {"text": "So Earth will never just stop. It's simply getting a tiny bit lazier every year.", "image": "a gently spinning planet Earth at sunrise seen from orbit, peaceful, golden light on the atmosphere"},
-    {"chapter": "Your turn", "text": "Which part would scare you most? Tell me in the comments. And subscribe for more things that sound impossible, but are real. Unreal, but true.", "image": "a person standing on a cliff at sunset looking up at a sky full of stars and a bright planet Earth-like moon, awe, cinematic"}
+    {
+      "chapter": "Right now",
+      "text": "Right now, you are moving at up to 1,600 km/h. You can't feel it, because everything around you is moving too.",
+      "say": "Right now, you are moving at up to sixteen hundred kilometres an hour. You can't feel it, because everything around you is moving too.",
+      "image": "a brightly sunlit planet Earth spinning in space seen from orbit, glowing blue atmosphere, motion streaks of clouds, vivid colours"
+    },
+    {
+      "text": "The ground, the air, the oceans. All of it spinning together, once every 24 hours.",
+      "say": "The ground, the air, the oceans. All of it spinning together, once every twenty-four hours.",
+      "image": "aerial view of a coastline at golden hour with ocean, clouds and green land, vivid colours"
+    },
+    {
+      "text": "So what happens if Earth just stopped? Not slowed down. Stopped. For one second.",
+      "image": "a giant golden clock frozen in front of planet Earth in space, second hand stopped, cinematic"
+    },
+    {
+      "text": "Let's go through it, second by second.",
+      "image": "a dramatic view of Earth from space at sunrise with a bright sun flare on the horizon"
+    },
+    {
+      "chapter": "The first second",
+      "text": "At the equator, the ground moves about 465 metres every second. Where Europe and the United States are, it's still over 1,000 km/h.",
+      "say": "At the equator, the ground moves about four hundred and sixty-five metres every second. Where Europe and the United States are, it's still over a thousand kilometres an hour.",
+      "image": "a world globe with a glowing golden line along the equator and bright speed arrows pointing east, space background, vivid"
+    },
+    {
+      "text": "If the planet stopped in one second, the ground would stop. But you would not. Your body would keep flying east at the same speed.",
+      "image": "people, cars and trees being flung sideways off a sunny city street by an invisible force, motion blur, dramatic action shot"
+    },
+    {
+      "text": "Near the equator, that's a jolt of nearly 50 times the force of gravity. Far worse than any car crash.",
+      "say": "Near the equator, that's a jolt of nearly fifty times the force of gravity. Far worse than any car crash.",
+      "image": "a crash test dummy in a car at the moment of impact, glass shattering, dramatic studio lighting"
+    },
+    {
+      "chapter": "The first minute",
+      "text": "Then the air hits. The atmosphere isn't glued to the ground, so it keeps moving too.",
+      "image": "a gigantic wall of dust and clouds racing across a desert landscape under a bright sky, epic scale"
+    },
+    {
+      "text": "That means winds of over 1,000 km/h sweeping around the planet. The strongest gust ever measured was about 408 km/h.",
+      "say": "That means winds of over a thousand kilometres an hour sweeping around the planet. The strongest gust ever measured was about four hundred and eight kilometres an hour.",
+      "image": "a violent hurricane hitting a coastal town, palm trees bent flat, sheets of rain, dramatic light"
+    },
+    {
+      "text": "Near the equator, the wind would be faster than the speed of sound. Forests, buildings, even loose rock, scoured away.",
+      "image": "a tropical rainforest being torn apart by a supersonic wind blast, trees ripped from the ground, debris flying, dramatic"
+    },
+    {
+      "text": "And the oceans keep moving as well. Walls of water would surge east across the continents, far bigger than any tsunami ever recorded.",
+      "image": "a colossal turquoise ocean wave crashing over a coastal city skyline in bright daylight, epic disaster movie shot"
+    },
+    {
+      "text": "The safest places would be near the North and South Poles, where the ground barely moves at all.",
+      "image": "a calm bright polar ice landscape with a research station under a clear blue sky, sunlit snow"
+    },
+    {
+      "chapter": "If it never started again",
+      "text": "Now imagine Earth didn't start again. The planet still goes around the Sun, but it no longer turns.",
+      "image": "planet Earth orbiting the Sun seen from deep space, bright sun on the left, dramatic lighting"
+    },
+    {
+      "text": "One side faces the Sun, and the Sun creeps across the sky so slowly that one day would last a whole year.",
+      "image": "a huge sun hanging low and motionless over a desert horizon, long shadows, golden light"
+    },
+    {
+      "text": "Six months of daylight. Then six months of night.",
+      "image": "planet Earth from space split exactly in half, one side in blazing golden sunlight and the other in deep blue night with glowing city lights"
+    },
+    {
+      "text": "The day side would bake for months on end. The night side would freeze, colder than Antarctica.",
+      "image": "split scene: on the left a cracked scorching desert under a blazing sun, on the right a frozen icy landscape under a dark starry sky"
+    },
+    {
+      "text": "Without the spin, hurricanes would stop swirling. The weather would become one giant river of air from the hot side to the cold side.",
+      "image": "satellite view of Earth with long straight streams of clouds flowing from a bright day side to a dark night side, no spiral storms"
+    },
+    {
+      "chapter": "Earth changes shape",
+      "text": "Here's the strangest part. Earth's spin makes it bulge at the middle. It's about 43 km wider at the equator than from pole to pole.",
+      "say": "Here's the strangest part. Earth's spin makes it bulge at the middle. It's about forty-three kilometres wider at the equator than from pole to pole.",
+      "image": "planet Earth slightly squashed and bulging at the equator with a glowing ring marking the bulge, space background, scientific illustration style"
+    },
+    {
+      "text": "The spin holds the oceans in that bulge. Take the spin away, and over time, the water slides toward the poles.",
+      "image": "illustration of planet Earth with the oceans flowing away from the equator towards the north and south poles, bright blue water, vivid"
+    },
+    {
+      "text": "A giant belt of dry land would rise around the middle of the planet, with a huge ocean at each pole.",
+      "image": "planet Earth from space with one continuous brown and green continent wrapped around the equator and big blue oceans covering both poles"
+    },
+    {
+      "chapter": "Could it really happen?",
+      "text": "The good news: no. Nothing in the solar system could stop Earth in a second.",
+      "image": "a peaceful bright view of Earth and the Moon together in space, sunlit, calm"
+    },
+    {
+      "text": "But Earth's spin is slowing down, very gently. The Moon's pull on our oceans works like a brake.",
+      "image": "a full Moon rising over a calm ocean at dusk with a bright tide line on the beach"
+    },
+    {
+      "text": "About 1.4 billion years ago, a day on Earth lasted only around 18 hours.",
+      "say": "About one point four billion years ago, a day on Earth lasted only around eighteen hours.",
+      "image": "ancient Earth landscape with volcanoes, a rocky shore and a huge bright Moon close in the sky, primordial, vivid colours"
+    },
+    {
+      "text": "And the same braking pushes the Moon away from us, about 3.8 cm a year. That's roughly how fast your fingernails grow.",
+      "say": "And the same braking pushes the Moon away from us, about three point eight centimetres a year. That's roughly how fast your fingernails grow.",
+      "image": "the Moon slowly drifting away from Earth in space, faint dotted path between them, bright sunlight"
+    },
+    {
+      "text": "So Earth will never just stop. It's simply getting a tiny bit lazier every year.",
+      "image": "a gently spinning planet Earth at sunrise seen from orbit, peaceful, golden light on the atmosphere"
+    },
+    {
+      "chapter": "Your turn",
+      "text": "Which part would scare you most? Tell me in the comments. And subscribe for more things that sound impossible, but are real. Unreal, but true.",
+      "image": "a person standing on a cliff at sunset looking up at a sky full of stars and a bright planet Earth-like moon, awe, cinematic"
+    }
+  ],
+  "description": "What would actually happen if Earth stopped spinning, even for one second? We go second by second: the jolt, the supersonic winds, the oceans, a day that lasts a year, and how the planet itself would change shape. Then: could it really happen?\n\nCHAPTERS\n0:00 Right now\n0:26 The first second\n0:53 The first minute\n1:31 If it never started again\n2:05 Earth changes shape\n2:30 Could it really happen?\n3:02 Your turn\n\nKEY FACTS\n- Earth's surface at the equator moves about 465 m/s (about 1,670 km/h); around 1,000-1,300 km/h at mid-latitudes.\n- Stopping that in one second is a jolt of nearly 50 g at the equator (our own calculation: 465 m/s / 1 s / 9.8).\n- Strongest wind gust ever measured: 408 km/h, Barrow Island, Australia, 1996 (WMO).\n- Earth is about 43 km wider at the equator than pole to pole.\n- About 1.4 billion years ago a day lasted about 18 hours (Meyers & Malinverno, PNAS 2018).\n- The Moon moves away from Earth about 3.8 cm a year (Apollo laser ranging).\n\nSOURCES\nNASA, Earth's rotation; WMO Weather and Climate Extremes Archive; Meyers & Malinverno 2018, PNAS; NASA Lunar Laser Ranging.\n\nNarration is AI-generated (ElevenLabs) and the pictures are AI-generated illustrations. This is a thought experiment: Earth cannot actually stop.\n\n#whatif #earth #space #science",
+  "tags": [
+    "what if earth stopped spinning",
+    "what if",
+    "earth rotation",
+    "earth stops spinning",
+    "space",
+    "science",
+    "thought experiment"
   ]
 }
