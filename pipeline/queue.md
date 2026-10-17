@@ -15,7 +15,8 @@ body facts, money facts were weak. "What if the Sun vanished" is heavily copied.
 Ahmed agreed to the "what if" series on 2026-10-15. Use this list, top first.
 
 - [x] what-if-earth-stopped (2026-10-16, https://youtube.com/shorts/j88IzmSwN24): What If Earth Stopped Spinning for One Second?
-- [ ] what-if-black-hole: What If a Tiny Black Hole Hit Earth? (rendered 2026-10-17, shorts/videos/2026-10-17-what-if-black-hole.mp4; upload pending, PC offline)
+- [x] what-if-black-hole: What If a Tiny Black Hole Hit Earth? (2026-10-17, late at 19:27 UTC after PC was offline, https://youtube.com/shorts/MFqFitAbfiI)
+- Full video: What If Earth Stopped Spinning? (Second by Second), 3:14, published 2026-10-17: https://www.youtube.com/watch?v=x3zALoX6jEA
 - [ ] what-if-oxygen: What If Earth Lost Its Oxygen for 5 Seconds?
 - [ ] what-if-moon-crashed: What If the Moon Crashed Into Earth?
 - [ ] what-if-no-gravity: What If Gravity Switched Off for 5 Seconds?
