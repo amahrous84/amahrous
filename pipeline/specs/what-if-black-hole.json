@@ -1,0 +1,16 @@
+{
+  "slug": "what-if-black-hole",
+  "title": "What If a Tiny Black Hole Hit Earth?",
+  "description": "A black hole with the mass of a mountain (about a thousand trillion kilograms) would be smaller than an atom: its event horizon would be about a trillionth of a metre across. Moving at a typical space speed of a few hundred km/s, it would cross the whole Earth in about a minute, swallowing almost nothing. Physicists have calculated it would set off seismic waves like a small earthquake, and some are looking for exactly that signal.\n\nSources: Schwarzschild radius r = 2GM/c^2; Luo, Hanasoge, Tromp & Pretorius, \"Detectable seismic consequences of the interaction of a primordial black hole with Earth\", ApJ (2012).\nNarration is AI-generated (ElevenLabs) and the pictures are AI-generated illustrations. This is a thought experiment.\n\n#shorts #whatif #blackhole #space #science",
+  "tags": ["what if", "black hole", "tiny black hole", "primordial black hole", "what if a black hole hit earth", "space", "science", "shorts"],
+  "seed": 17,
+  "palette": {"bg1": "#060a12", "bg2": "#1a1030", "accent": "#b98cff", "ink": "#ffffff"},
+  "keywords": ["BLACK HOLE", "ATOM", "ONE MINUTE", "EARTHQUAKE"],
+  "segments": [
+    {"text": "A black hole could hit Earth and fly straight through it.", "audio": "pipeline/audio/what-if-black-hole/01.mp3", "big": "Straight through", "image": "a tiny glowing black hole with a bright purple and orange swirling ring of light streaking towards a vivid blue planet Earth in space, dramatic, cinematic"},
+    {"text": "One as heavy as a mountain would be smaller than an atom.", "audio": "pipeline/audio/what-if-black-hole/02.mp3", "big": "Smaller than an atom", "image": "a giant snowy mountain in bright sunlight with a tiny glowing black sphere hovering in front of it, surreal, vivid colours"},
+    {"text": "It would cross the whole planet in about a minute, swallowing almost nothing.", "audio": "pipeline/audio/what-if-black-hole/03.mp3", "big": "About 1 minute", "image": "cutaway illustration of planet Earth showing glowing orange core and layers with a thin bright purple line shooting straight through the planet, vivid colours"},
+    {"text": "You'd feel it as a small earthquake. And then it's gone.", "audio": "pipeline/audio/what-if-black-hole/04.mp3", "big": "A small earthquake", "image": "a sunny city street with cracks in the road and people looking around in surprise, a slight dust cloud, bright daylight, vivid colours"},
+    {"text": "Scientists are actually listening for this. Send this to someone who'd panic. Unreal, but true.", "audio": "pipeline/audio/what-if-black-hole/05.mp3", "big": "They're listening", "image": "a glowing seismograph needle drawing a sharp spike on paper in a dark observatory lit by purple light, cinematic"}
+  ]
+}
