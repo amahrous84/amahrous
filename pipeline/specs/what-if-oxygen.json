@@ -1,0 +1,16 @@
+{
+  "slug": "what-if-oxygen",
+  "title": "What If the Air Lost Its Oxygen for 5 Seconds?",
+  "description": "Oxygen is about 21% of the air we breathe. If it vanished for just five seconds, nothing could burn: every flame on Earth, from candles to gas stoves, would go out at once, and every petrol, diesel and jet engine would cut out, because they all burn fuel with oxygen from the air. Air pressure would also drop by about a fifth, roughly what you feel at 2,000 metres up a mountain, so everyone's ears would pop. Holding your breath for five seconds is easy, so most people would be fine.\n\nSources: NASA / NOAA composition of the atmosphere (nitrogen 78%, oxygen 21%); US Standard Atmosphere (about 79 kPa at roughly 2 km).\nNarration is AI-generated (ElevenLabs) and the pictures are AI-generated illustrations. This is a thought experiment.\n\n#shorts #whatif #oxygen #earth #science",
+  "tags": ["what if", "what if oxygen disappeared", "oxygen", "what if earth lost oxygen for 5 seconds", "earth", "science", "shorts"],
+  "seed": 23,
+  "palette": {"bg1": "#06121a", "bg2": "#0d2a3a", "accent": "#4fd1ff", "ink": "#ffffff"},
+  "keywords": ["FIRE", "ENGINES", "EARS POP", "5 SECONDS"],
+  "segments": [
+    {"text": "If the oxygen in the air vanished for 5 seconds, every fire on Earth would go out at once.", "say": "If the oxygen in the air vanished for five seconds, every fire on Earth would go out at once.", "audio": "pipeline/audio/what-if-oxygen/01.mp3", "big": "Every fire. Out.", "image": "a huge bright orange campfire with roaring flames and sparks at dusk, vivid warm colours, dramatic"},
+    {"text": "Every car engine and every jet engine would cut out mid-roar.", "audio": "pipeline/audio/what-if-oxygen/02.mp3", "big": "Engines stop", "image": "a passenger jet in a bright blue sky with its engines going dark, cars below on a sunny highway, vivid colours"},
+    {"text": "The air would lose about a fifth of its pressure, and everyone's ears would pop like on a mountain.", "audio": "pipeline/audio/what-if-oxygen/03.mp3", "big": "Ears pop", "image": "a surprised young man holding his ears on a sunny busy city street, bright daylight, vivid colours"},
+    {"text": "Hold your breath, and you'd be fine. Five seconds is nothing.", "audio": "pipeline/audio/what-if-oxygen/04.mp3", "big": "Just hold your breath", "image": "a woman underwater in a bright turquoise swimming pool holding her breath with cheeks puffed, sunlight rays, vivid"},
+    {"text": "Which would you notice first? Tell me below. Unreal, but true.", "audio": "pipeline/audio/what-if-oxygen/05.mp3", "big": "Which first?", "image": "a candle flame being snuffed out with a thin curl of smoke against a bright blue background, crisp, vivid"}
+  ]
+}

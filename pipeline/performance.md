@@ -41,3 +41,6 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Today's pick: The Animal That Survived Space (tardigrades; median 621, top 2.7M). Chosen over Mponeng for its stronger hook. 25 s, new format.
 - PC offline at run time. Published 16:18 UTC after Ahmed said Try: https://youtube.com/shorts/hvffgAkXxgw
 - Live 16:18 UTC: Boiling River 73 views (~23h, 25 s, published late); Second Moon 334 (~50h); Gunpowder 55. All three AI-image Shorts are far below the drawn ones (Krakatoa 1.5K, Moon Half 1.26K, Moon Leaving 1.13K). Possible causes: AI-image look, or late upload times. Next: test one Short with drawn scenes at the normal time to separate the two.
+
+## 2026-10-18
+- Today's pick: What If the Air Lost Its Oxygen for 5 Seconds? (next in the what-if queue). 23 s. Stats not read: PC offline at run time.
