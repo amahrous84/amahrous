@@ -44,3 +44,4 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 
 ## 2026-10-18
 - Today's pick: What If the Air Lost Its Oxygen for 5 Seconds? (next in the what-if queue). 23 s. Stats not read: PC offline at run time.
+- Published 2026-10-19 23:43 UTC: https://youtube.com/shorts/1MlY_3EOwcE. Upload was blocked Oct 18-19 by an expired Google sign-in (invalid_grant); fixed by deleting the token files and signing in again.
