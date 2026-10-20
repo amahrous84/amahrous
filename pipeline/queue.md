@@ -18,7 +18,7 @@ Ahmed agreed to the "what if" series on 2026-10-15. Use this list, top first.
 - [x] what-if-black-hole: What If a Tiny Black Hole Hit Earth? (2026-10-17, late at 19:27 UTC after PC was offline, https://youtube.com/shorts/MFqFitAbfiI)
 - Full video: What If Earth Stopped Spinning? (Second by Second), 3:14, published 2026-10-17: https://www.youtube.com/watch?v=x3zALoX6jEA
 - [x] what-if-oxygen: What If the Air Lost Its Oxygen for 5 Seconds? (rendered 2026-10-18, published 2026-10-19 23:43 UTC after the Google sign-in was renewed, https://youtube.com/shorts/1MlY_3EOwcE)
-- [x] what-if-moon-fell: What If the Moon Fell Toward Earth? (2026-10-20, published 13:5x UTC early on request, https://youtube.com/shorts/mA2Obd9hQSg)
+- [x] what-if-moon-spiral: What If the Moon Drifted Into Earth? (2026-10-20, https://youtube.com/shorts/OFbgvDHqHzQ). Replaced the first upload mA2Obd9hQSg (said a straight drop never hits, which is wrong); Ahmed deletes that one in Studio.
 - [ ] what-if-no-gravity: What If Gravity Switched Off for 5 Seconds?
 
 Most extreme ever (backup series):
