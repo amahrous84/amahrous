@@ -61,4 +61,8 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
    `upload_video_from_url` using
    `https://raw.githubusercontent.com/amahrous84/amahrous/<branch>/shorts/videos/<date>-<slug>.mp4`,
    category 28, privacy public.
-8. Tick the topic in `queue.md` with the date and the video link, and commit.
+8. Every video gets a thumbnail (Ahmed asked for this on 2026-10-20): make it with
+   `python3 pipeline/make_thumbnail.py "<bright picture prompt>" thumbnails/<slug>.jpg "BIG TEXT" "BADGE"`,
+   look at it, commit and push, then set it with my-youtube `set_thumbnail_from_url`
+   (video ID plus the raw.githubusercontent link). If that tool is missing, give Ahmed the link.
+9. Tick the topic in `queue.md` with the date and the video link, and commit.
