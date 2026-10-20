@@ -1,0 +1,16 @@
+{
+  "slug": "what-if-moon-fell",
+  "title": "What If the Moon Fell Toward Earth?",
+  "description": "If the Moon suddenly stopped moving along its orbit, Earth's gravity would pull it straight in, a fall of about five days from 384,400 km. Tides depend on the cube of distance, so at half the distance they would be about eight times stronger and flood coastlines. But the Moon would never hit: thousands of kilometres up, inside the Roche limit, Earth's tidal pull would be stronger than the Moon's own gravity holding it together, and it would break apart into a ring of rock around Earth, with debris raining down.\n\nSources: NASA Moon fact sheet (mean distance 384,400 km); free-fall time from Kepler's laws (our own calculation, about 4.8 days); tidal force falls with the cube of distance; Roche limit (Earth-Moon, roughly 9,500 to 18,000 km depending on how rigid the Moon is).\nNarration is AI-generated (ElevenLabs) and the pictures are AI-generated illustrations. This is a thought experiment: the Moon is actually moving away, about 3.8 cm a year.\n\n#shorts #whatif #moon #space #science",
+  "tags": ["what if", "what if the moon fell", "what if the moon crashed into earth", "moon", "roche limit", "space", "science", "shorts"],
+  "seed": 31,
+  "palette": {"bg1": "#0a0f1e", "bg2": "#1d2a4a", "accent": "#ffd23f", "ink": "#ffffff"},
+  "keywords": ["MOON", "5 DAYS", "8X TIDES", "RINGS"],
+  "segments": [
+    {"text": "If the Moon fell toward Earth, it would never actually hit us.", "audio": "pipeline/audio/what-if-moon-fell/01.mp3", "big": "It never hits", "image": "a giant bright full Moon filling the sky just above a glowing blue planet Earth at sunrise, huge and close, vivid colours, dramatic"},
+    {"text": "Stop it in its orbit, and it falls for about 5 days.", "say": "Stop it in its orbit, and it falls for about five days.", "audio": "pipeline/audio/what-if-moon-fell/02.mp3", "big": "About 5 days", "image": "an enormous Moon looming over a bright city skyline at dusk, people on rooftops staring up, vivid colours, cinematic"},
+    {"text": "At half the distance, tides would be 8 times stronger, flooding coastlines.", "say": "At half the distance, tides would be eight times stronger, flooding coastlines.", "audio": "pipeline/audio/what-if-moon-fell/03.mp3", "big": "8x the tides", "image": "a huge ocean wave flooding a sunny coastal town with palm trees under a giant Moon, bright turquoise water, dramatic"},
+    {"text": "Then, thousands of kilometres up, Earth's gravity tears the Moon apart.", "audio": "pipeline/audio/what-if-moon-fell/04.mp3", "big": "Torn apart", "image": "the Moon breaking apart into glowing chunks of rock close to a bright blue Earth in space, orange cracks of light, cinematic"},
+    {"text": "Earth gets rings like Saturn, and a rain of moon rock. Would you watch? Unreal, but true.", "audio": "pipeline/audio/what-if-moon-fell/05.mp3", "big": "Earth gets rings", "image": "a bright glowing ring of rock arching across a blue daytime sky above green hills, like Saturn's rings seen from the ground, vivid colours"}
+  ]
+}
