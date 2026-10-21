@@ -1,0 +1,62 @@
+{
+  "slug": "what-if-no-gravity",
+  "title": "What If Gravity Switched Off for 5 Seconds?",
+  "description": "Earth moves around the Sun at about 30 km every second. If gravity switched off for five seconds, Earth would fly about 150 km in a straight line, but over such a short stretch its curved orbit is almost straight anyway: it would end up only about 7 cm off its normal path. The real danger is closer to home. With no gravity, nothing slows a jump: push off the ground at about 2 m/s and you keep rising for the full five seconds, roughly 10 metres up, with nothing to stop you falling when gravity returns.\n\nSources: NASA Earth fact sheet (orbital speed 29.8 km/s, distance 149.6 million km); deviation = v^2 t^2 / 2R (our own calculation); typical standing-jump take-off speed about 2-2.5 m/s.\nNarration is AI-generated (ElevenLabs) and the pictures are AI-generated illustrations. This is a thought experiment.\n\n#shorts #whatif #gravity #space #science",
+  "tags": [
+    "what if",
+    "what if gravity disappeared",
+    "what if gravity switched off for 5 seconds",
+    "gravity",
+    "space",
+    "science",
+    "shorts"
+  ],
+  "seed": 41,
+  "palette": {
+    "bg1": "#0a0f1e",
+    "bg2": "#1d2a4a",
+    "accent": "#4fd1ff",
+    "ink": "#ffffff"
+  },
+  "keywords": [
+    "GRAVITY",
+    "7 CM",
+    "150 KM",
+    "10 METRES"
+  ],
+  "segments": [
+    {
+      "text": "If gravity switched off for 5 seconds, Earth would drift off its orbit by just 7 centimetres.",
+      "say": "If gravity switched off for five seconds, Earth would drift off its orbit by just seven centimetres.",
+      "audio": "pipeline/audio/what-if-no-gravity/01.mp3",
+      "big": "Just 7 cm",
+      "image": "a huge fully sunlit bright blue and green planet Earth filling the frame with white swirling clouds, bright, vivid colours, high contrast"
+    },
+    {
+      "text": "We'd fly 150 km in a straight line, but in 5 seconds the curve barely matters.",
+      "say": "We'd fly a hundred and fifty kilometres in a straight line, but in five seconds the curve barely matters.",
+      "audio": "pipeline/audio/what-if-no-gravity/02.mp3",
+      "big": "150 km",
+      "image": "a bright blue planet Earth on a glowing golden curved orbit line around a blazing bright Sun, vivid warm colours, high contrast"
+    },
+    {
+      "text": "The real danger is you. With no weight, one small jump keeps going.",
+      "audio": "pipeline/audio/what-if-no-gravity/03.mp3",
+      "big": "No weight",
+      "image": "a young man jumping on a sunny city street with his hair and clothes floating as if weightless, bright daylight, vivid colours"
+    },
+    {
+      "text": "In 5 seconds, you'd float about 10 metres up.",
+      "say": "In five seconds, you'd float about ten metres up.",
+      "audio": "pipeline/audio/what-if-no-gravity/04.mp3",
+      "big": "10 metres up",
+      "image": "people floating high above a sunny park among trees, a dog and a bicycle drifting in the air, blue sky, vivid colours"
+    },
+    {
+      "text": "Then gravity comes back. Would you jump? Tell me below. Unreal, but true.",
+      "audio": "pipeline/audio/what-if-no-gravity/05.mp3",
+      "big": "Would you jump?",
+      "image": "a surprised person high in a bright blue sky looking down at the ground far below, dramatic, vivid colours"
+    }
+  ]
+}
