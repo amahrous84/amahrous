@@ -48,3 +48,6 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 
 ## 2026-10-20
 - Today's pick: What If the Moon Fell Toward Earth? (Moon is the channel's best niche; queue had moon-crashed). 27 s. Posted early because Ahmed asked: https://youtube.com/shorts/mA2Obd9hQSg
+
+## 2026-10-21
+- Today's pick: What If Gravity Switched Off for 5 Seconds? (last of the what-if list). 30 s. Stats not read: PC offline at run time.

@@ -20,7 +20,7 @@ Ahmed agreed to the "what if" series on 2026-10-15. Use this list, top first.
 - [x] what-if-oxygen: What If the Air Lost Its Oxygen for 5 Seconds? (rendered 2026-10-18, published 2026-10-19 23:43 UTC after the Google sign-in was renewed, https://youtube.com/shorts/1MlY_3EOwcE)
 - [x] what-if-moon-spiral: What If the Moon Drifted Into Earth? (2026-10-20, https://youtube.com/shorts/OFbgvDHqHzQ). Replaced the first upload mA2Obd9hQSg (said a straight drop never hits, which is wrong); Ahmed deletes that one in Studio.
 - Full video: What If the Moon Fell to Earth? (Two Ways It Ends), 2:50, published 2026-10-20: https://www.youtube.com/watch?v=paJWtpfof0Q
-- [ ] what-if-no-gravity: What If Gravity Switched Off for 5 Seconds?
+- [ ] what-if-no-gravity: What If Gravity Switched Off for 5 Seconds? (rendered 2026-10-21 with thumbnail; upload pending, PC offline)
 
 Most extreme ever (backup series):
 - [ ] biggest-wave: The Biggest Wave Ever Recorded (Lituya Bay, Alaska, 1958, 524 m run-up)
