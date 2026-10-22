@@ -1,0 +1,39 @@
+# Uploads the videos listed in publish/queue/ to YouTube, so publishing
+# does not need Ahmed's PC. Runs whenever a queue file is pushed.
+name: Publish to YouTube
+
+on:
+  push:
+    paths:
+      - 'publish/queue/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install google-api-python-client google-auth
+      - name: Upload queued videos
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python pipeline/publish.py
+      - name: Save results
+        run: |
+          git config user.name "publish-bot"
+          git config user.email "publish-bot@users.noreply.github.com"
+          git add -A publish
+          git diff --cached --quiet || git commit -m "Published queued videos"
+          git push
