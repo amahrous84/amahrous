@@ -23,7 +23,7 @@ Ahmed agreed to the "what if" series on 2026-10-15. Use this list, top first.
 - [x] what-if-no-gravity: What If Gravity Switched Off for 5 Seconds? (live 2026-10-23, late: PC was offline; rLxH6nvM1lk, thumbnail set)
 
 Refill 2026-10-23 (live views: space/cosmic what-ifs win: Earth stopped 1,565, black hole 1,204, Moon half as far 1,261; Earth-only oxygen 119, Moon drift 388). Keep space disasters, 20-22 s, on time:
-- [ ] what-if-jupiter-gone: What If Jupiter Disappeared?
+- [x] what-if-jupiter-gone: What If Jupiter Disappeared? (2026-10-23, first via GitHub job and first with moving opening clip, https://youtube.com/shorts/Hq7kDGT0eAg)
 - [ ] what-if-neutron-star: What If a Neutron Star Passed Through the Solar System?
 - [ ] what-if-earth-rings: What If Earth Had Rings Like Saturn?
 - [ ] what-if-fell-into-jupiter: What If You Fell Into Jupiter?
