@@ -9,6 +9,7 @@ A queue entry looks like:
 An entry of {"check": true} only tests the sign-in and records the channel name.
 An entry of {"stats": true} records live counts and 14-day analytics for the last
 10 uploads (for the daily review when Ahmed's PC is off).
+An entry of {"comments": true} records the latest 100 comments on the channel.
 
 Credentials come from the YT_CLIENT_ID, YT_CLIENT_SECRET and YT_REFRESH_TOKEN
 repository secrets (the same Google sign-in the my-youtube tool uses).
@@ -57,7 +58,23 @@ def stats(yt):
     return out
 
 
+def comments(yt):
+    ch = yt.channels().list(part='id', mine=True).execute()['items'][0]['id']
+    res = yt.commentThreads().list(part='snippet,replies', allThreadsRelatedToChannelId=ch,
+                                   maxResults=100, order='time').execute()
+    out = []
+    for t in res.get('items', []):
+        top = t['snippet']['topLevelComment']['snippet']
+        out.append({'thread_id': t['id'], 'video_id': t['snippet'].get('videoId'),
+                    'author': top['authorDisplayName'], 'text': top['textOriginal'],
+                    'published': top['publishedAt'], 'likes': top.get('likeCount', 0),
+                    'replies': [r['snippet']['textOriginal'] for r in t.get('replies', {}).get('comments', [])]})
+    return {'comments': out}
+
+
 def publish(yt, entry):
+    if entry.get('comments'):
+        return comments(yt)
     if entry.get('stats'):
         return stats(yt)
     if entry.get('check'):  # sign-in test only: read the channel, upload nothing
