@@ -6,6 +6,7 @@ A queue entry looks like:
     {"video": "shorts/videos/<date>-<slug>.mp4", "thumbnail": "thumbnails/<slug>.jpg",
      "title": "...", "description": "...", "tags": [...],
      "category_id": "28", "privacy_status": "public"}
+An entry of {"check": true} only tests the sign-in and records the channel name.
 
 Credentials come from the YT_CLIENT_ID, YT_CLIENT_SECRET and YT_REFRESH_TOKEN
 repository secrets (the same Google sign-in the my-youtube tool uses).
@@ -19,19 +20,19 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
-SCOPES = ['https://www.googleapis.com/auth/youtube.upload',
-          'https://www.googleapis.com/auth/youtube.readonly']
-
 
 def service():
     creds = Credentials(None, refresh_token=os.environ['YT_REFRESH_TOKEN'],
                         client_id=os.environ['YT_CLIENT_ID'],
                         client_secret=os.environ['YT_CLIENT_SECRET'],
-                        token_uri='https://oauth2.googleapis.com/token', scopes=SCOPES)
+                        token_uri='https://oauth2.googleapis.com/token')
     return build('youtube', 'v3', credentials=creds)
 
 
 def publish(yt, entry):
+    if entry.get('check'):  # sign-in test only: read the channel, upload nothing
+        item = yt.channels().list(part='snippet', mine=True).execute()['items'][0]
+        return {'channel': item['snippet']['title']}
     body = {
         'snippet': {'title': entry['title'], 'description': entry.get('description', ''),
                     'tags': entry.get('tags', []), 'categoryId': entry.get('category_id', '28')},
