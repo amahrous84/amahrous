@@ -19,8 +19,12 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
    - Target: a 7-day average of 1,000+ views per Short and a subscribe rate of
      1% or more. Until both hold, keep changing topics and hooks; once they
      hold, keep the formula and keep checking weekly.
+   - Topic lane (2026-10-23, Ahmed: "do whatever you advise"): space/cosmic disaster
+     what-ifs only. No stickman, finance, psychology or Earth-only topics on this
+     channel. No long videos for now (8 and 31 views); Shorts only.
 3. Write `pipeline/specs/<slug>.json` (copy the shape of `specs/krakatoa.json`).
-   - About 50 to 65 words of voiceover (20 to 25 seconds), 4 or 5 segments.
+   - About 45 to 55 words of voiceover (about 20 seconds, never over 25), 4 or 5 segments.
+     Live views 2026-10-23: 20-21 s Shorts beat 35-50 s ones.
      Shorts here stall near 1.5K because about half of viewers swipe away in the
      first seconds (engaged views are 40-50% of views, as of 2026-10-14). The
      21-second Short kept people best.
@@ -30,6 +34,7 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
      colour (an explosion, glowing lava, a lit Earth). Never a mostly black frame.
    - Make it loop: the last line should lead straight back into the first, so a
      replay feels natural. Keep the sign-off short.
+   - End with a direct question viewers can answer in one word (comments are ~0).
    - One line that invites a reply or a share (a question, "send this to
      someone who..."), because shares are currently zero.
    - Plain title, no emoji, no hashtags in the title. `#shorts` goes in the description.
