@@ -57,12 +57,14 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
      Kokoro (leave `audio` out) and say so in the 7 pm reminder.
 5. Render: `python3 pipeline/make_short.py pipeline/specs/<slug>.json shorts/videos/<date>-<slug>.mp4`
 6. Look at frames from the video before publishing (ffmpeg `-ss` grabs).
-7. Commit the spec and video, push, then upload with my-youtube
-   `upload_video_from_url` using
-   `https://raw.githubusercontent.com/amahrous84/amahrous/<branch>/shorts/videos/<date>-<slug>.mp4`,
-   category 28, privacy public.
-8. Every video gets a thumbnail (Ahmed asked for this on 2026-10-20): make it with
-   `python3 pipeline/make_thumbnail.py "<bright picture prompt>" thumbnails/<slug>.jpg "BIG TEXT" "BADGE"`,
-   look at it, commit and push, then set it with my-youtube `set_thumbnail_from_url`
-   (video ID plus the raw.githubusercontent link). If that tool is missing, give Ahmed the link.
+7. Make the thumbnail (every video gets one; Ahmed asked on 2026-10-20):
+   `python3 pipeline/make_thumbnail.py "<bright picture prompt>" thumbnails/<slug>.jpg "BIG TEXT" "BADGE"`
+   and look at it.
+8. Publish through GitHub (works with Ahmed's PC off; tested 2026-10-23): write
+   `publish/queue/<date>-<slug>.json` with video, thumbnail, title, description, tags,
+   category_id "28", privacy_status "public"; commit it with the video and thumbnail
+   and push. The Publish to YouTube job uploads, sets the thumbnail and moves the entry
+   to `publish/done/` (with video_id) or `publish/failed/` (with the error). Wait a
+   minute or two, pull, and read the result. Only if that fails, fall back to my-youtube
+   `upload_video_from_url` + `set_thumbnail_from_url` (raw.githubusercontent links).
 9. Tick the topic in `queue.md` with the date and the video link, and commit.
