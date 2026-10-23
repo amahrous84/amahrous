@@ -59,16 +59,23 @@ def stats(yt):
 
 
 def comments(yt):
-    ch = yt.channels().list(part='id', mine=True).execute()['items'][0]['id']
-    res = yt.commentThreads().list(part='snippet,replies', allThreadsRelatedToChannelId=ch,
-                                   maxResults=100, order='time').execute()
+    ch = yt.channels().list(part='contentDetails', mine=True).execute()['items'][0]
+    uploads = ch['contentDetails']['relatedPlaylists']['uploads']
+    items = yt.playlistItems().list(part='contentDetails,snippet', playlistId=uploads,
+                                    maxResults=50).execute()['items']
     out = []
-    for t in res.get('items', []):
-        top = t['snippet']['topLevelComment']['snippet']
-        out.append({'thread_id': t['id'], 'video_id': t['snippet'].get('videoId'),
-                    'author': top['authorDisplayName'], 'text': top['textOriginal'],
-                    'published': top['publishedAt'], 'likes': top.get('likeCount', 0),
-                    'replies': [r['snippet']['textOriginal'] for r in t.get('replies', {}).get('comments', [])]})
+    for it in items:
+        vid = it['contentDetails']['videoId']
+        try:
+            res = yt.commentThreads().list(part='snippet,replies', videoId=vid, maxResults=50).execute()
+        except Exception:  # comments off, or a private video
+            continue
+        for t in res.get('items', []):
+            top = t['snippet']['topLevelComment']['snippet']
+            out.append({'thread_id': t['id'], 'video_id': vid, 'video': it['snippet']['title'],
+                        'author': top['authorDisplayName'], 'text': top['textOriginal'],
+                        'published': top['publishedAt'],
+                        'replies': [r['snippet']['textOriginal'] for r in t.get('replies', {}).get('comments', [])]})
     return {'comments': out}
 
 
