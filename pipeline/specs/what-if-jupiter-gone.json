@@ -1,0 +1,42 @@
+{
+  "slug": "what-if-jupiter-gone",
+  "title": "What If Jupiter Disappeared?",
+  "description": "Jupiter has more than twice the mass of all the other planets combined. It is so heavy that the Sun and Jupiter circle a shared balance point that sits just outside the Sun's surface, so the Sun wobbles in a small loop every 12 years. If Jupiter vanished, that wobble would stop, and its moons (more than 90 of them) would no longer be held, so they would carry on around the Sun on paths of their own. Earth would not notice that night, but Jupiter (with Venus) drives a 405,000-year cycle in the shape of Earth's orbit that helps set the rhythm of the ice ages, so that slow climate beat would change. Whether we would be safer from asteroids is still argued about: Jupiter flings some comets away and sends others toward us.\n\nSources: NASA Jupiter facts; NASA on the Sun-Jupiter barycentre; Kent et al., PNAS (2018), the 405,000-year orbital cycle; Horner & Jones (2008), Jupiter: friend or foe?\nNarration is AI-generated (ElevenLabs) and the pictures and opening clip are AI-generated. This is a thought experiment.\n\n#shorts #whatif #jupiter #space #science",
+  "tags": ["what if", "what if jupiter disappeared", "jupiter", "solar system", "space", "science", "shorts"],
+  "seed": 51,
+  "palette": {"bg1": "#140a04", "bg2": "#3a1d0a", "accent": "#ffb347", "ink": "#ffffff"},
+  "keywords": ["JUPITER", "SUN", "MOONS", "ICE AGE", "ASTEROIDS"],
+  "segments": [
+    {
+      "text": "Jupiter is so heavy, it drags the Sun around in a circle.",
+      "audio": "pipeline/audio/what-if-jupiter-gone/01.mp3",
+      "big": "Jupiter",
+      "image": "giant planet Jupiter filling the frame, vivid orange, cream and brown swirling cloud bands and the Great Red Spot, brightly sunlit, high contrast",
+      "motion": "Jupiter's cloud bands swirl and churn while the camera pushes in fast toward the Great Red Spot"
+    },
+    {
+      "text": "If it vanished, the Sun would stop wobbling.",
+      "audio": "pipeline/audio/what-if-jupiter-gone/02.mp3",
+      "big": "No wobble",
+      "image": "the blazing bright Sun in space with glowing solar flares and a faint orbit line, vivid orange and yellow, high contrast"
+    },
+    {
+      "text": "Its moons would shoot off around the Sun on their own.",
+      "audio": "pipeline/audio/what-if-jupiter-gone/03.mp3",
+      "big": "Moons set free",
+      "image": "a yellow volcanic moon and a white icy cracked moon drifting in bright space with the Sun glowing behind them, vivid colours"
+    },
+    {
+      "text": "Earth wouldn't notice tonight, but our ice-age rhythm would slowly change.",
+      "audio": "pipeline/audio/what-if-jupiter-gone/04.mp3",
+      "big": "Ice ages",
+      "image": "planet Earth seen from space with huge bright white ice sheets covering the north, blue oceans, sunlit, vivid"
+    },
+    {
+      "text": "Would we be safer from asteroids without it? Yes or no? Unreal, but true.",
+      "audio": "pipeline/audio/what-if-jupiter-gone/05.mp3",
+      "big": "Yes or no?",
+      "image": "a glowing fiery asteroid streaking toward a bright blue planet Earth, dramatic, vivid colours, high contrast"
+    }
+  ]
+}
