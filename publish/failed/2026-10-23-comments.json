@@ -1,0 +1,4 @@
+{
+  "comments": true,
+  "error": "Traceback (most recent call last):\n  File \"/home/runner/work/amahrous/amahrous/pipeline/publish.py\", line 116, in main\n    entry['result'] = publish(yt, entry)\n                      ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/amahrous/amahrous/pipeline/publish.py\", line 77, in publish\n    return comments(yt)\n           ^^^^^^^^^^^^\n  File \"/home/runner/work/amahrous/amahrous/pipeline/publish.py\", line 64, in comments\n    maxResults=100, order='time').execute()\n                                  ^^^^^^^^^\ngoogleapiclient.errors.HttpError: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet%2Creplies&allThreadsRelatedToChannelId=UCywD1tiryqGGIqmMzTDIwow&maxResults=100&order=time&alt=json returned \"Request had insufficient authentication scopes.\". Details: \"[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]\">\n"
+}
