@@ -7,6 +7,8 @@ A queue entry looks like:
      "title": "...", "description": "...", "tags": [...],
      "category_id": "28", "privacy_status": "public"}
 An entry of {"check": true} only tests the sign-in and records the channel name.
+An entry of {"stats": true} records live counts and 14-day analytics for the last
+10 uploads (for the daily review when Ahmed's PC is off).
 
 Credentials come from the YT_CLIENT_ID, YT_CLIENT_SECRET and YT_REFRESH_TOKEN
 repository secrets (the same Google sign-in the my-youtube tool uses).
@@ -21,15 +23,43 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 
+CREDS = None
+
+
 def service():
-    creds = Credentials(None, refresh_token=os.environ['YT_REFRESH_TOKEN'],
+    global CREDS
+    creds = CREDS = Credentials(None, refresh_token=os.environ['YT_REFRESH_TOKEN'],
                         client_id=os.environ['YT_CLIENT_ID'],
                         client_secret=os.environ['YT_CLIENT_SECRET'],
                         token_uri='https://oauth2.googleapis.com/token')
     return build('youtube', 'v3', credentials=creds)
 
 
+def stats(yt):
+    import datetime
+    ch = yt.channels().list(part='contentDetails', mine=True).execute()['items'][0]
+    uploads = ch['contentDetails']['relatedPlaylists']['uploads']
+    items = yt.playlistItems().list(part='contentDetails', playlistId=uploads,
+                                    maxResults=10).execute()['items']
+    ids = [i['contentDetails']['videoId'] for i in items]
+    live = yt.videos().list(part='snippet,statistics', id=','.join(ids)).execute()['items']
+    out = {'live': [{'id': v['id'], 'title': v['snippet']['title'],
+                     'published': v['snippet']['publishedAt'], **v['statistics']} for v in live]}
+    try:
+        ya = build('youtubeAnalytics', 'v2', credentials=CREDS)
+        end = datetime.date.today()
+        out['analytics'] = ya.reports().query(
+            ids='channel==MINE', startDate=str(end - datetime.timedelta(days=14)), endDate=str(end),
+            metrics='views,engagedViews,averageViewPercentage,averageViewDuration,likes,comments,shares,subscribersGained',
+            dimensions='video', sort='-views', maxResults=15).execute()
+    except Exception as e:  # analytics scope may be missing; live counts still help
+        out['analytics'] = f'failed: {e}'
+    return out
+
+
 def publish(yt, entry):
+    if entry.get('stats'):
+        return stats(yt)
     if entry.get('check'):  # sign-in test only: read the channel, upload nothing
         item = yt.channels().list(part='snippet', mine=True).execute()['items'][0]
         return {'channel': item['snippet']['title']}

@@ -4,6 +4,25 @@ Each daily run makes and publishes one Short for **Unreal But True**.
 If `queue.md` already has a topic ticked with today's date, today's Short is done: post nothing new.
 
 1. `bash pipeline/setup.sh` (skips downloads that already exist).
+1b. Daily review BEFORE making anything (Ahmed asked for this on 2026-10-23):
+   - For each of the last 7 Shorts read live views (`get_video_info`) and, from
+     `get_my_channel_analytics` with dimensions=video: views, engagedViews,
+     averageViewPercentage, averageViewDuration, likes, comments, shares,
+     subscribersGained. If the PC is off, push `publish/queue/<date>-stats.json`
+     containing `{"stats": true}`; the GitHub job writes the same numbers into
+     `publish/done/`.
+   - Diagnose each post: stayed % (engagedViews / views) under 60% means the opening
+     loses people; watch % under 60% means the middle drags or it is too long; no
+     comments means the closing question is weak; subs under 1% of views means no
+     reason to subscribe. Compare with the best Shorts (Earth stopped, black hole).
+   - Write `pipeline/reviews/<date>.md`: a small table, the main problem, and the
+     concrete fix for today's video. Apply that fix in today's spec.
+   - Fixes inside the current rules (topic, hook, wording, length, images, the
+     opening clip, title, description, tags) go ahead without asking. Anything that
+     costs more than about $0.30 a day, adds a tool or service, changes the series
+     or format, or changes old videos (privacy, deletion, titles) needs Ahmed's
+     approval first: ask on a decision card and keep to the current rules today.
+   - Put the main finding and the fix in one line of the 7 pm reminder.
 2. Pick the topic from data, not just the queue order:
    - Read the channel stats with my-youtube `get_my_channel_analytics` and
      `get_channel_videos` (analytics lag about 2 days, so also read live view
