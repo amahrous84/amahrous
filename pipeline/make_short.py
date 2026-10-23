@@ -17,6 +17,10 @@ Spec format (see pipeline/specs/ for examples):
                   instead of Kokoro; path relative to the repo root
         big       optional: large label shown above the scene
         image     optional: a picture prompt; the segment shows an AI image (fal.ai)
+        motion    optional, with image: how the picture should move; the segment then
+                  plays a 5 s AI video clip (Kling 2.1 on fal.ai, about $0.28) made
+                  from that picture instead of the slow zoom. Use it on the opening
+                  segment so the first second moves.
         scene     one of SCENES below, plus its own options in "params"
         sfx       optional: boom, whoosh, rumble, ping (only heard when the spec sets
                   "effects": true; off by default, voice only)
@@ -536,7 +540,70 @@ def fetch_image(prompt, seed=1):
     return path
 
 
+KLING = 'fal-ai/kling-video/v2.1/standard/image-to-video'
+
+
+def _fal_json(url, body=None):
+    req = urllib.request.Request(url, data=json.dumps(body).encode() if body is not None else None,
+                                 headers={'Authorization': 'Key ' + os.environ['FAL_KEY'],
+                                          'Content-Type': 'application/json'})
+    with urllib.request.urlopen(req, timeout=180) as r:
+        return json.load(r)
+
+
+def fetch_clip(image_path, motion):
+    """Animate a picture into a 5 s clip with Kling on fal.ai and cache it."""
+    import base64
+    import time
+    with open(image_path, 'rb') as fh:
+        data = fh.read()
+    path = os.path.join(IMG_CACHE, hashlib.sha1(data + motion.encode()).hexdigest()[:16] + '.mp4')
+    if os.path.exists(path):
+        return path
+    job = _fal_json(f'https://queue.fal.run/{KLING}', {
+        'prompt': f'{motion}, smooth cinematic camera, realistic motion',
+        'image_url': 'data:image/jpeg;base64,' + base64.b64encode(data).decode(),
+        'duration': '5', 'negative_prompt': 'blur, distort, text, watermark'})
+    for _ in range(120):
+        if _fal_json(job['status_url'])['status'] == 'COMPLETED':
+            break
+        time.sleep(5)
+    else:
+        raise SystemExit('Kling clip timed out')
+    url = _fal_json(job['response_url'])['video']['url']
+    url = url.replace('://v3b.fal.media/', '://v3.fal.media/')
+    with urllib.request.urlopen(url, timeout=180) as r, open(path, 'wb') as fh:
+        fh.write(r.read())
+    return path
+
+
+def load_clip(path):
+    """Decode a clip to W x H RGB frames at FPS (cropped to fill the screen)."""
+    raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-vf',
+                          f'scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}',
+                          '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'], capture_output=True, check=True).stdout
+    return np.frombuffer(raw, np.uint8).reshape(-1, H, W, 3)
+
+
 _img_cache = {}
+_clip_cache = {}
+
+
+def scene_video(layer, t, dur, p, c):
+    """Full-screen AI video clip; holds the last frame if the segment runs longer."""
+    frames = _clip_cache.get(p['_clip'])
+    if frames is None:
+        frames = _clip_cache[p['_clip']] = load_clip(p['_clip'])
+    frame = Image.fromarray(frames[min(int(t * FPS), len(frames) - 1)]).convert('RGBA')
+    shade = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(shade)
+    for i in range(60):
+        a = int(150 * (i / 60) ** 1.5)
+        y0 = 1180 + i * 12
+        sd.rectangle((0, y0, W, y0 + 12), fill=(0, 0, 0, a))
+        sd.rectangle((0, 380 - i * 6, W, 386 - i * 6), fill=(0, 0, 0, int(a * 0.6)))
+    frame.alpha_composite(shade)
+    layer.alpha_composite(frame)
 
 
 def scene_image(layer, t, dur, p, c):
@@ -569,7 +636,7 @@ SCENES = {
     'explosion': scene_explosion, 'map': scene_map, 'globe': scene_globe,
     'waves': scene_waves, 'ship': scene_ship, 'planet': scene_planet,
     'counter': scene_counter, 'shaft': scene_shaft, 'drift': scene_drift,
-    'stars': scene_stars, 'image': scene_image,
+    'stars': scene_stars, 'image': scene_image, 'video': scene_video,
 }
 
 
@@ -597,6 +664,9 @@ def render(spec, out_path):
             seg['params']['_path'] = fetch_image(seg['image'], seed=spec.get('seed', 1) + k)
             seg['params'].setdefault('pan', [-1, 1, 0][k % 3] * 0.6)
             seg['params'].setdefault('zoom', 'out' if k % 2 else 'in')
+            if seg.get('motion'):
+                seg['scene'] = 'video'
+                seg['params']['_clip'] = seg.get('clip') or fetch_clip(seg['params']['_path'], seg['motion'])
     pal = spec['palette']
     c = Ctx(pal, random.Random(1))
     bg = background(pal)

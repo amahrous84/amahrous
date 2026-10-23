@@ -30,6 +30,11 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
      21-second Short kept people best.
    - The first line is the hook and must land within 2 seconds: the strangest
      fact, said as a claim, no setup. Put the payoff number on screen at once.
+   - The opening segment gets a `motion` line as well as `image` (Ahmed chose this
+     2026-10-23: half of viewers swipe before the start). The maker animates that
+     picture into a 5 s Kling clip on fal.ai (about $0.28, ~75 s to make). Describe big,
+     clear movement (a planet breaking apart, a wave rising). Keep that segment under 5 s.
+     Only the opening segment moves; the rest stay still pictures.
    - The first image must be bright, high-contrast and full of motion or
      colour (an explosion, glowing lava, a lit Earth). Never a mostly black frame.
    - Make it loop: the last line should lead straight back into the first, so a
