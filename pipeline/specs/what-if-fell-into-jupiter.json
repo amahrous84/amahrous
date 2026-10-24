@@ -1,0 +1,44 @@
+{
+  "slug": "what-if-fell-into-jupiter",
+  "title": "What If You Fell Into Jupiter?",
+  "description": "Jupiter has no solid ground. Fall in from far away and its gravity would speed you up to nearly 60 km every second before you reach the cloud tops (Jupiter's escape velocity is about 59.5 km/s). In 1995 NASA's Galileo probe did exactly this: it plunged into the clouds and sent back data for about 58 minutes before it went silent, crushed and overheated far below the cloud tops. Thousands of kilometres deeper, the pressure is so high that hydrogen is squeezed into a liquid that conducts electricity like a metal.\n\nSources: NASA Jupiter fact sheet (escape velocity 59.5 km/s); NASA, Galileo probe entry (7 December 1995, 58 minutes of data); NASA Juno mission on metallic hydrogen.\nNarration is AI-generated (ElevenLabs) and the pictures and opening clip are AI-generated. This is a thought experiment.\n\n#shorts #whatif #jupiter #space #science",
+  "tags": ["what if", "what if you fell into jupiter", "falling into jupiter", "jupiter", "galileo probe", "space", "science", "shorts"],
+  "seed": 61,
+  "palette": {"bg1": "#140a04", "bg2": "#3a1d0a", "accent": "#ffb347", "ink": "#ffffff"},
+  "keywords": ["NO GROUND", "60 KM", "58 MINUTES", "LIQUID METAL"],
+  "segments": [
+    {
+      "text": "If you fell into Jupiter, there's no ground to land on.",
+      "audio": "pipeline/audio/what-if-fell-into-jupiter/01.mp3",
+      "big": "No ground",
+      "image": "view looking straight down into Jupiter's giant swirling orange, cream and brown cloud bands, a tiny astronaut silhouette falling toward them, brightly sunlit, vivid, high contrast",
+      "motion": "the tiny astronaut falls fast downward into the swirling orange clouds as the camera dives after them"
+    },
+    {
+      "text": "You'd hit the clouds at nearly 60 km every second.",
+      "say": "You'd hit the clouds at nearly sixty kilometres every second.",
+      "audio": "pipeline/audio/what-if-fell-into-jupiter/02.mp3",
+      "big": "60 km/s",
+      "image": "a glowing fireball streaking into the orange cloud tops of Jupiter, bright plasma trail, vivid colours, high contrast"
+    },
+    {
+      "text": "NASA dropped a probe in 1995. It lasted 58 minutes, then went silent.",
+      "say": "NASA dropped a probe in nineteen ninety-five. It lasted fifty-eight minutes, then went silent.",
+      "audio": "pipeline/audio/what-if-fell-into-jupiter/03.mp3",
+      "big": "58 minutes",
+      "image": "a small cone-shaped space probe with a heat shield and parachute descending through bright orange and white Jupiter clouds, vivid, cinematic"
+    },
+    {
+      "text": "Deeper down, hydrogen gets squeezed into liquid metal.",
+      "audio": "pipeline/audio/what-if-fell-into-jupiter/04.mp3",
+      "big": "Liquid metal",
+      "image": "a glowing shimmering ocean of silvery liquid metal under crushing pressure, bright blue and silver light, vivid, high contrast"
+    },
+    {
+      "text": "Send this to someone who'd jump. Would you? Yes or no? Unreal, but true.",
+      "audio": "pipeline/audio/what-if-fell-into-jupiter/05.mp3",
+      "big": "Would you jump?",
+      "image": "an astronaut standing on the edge of a spaceship hatch looking down at giant Jupiter far below, bright sunlight, vivid colours"
+    }
+  ]
+}
