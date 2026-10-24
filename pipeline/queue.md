@@ -26,7 +26,7 @@ Refill 2026-10-23 (live views: space/cosmic what-ifs win: Earth stopped 1,565, b
 - [x] what-if-jupiter-gone: What If Jupiter Disappeared? (2026-10-23, first via GitHub job and first with moving opening clip, https://youtube.com/shorts/Hq7kDGT0eAg)
 - [ ] what-if-neutron-star: What If a Neutron Star Passed Through the Solar System?
 - [ ] what-if-earth-rings: What If Earth Had Rings Like Saturn?
-- [ ] what-if-fell-into-jupiter: What If You Fell Into Jupiter?
+- [x] what-if-fell-into-jupiter: What If You Fell Into Jupiter? (2026-10-24, https://youtube.com/shorts/j4jw6GTggw4)
 - [ ] what-if-sun-black-hole: What If the Sun Became a Black Hole? (not "vanished", that one is overdone)
 - [ ] what-if-everest-asteroid: What If an Asteroid the Size of Everest Hit Earth?
 
