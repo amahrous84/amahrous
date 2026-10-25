@@ -1,6 +1,6 @@
 {
   "video": "lolo/videos/2026-10-25-letter-a-short.mp4",
-  "title": "A is for Apple! 🍎 Letter A Song #shorts",
+  "title": "A is for Apple! \ud83c\udf4e Letter A Song #shorts",
   "description": "Sing the letter A song with Lolo the Axolotl! Full video on the channel. #LetterA #Phonics #KidsSongs #shorts",
   "tags": [
     "letter a",
@@ -16,5 +16,11 @@
     "lolo axolotl",
     "shorts"
   ],
-  "playlist": "Lolo Shorts"
+  "playlist": "Lolo Shorts",
+  "result": {
+    "video_id": "We2tiDQfhT0",
+    "url": "https://youtu.be/We2tiDQfhT0",
+    "publish_at": "now",
+    "playlist": "playlist not found: Lolo Shorts"
+  }
 }
