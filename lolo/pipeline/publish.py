@@ -13,6 +13,8 @@ A queue entry looks like:
 With publish_at the video is uploaded private and YouTube makes it public at
 that time on its own. Without it the video goes public at once.
 An entry of {"check": true} only tests the sign-in and records the channel name.
+An entry of {"stats": true} records live counts and 14-day analytics for the last
+10 uploads, for the daily review.
 """
 import glob
 import json
@@ -29,8 +31,12 @@ FAILED = 'lolo/publish/failed'
 EDUCATION = '27'
 
 
+CREDS = None
+
+
 def service():
-    creds = Credentials(None, refresh_token=os.environ['LOLO_YT_REFRESH_TOKEN'],
+    global CREDS
+    creds = CREDS = Credentials(None, refresh_token=os.environ['LOLO_YT_REFRESH_TOKEN'],
                         client_id=os.environ['YT_CLIENT_ID'],
                         client_secret=os.environ['YT_CLIENT_SECRET'],
                         token_uri='https://oauth2.googleapis.com/token')
@@ -40,6 +46,32 @@ def service():
 def channel(yt):
     item = yt.channels().list(part='snippet', mine=True).execute()['items'][0]
     return item['snippet']['title']
+
+
+def stats(yt):
+    """Live counts and 14-day analytics for the last 10 uploads, for the daily review."""
+    import datetime
+    ch = yt.channels().list(part='contentDetails,statistics', mine=True).execute()['items'][0]
+    uploads = ch['contentDetails']['relatedPlaylists']['uploads']
+    items = yt.playlistItems().list(part='contentDetails', playlistId=uploads,
+                                    maxResults=10).execute().get('items', [])
+    ids = [i['contentDetails']['videoId'] for i in items]
+    out = {'channel': ch['statistics'], 'live': []}
+    if ids:
+        live = yt.videos().list(part='snippet,statistics,contentDetails', id=','.join(ids)).execute()['items']
+        out['live'] = [{'id': v['id'], 'title': v['snippet']['title'],
+                        'published': v['snippet']['publishedAt'],
+                        'duration': v['contentDetails']['duration'], **v['statistics']} for v in live]
+    try:
+        ya = build('youtubeAnalytics', 'v2', credentials=CREDS)
+        end = datetime.date.today()
+        out['analytics'] = ya.reports().query(
+            ids='channel==MINE', startDate=str(end - datetime.timedelta(days=14)), endDate=str(end),
+            metrics='views,engagedViews,averageViewPercentage,averageViewDuration,likes,shares,subscribersGained',
+            dimensions='video', sort='-views', maxResults=15).execute()
+    except Exception as e:  # analytics lag or scope issues; live counts still help
+        out['analytics'] = f'failed: {e}'
+    return out
 
 
 def add_to_playlist(yt, video_id, title):
@@ -53,6 +85,8 @@ def add_to_playlist(yt, video_id, title):
 
 
 def publish(yt, entry):
+    if entry.get('stats'):
+        return stats(yt)
     name = channel(yt)
     if entry.get('check'):
         return {'channel': name}
