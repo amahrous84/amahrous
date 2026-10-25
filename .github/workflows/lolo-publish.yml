@@ -1,0 +1,40 @@
+# Uploads the videos listed in lolo/publish/queue/ to the Lolo's Learning Lagoon
+# channel. Lives only on the lolo branch and never touches the Unreal But True queue.
+name: Publish Lolo to YouTube
+
+on:
+  push:
+    branches: [lolo]
+    paths:
+      - 'lolo/publish/queue/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lolo-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install google-api-python-client google-auth
+      - name: Upload queued videos
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          LOLO_YT_REFRESH_TOKEN: ${{ secrets.LOLO_YT_REFRESH_TOKEN }}
+        run: python lolo/pipeline/publish.py
+      - name: Save results
+        run: |
+          git config user.name "lolo-publish-bot"
+          git config user.email "lolo-publish-bot@users.noreply.github.com"
+          git add -A lolo/publish
+          git diff --cached --quiet || git commit -m "Lolo: published queued videos"
+          git push
