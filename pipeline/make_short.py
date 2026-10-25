@@ -17,6 +17,9 @@ Spec format (see pipeline/specs/ for examples):
                   instead of Kokoro; path relative to the repo root
         big       optional: large label shown above the scene
         image     optional: a picture prompt; the segment shows an AI image (fal.ai)
+        fx        optional, with image: true gives the picture free code-made motion
+                  (fast push-in, slight turn, light sweep, drifting sparks) instead of
+                  the slow zoom; a no-cost stand-in for "motion".
         motion    optional, with image: how the picture should move; the segment then
                   plays a 5 s AI video clip (Kling 2.1 on fal.ai, about $0.28) made
                   from that picture instead of the slow zoom. Use it on the opening
@@ -632,11 +635,46 @@ def scene_image(layer, t, dur, p, c):
     layer.alpha_composite(frame)
 
 
+def scene_image_fx(layer, t, dur, p, c):
+    """Picture with strong code-made motion: fast push-in, slight turn, light sweep, sparks."""
+    src = _img_cache.get(p['_path'] + '#fx')
+    if src is None:
+        src = Image.open(p['_path']).convert('RGB').resize((int(W * 1.5), int(H * 1.5)), Image.LANCZOS)
+        _img_cache[p['_path'] + '#fx'] = src
+    k = min(t / max(dur, 0.1), 1)
+    z = 1.0 + 0.45 * (1 - (1 - k) ** 2)            # fast at first, then easing
+    ang = 2.5 * math.sin(k * math.pi * 0.9)          # a slow, slight turn
+    cw, ch = src.width / 1.5 / z, src.height / 1.5 / z
+    cx, cy = src.width / 2 + 25 * math.sin(t * 1.3), src.height / 2 + 18 * math.cos(t * 1.1)
+    box = (cx - cw / 2 * 1.1, cy - ch / 2 * 1.1, cx + cw / 2 * 1.1, cy + ch / 2 * 1.1)
+    frame = src.resize((int(W * 1.1), int(H * 1.1)), Image.BILINEAR, box=box).rotate(ang, Image.BILINEAR)
+    ox, oy = (frame.width - W) // 2, (frame.height - H) // 2
+    frame = frame.crop((ox, oy, ox + W, oy + H)).convert('RGBA')
+    fxl = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(fxl)
+    sweep = -W * 0.6 + (W * 2.2) * ((t * 0.45) % 1)   # diagonal light sweep
+    for i in range(18):
+        a = int(70 * (1 - abs(i - 9) / 9))
+        x0 = sweep + i * 14
+        d.polygon([(x0, 0), (x0 + 60, 0), (x0 + 60 - H * 0.35, H), (x0 - H * 0.35, H)], fill=(255, 240, 210, a // 3))
+    rng = random.Random(p.get('seed', 3))
+    for _ in range(90):                               # sparks streaming toward the viewer
+        sx, sy, sp = rng.uniform(-1, 1), rng.uniform(-1, 1), rng.uniform(0.3, 1.2)
+        q = (rng.random() + t * sp * 0.5) % 1
+        r = 1 + q * 7
+        x, y = W / 2 + sx * W * 0.7 * q ** 1.5 * 1.6, H / 2 + sy * H * 0.55 * q ** 1.5 * 1.6
+        d.ellipse((x - r, y - r, x + r, y + r), fill=(255, 220, 160, int(220 * q)))
+    if t < 0.35:                                      # bright flash on the first frames
+        d.rectangle((0, 0, W, H), fill=(255, 255, 255, int(160 * (1 - t / 0.35))))
+    frame.alpha_composite(fxl)
+    layer.alpha_composite(frame)
+
+
 SCENES = {
     'explosion': scene_explosion, 'map': scene_map, 'globe': scene_globe,
     'waves': scene_waves, 'ship': scene_ship, 'planet': scene_planet,
     'counter': scene_counter, 'shaft': scene_shaft, 'drift': scene_drift,
-    'stars': scene_stars, 'image': scene_image, 'video': scene_video,
+    'stars': scene_stars, 'image': scene_image, 'video': scene_video, 'image_fx': scene_image_fx,
 }
 
 
@@ -664,6 +702,8 @@ def render(spec, out_path):
             seg['params']['_path'] = fetch_image(seg['image'], seed=spec.get('seed', 1) + k)
             seg['params'].setdefault('pan', [-1, 1, 0][k % 3] * 0.6)
             seg['params'].setdefault('zoom', 'out' if k % 2 else 'in')
+            if seg.get('fx'):
+                seg['scene'] = 'image_fx'
             if seg.get('motion'):
                 seg['scene'] = 'video'
                 seg['params']['_clip'] = seg.get('clip') or fetch_clip(seg['params']['_path'], seg['motion'])
