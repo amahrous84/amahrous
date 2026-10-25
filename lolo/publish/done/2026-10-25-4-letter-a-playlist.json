@@ -1,0 +1,8 @@
+{
+  "video_id": "LTi4ewJymO4",
+  "playlist": "ABC Songs with Lolo",
+  "result": {
+    "video_id": "LTi4ewJymO4",
+    "playlist": "failed: <HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">"
+  }
+}
