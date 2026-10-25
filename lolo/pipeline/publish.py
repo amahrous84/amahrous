@@ -13,6 +13,9 @@ A queue entry looks like:
 With publish_at the video is uploaded private and YouTube makes it public at
 that time on its own. Without it the video goes public at once.
 An entry of {"check": true} only tests the sign-in and records the channel name.
+An entry of {"playlists": [...]} creates any of those playlists that are missing.
+An entry with "video_id" (and "thumbnail" and/or "playlist") updates a video that is
+already up, for example to set the thumbnail once the channel is verified.
 An entry of {"stats": true} records live counts and 14-day analytics for the last
 10 uploads, for the daily review.
 """
@@ -84,9 +87,44 @@ def add_to_playlist(yt, video_id, title):
     return 'added'
 
 
+def make_playlists(yt, titles):
+    have = {p['snippet']['title'] for p in
+            yt.playlists().list(part='snippet', mine=True, maxResults=50).execute()['items']}
+    made = []
+    for title in titles:
+        if title not in have:
+            yt.playlists().insert(part='snippet,status', body={
+                'snippet': {'title': title, 'defaultLanguage': 'en'},
+                'status': {'privacyStatus': 'public'}}).execute()
+            made.append(title)
+    return {'created': made}
+
+
+def update_existing(yt, entry):
+    """Set the thumbnail and/or playlist on a video that is already up."""
+    result = {'video_id': entry['video_id']}
+    if entry.get('thumbnail'):
+        try:
+            yt.thumbnails().set(videoId=entry['video_id'],
+                                media_body=MediaFileUpload(entry['thumbnail'])).execute()
+            result['thumbnail'] = 'set'
+        except Exception as e:
+            result['thumbnail'] = f'failed: {e}'
+    if entry.get('playlist'):
+        try:
+            result['playlist'] = add_to_playlist(yt, entry['video_id'], entry['playlist'])
+        except Exception as e:
+            result['playlist'] = f'failed: {e}'
+    return result
+
+
 def publish(yt, entry):
     if entry.get('stats'):
         return stats(yt)
+    if entry.get('playlists'):
+        return make_playlists(yt, entry['playlists'])
+    if entry.get('video_id'):
+        return update_existing(yt, entry)
     name = channel(yt)
     if entry.get('check'):
         return {'channel': name}
