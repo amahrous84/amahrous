@@ -1,0 +1,43 @@
+{
+  "slug": "what-if-neutron-star",
+  "title": "What If a Neutron Star Passed Through the Solar System?",
+  "description": "A neutron star is what is left when a giant star collapses: about 1.4 times the mass of the Sun crushed into a ball roughly 20 km across, the size of a city. It is so dense that a teaspoon of it would weigh billions of tonnes, and the fastest known one spins 716 times every second. If one drifted through the solar system it would not need to hit anything: its gravity alone, stronger than the Sun's, could pull the planets off their orbits and fling Earth into deep space. Most neutron stars are small and faint, so spotting one heading our way would be hard.\n\nSources: NASA Imagine the Universe, neutron stars (about 1.4 solar masses, about 20 km across); Hessels et al., Science (2006), PSR J1748-2446ad spinning 716 times per second.\nNarration is AI-generated (ElevenLabs) and the pictures and opening clip are AI-generated. This is a thought experiment.\n\n#shorts #whatif #neutronstar #space #science",
+  "tags": ["what if", "neutron star", "what if a neutron star passed through the solar system", "neutron star solar system", "space", "science", "shorts"],
+  "seed": 71,
+  "palette": {"bg1": "#040a18", "bg2": "#10244a", "accent": "#7fd8ff", "ink": "#ffffff"},
+  "keywords": ["NEUTRON STAR", "CITY", "BILLIONS", "700", "EARTH"],
+  "segments": [
+    {
+      "text": "A neutron star is a whole Sun crushed into a ball the size of a city.",
+      "audio": "pipeline/audio/what-if-neutron-star/01.mp3",
+      "big": "City-sized Sun",
+      "image": "a brilliant glowing blue-white neutron star in space with two bright beams of light shooting from its poles, swirling glowing gas around it, vivid, high contrast",
+      "motion": "the neutron star spins very fast, its two bright beams sweeping around like a lighthouse while the camera pushes in"
+    },
+    {
+      "text": "A teaspoon of it weighs billions of tonnes.",
+      "audio": "pipeline/audio/what-if-neutron-star/02.mp3",
+      "big": "Billions of tonnes",
+      "image": "a silver teaspoon holding a tiny glowing blue-white ball of light that is crushing and bending the spoon, bright studio light, vivid"
+    },
+    {
+      "text": "Some spin 700 times every second.",
+      "say": "Some spin seven hundred times every second.",
+      "audio": "pipeline/audio/what-if-neutron-star/03.mp3",
+      "big": "700 spins a second",
+      "image": "a blurred glowing blue-white spinning star with bright light streaks circling it, motion blur, vivid, high contrast"
+    },
+    {
+      "text": "If one drifted by, it wouldn't need to hit us. Its gravity could fling Earth away.",
+      "audio": "pipeline/audio/what-if-neutron-star/04.mp3",
+      "big": "Flung away",
+      "image": "planet Earth being pulled away from the bright Sun toward a glowing blue-white star, orbit lines bending, vivid, dramatic"
+    },
+    {
+      "text": "Could we see it coming? Yes or no? Unreal, but true.",
+      "audio": "pipeline/audio/what-if-neutron-star/05.mp3",
+      "big": "Yes or no?",
+      "image": "a large observatory telescope dome open under a starry night sky with one strange bright blue star, vivid colours"
+    }
+  ]
+}
