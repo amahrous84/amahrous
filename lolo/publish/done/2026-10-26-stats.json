@@ -1,0 +1,81 @@
+{
+  "stats": true,
+  "result": {
+    "channel": {
+      "viewCount": "0",
+      "subscriberCount": "0",
+      "hiddenSubscriberCount": false,
+      "videoCount": "2"
+    },
+    "live": [
+      {
+        "id": "We2tiDQfhT0",
+        "title": "A is for Apple! \ud83c\udf4e Letter A Song #shorts",
+        "published": "2026-10-25T05:37:17Z",
+        "duration": "PT52S",
+        "viewCount": "2",
+        "likeCount": "0",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "LTi4ewJymO4",
+        "title": "Letter A Song for Kids | A is for Apple | Learn the Alphabet with Lolo",
+        "published": "2026-10-25T05:37:15Z",
+        "duration": "PT2M39S",
+        "viewCount": "1",
+        "likeCount": "0",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    ],
+    "analytics": {
+      "kind": "youtubeAnalytics#resultTable",
+      "columnHeaders": [
+        {
+          "name": "video",
+          "columnType": "DIMENSION",
+          "dataType": "STRING"
+        },
+        {
+          "name": "views",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "engagedViews",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "averageViewPercentage",
+          "columnType": "METRIC",
+          "dataType": "FLOAT"
+        },
+        {
+          "name": "averageViewDuration",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "likes",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "shares",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "subscribersGained",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        }
+      ],
+      "rows": []
+    }
+  }
+}
