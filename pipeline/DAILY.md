@@ -58,6 +58,10 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
      colour (an explosion, glowing lava, a lit Earth). Never a mostly black frame.
    - Make it loop: the last line should lead straight back into the first, so a
      replay feels natural. Keep the sign-off short.
+   - Numbered daily series (audit 2026-10-28: subscribe rate 0.24%, no reason to subscribe):
+     opening `big` text is "WHAT IF #N" (N = count of what-if Shorts so far + 1), the line
+     before the question is "Tomorrow: what if <next queued topic>?", the description starts
+     with "A new what-if every day at 5:48 pm (Riyadh)." Use the yt-* skills in .claude/skills.
    - End with a direct question viewers can answer in one word (comments are ~0).
    - One line that invites a reply or a share (a question, "send this to
      someone who..."), because shares are currently zero.
