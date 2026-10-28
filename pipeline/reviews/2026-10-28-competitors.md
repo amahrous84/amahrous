@@ -33,3 +33,10 @@ Best variants add the payoff to the title or the screen: "At 18.4, Earth breaks 
    Needs Ahmed's OK (over $0.30/day).
 2. Payoff number on screen and in the title: free, part of the new format.
 3. Planet-character story test (Shockora style) as a one-off: "Saturn wanted to give Earth its rings".
+
+## Studio "Ask Studio" /virals (run on Ahmed's PC)
+- Returning viewers: 61 of 5,508 in 28 days (about 1%). People watch one Short and leave.
+- Stayed to watch 42-64.5% (Jupiter Disappeared best); Studio says top science Shorts get 70%+.
+- Big what-if channels (Cleo Abram "What If You Dove Into the Sun?" 31M; AumSum 36M) put
+  the viewer in the title ("you"), hook in frame one, loop, and ask a question (thousands of comments).
+- They run 35-45 s. Our own data says 20-21 s beat 35-50 s here, so we keep the 15-18 s test for now.
