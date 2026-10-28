@@ -42,7 +42,13 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
      what-ifs only. No stickman, finance, psychology or Earth-only topics on this
      channel. No long videos for now (8 and 31 views); Shorts only.
 3. Write `pipeline/specs/<slug>.json` (copy the shape of `specs/krakatoa.json`).
-   - About 45 to 55 words of voiceover (about 20 seconds, never over 25), 4 or 5 segments.
+   - Viral format (Ahmed chose "New format" 2026-10-28): 35 to 45 words of voiceover
+     (15 to 18 seconds, never over 20), 4 segments. Opening `big` text is the hook
+     itself (e.g. "EARTH HAS RINGS"), on screen from frame one; the series number goes in
+     the spec's `tag` ("WHAT IF #N"), a small corner badge. Before the yes/no question,
+     one jaw-drop comparison people want to send. Last line flows back into the first.
+     Judge it on stayed-past-start (target 70%) and shares vs the last Shorts.
+   - (Before 2026-10-29) About 45 to 55 words of voiceover (about 20 seconds, never over 25), 4 or 5 segments.
      Live views 2026-10-23: 20-21 s Shorts beat 35-50 s ones.
      Shorts here stall near 1.5K because about half of viewers swipe away in the
      first seconds (engaged views are 40-50% of views, as of 2026-10-14). The
@@ -59,7 +65,7 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
    - Make it loop: the last line should lead straight back into the first, so a
      replay feels natural. Keep the sign-off short.
    - Numbered daily series (audit 2026-10-28: subscribe rate 0.24%, no reason to subscribe):
-     opening `big` text is "WHAT IF #N" (N = count of what-if Shorts so far + 1), the line
+     spec `tag` is "WHAT IF #N" (N = count of what-if Shorts so far + 1), the line
      before the question is "Tomorrow: what if <next queued topic>?", the description starts
      with "A new what-if every day at 5:48 pm (Riyadh)." Use the yt-* skills in .claude/skills.
    - End with a direct question viewers can answer in one word (comments are ~0).

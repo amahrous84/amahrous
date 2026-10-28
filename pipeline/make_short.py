@@ -742,6 +742,11 @@ def render(spec, out_path):
                 age = ts
                 draw_text_centered(frame, seg['big'].upper(), 250, 150, c.accent, stroke=12,
                                    scale=0.6 + 0.4 * ease_back(age / 0.3))
+            if spec.get('tag') and i == 0:  # small series badge, e.g. "WHAT IF #9"
+                dd = ImageDraw.Draw(frame)
+                tw = dd.textlength(spec['tag'].upper(), font=font(44))
+                dd.rounded_rectangle((40, 40, 40 + tw + 40, 110), 16, fill=(230, 30, 30, 230))
+                dd.text((60 + tw / 2, 75), spec['tag'].upper(), font=font(44), fill=(255, 255, 255), anchor='mm')
             for a, b, txt in chunks:
                 if a <= t < b:
                     draw_caption(frame, txt, keywords, c.accent, t - a)
