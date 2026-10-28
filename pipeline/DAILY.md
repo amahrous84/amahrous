@@ -70,6 +70,9 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
      before the question is "Tomorrow: what if <next queued topic>?", the description starts
      with "A new what-if every day at 5:48 pm (Riyadh)." Use the yt-* skills in .claude/skills.
    - End with a direct question viewers can answer in one word (comments are ~0).
+   - Viewer picks (2026-10-28): each What If Short has a pinned question ("...the top answer
+     becomes a future what-if"). In the daily review, read the replies (watch-page scrape);
+     when an answer has support, make it the next Short and open with "You picked this".
    - One line that invites a reply or a share (a question, "send this to
      someone who..."), because shares are currently zero.
    - Put the viewer in the title where it fits ("What If You..."): big what-if channels do (2026-10-28).
