@@ -126,7 +126,8 @@ def publish(yt, entry):
         return {'channel': item['snippet']['title']}
     body = {
         'snippet': {'title': entry['title'], 'description': entry.get('description', ''),
-                    'tags': entry.get('tags', []), 'categoryId': entry.get('category_id', '28')},
+                    'tags': entry.get('tags', []), 'categoryId': entry.get('category_id', '28'),
+                    'defaultLanguage': 'en', 'defaultAudioLanguage': 'en'},
         'status': {'privacyStatus': entry.get('privacy_status', 'public'),
                    'selfDeclaredMadeForKids': False},
     }
