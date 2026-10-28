@@ -77,6 +77,11 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
      someone who..."), because shares are currently zero.
    - Put the viewer in the title where it fits ("What If You..."): big what-if channels do (2026-10-28).
      No scene stays still more than 2 s.
+   - Avoid copies (2026-10-28: 9 small channels posted "Earth stopped spinning" in one day).
+     Before writing, search the topic with the "this week" filter; if several small channels
+     posted it, use a twist that puts a person in it ("...if you were on a plane when...").
+   - Put a person in the scene: motion prompts follow a person (astronaut, "you" point of view)
+     moving through the event. Every 30M+ what-if Short does this.
    - Payoff in the title or the first caption where it fits (competitors: "At 18.4, Earth breaks apart").
    - Plain title, no emoji, no hashtags in the title. `#shorts` goes in the description.
    - Check every number against a reliable source before using it.
