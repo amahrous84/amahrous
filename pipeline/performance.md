@@ -53,3 +53,4 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Today's pick: What If Gravity Switched Off for 5 Seconds? (last of the what-if list). 30 s. Stats not read: PC offline at run time.
 - 2026-10-23: What If Jupiter Disappeared? (Hq7kDGT0eAg), 21.9 s. Picked from review: space what-ifs win; fix = moving Kling opening clip, ~20 s, yes/no question. First upload via GitHub job, on time.
 - 2026-10-24: What If You Fell Into Jupiter? (j4jw6GTggw4), 24.7 s. Review: Jupiter-gone and Gravity both 1.1K in day one; question gave 4 comments; likes low on Jupiter (1.3%) vs Gravity (3.5%) -> 'you' story + share line.
+- 2026-10-28: What If a Neutron Star Passed Through the Solar System? (V_uj_8D4Hxk), 24.1 s, late (~21:10 Riyadh; held Oct 25-28 by fal.ai top-up lock). First numbered episode (WHAT IF #8) with 'Tomorrow: what if Earth had rings?' teaser, from the Oct 28 audit (sub rate 0.24%).
