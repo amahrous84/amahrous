@@ -77,6 +77,7 @@ If `queue.md` already has a topic ticked with today's date, today's Short is don
      someone who..."), because shares are currently zero.
    - Put the viewer in the title where it fits ("What If You..."): big what-if channels do (2026-10-28).
      No scene stays still more than 2 s.
+   - Payoff in the title or the first caption where it fits (competitors: "At 18.4, Earth breaks apart").
    - Plain title, no emoji, no hashtags in the title. `#shorts` goes in the description.
    - Check every number against a reliable source before using it.
    - Put numbers the voice must read in words in `say`.

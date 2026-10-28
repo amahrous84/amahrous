@@ -30,6 +30,14 @@ Refill 2026-10-23 (live views: space/cosmic what-ifs win: Earth stopped 1,565, b
 - [ ] what-if-sun-black-hole: What If the Sun Became a Black Hole? (not "vanished", that one is overdone)
 - [ ] what-if-everest-asteroid: What If an Asteroid the Size of Everest Hit Earth?
 
+Competitor-proven refill 2026-10-28 (yt-viral, pipeline/reviews/2026-10-28-competitors.md).
+Same topics as big Shorts elsewhere; put the payoff in the title or first caption:
+- [ ] what-if-earth-twice-size: What If Earth Were Twice as Big? (Kurzgesagt 12M; "Earth as big as the Sun" 3.4M on an 8K-sub channel)
+- [ ] what-if-no-spacesuit: What If You Stepped Into Space Without a Suit? (Zack D. Films 30M, Kurzgesagt 6M)
+- [ ] what-if-moon-exploded: What If the Moon Exploded? (Zack D. Films 28M, 7.7M elsewhere)
+- [ ] what-if-mars-ocean: What If Mars Had an Ocean? (11M on a 61K-sub channel)
+- [ ] what-if-gravity-doubled: What If Gravity Doubled for 5 Seconds? ("for 5 seconds" format: Molli Kroni 831K-1.9M)
+
 Most extreme ever (backup series):
 - [ ] biggest-wave: The Biggest Wave Ever Recorded (Lituya Bay, Alaska, 1958, 524 m run-up)
 - [ ] biggest-explosion: The Biggest Explosion Humans Ever Made (Tsar Bomba, 1961)
