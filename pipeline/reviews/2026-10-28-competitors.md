@@ -15,7 +15,7 @@ swipe.py (views as a multiple of each channel's own median). Data: public pages 
 | Almost Reality | 8K | 43,500 | Simulation; "What if Earth was as big as the Sun?" 3.4M |
 | Unreal But True | 26 | about 1,000 | Still AI pictures with captions, one 5 s moving clip |
 
-Same topics, same length. Their oxygen-for-5-seconds Short: 831,000. Ours: 124.
+Same topics. Their oxygen-for-5-seconds Short: 831,000. Ours: 124.
 
 ## What is missing: motion all the way through
 Every outlier is moving footage from first frame to last (simulation or 3D animation).
@@ -24,7 +24,7 @@ still picture reads as a slideshow and gets swiped. Our one moving opening alrea
 stayed-past-start to 60% (Jupiter Disappeared), the channel best.
 
 ## The formula (judgement on the titles, not proof of why they worked)
-"The Question" formula, 83 of 165 outliers: "What If <huge change> <for a short time>?"
+"The Question" formula, 83 of 160 Shorts at 3x their channel median or more: "What If <huge change> <for a short time>?"
 Best variants add the payoff to the title or the screen: "At 18.4, Earth breaks apart",
 "Jump 31 hits the Moon", "Would we survive?".
 
