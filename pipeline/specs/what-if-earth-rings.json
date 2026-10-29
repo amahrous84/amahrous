@@ -1,0 +1,63 @@
+{
+  "slug": "what-if-earth-rings",
+  "title": "What If You Lived Under Rings Like Saturn's?",
+  "tag": "WHAT IF #9",
+  "description": "A new what-if every day at 5:48 pm (Riyadh).\n\nIf Earth had rings like Saturn's, they would circle above the equator. From most of the planet you would see a huge glowing arch across the sky, day and night, catching sunlight even after dark. And just as Saturn's rings cast shadows on Saturn, Earth's rings would throw a band of shadow across the winter half of the planet, dimming whole countries for months. Saturn's main rings stretch about 270,000 km across, roughly 21 Earths side by side, yet in most places they are only about 10 metres thick.\n\nSources: NASA Science, Saturn's rings (main rings about 282,000 km across, typically about 10 m thick); NASA Cassini mission images of ring shadows on Saturn.\nNarration is AI-generated (ElevenLabs) and the pictures and clips are AI-generated. This is a thought experiment.\n\nWould you want rings over your house? Answer in the comments.\n\n#shorts #whatif #saturn #space #science",
+  "tags": [
+    "what if",
+    "what if earth had rings",
+    "earth with rings",
+    "saturn rings",
+    "what if earth had rings like saturn",
+    "space",
+    "science",
+    "shorts"
+  ],
+  "seed": 91,
+  "palette": {
+    "bg1": "#071226",
+    "bg2": "#1b3a6b",
+    "accent": "#ffd24a",
+    "ink": "#ffffff"
+  },
+  "keywords": [
+    "RING",
+    "NIGHT",
+    "SHADOW",
+    "21",
+    "TEN",
+    "YES",
+    "NO"
+  ],
+  "segments": [
+    {
+      "text": "Picture a giant glowing ring across your sky, every single day.",
+      "audio": "pipeline/audio/what-if-earth-rings/01.mp3",
+      "big": "A RING IN YOUR SKY",
+      "image": "a person standing on a green hilltop at sunset looking up at an enormous bright glowing planetary ring arching across the whole sky like a rainbow made of ice, vivid orange and blue colours, epic wide shot",
+      "motion": "the camera rises over the person's shoulder as they look up, revealing the giant glowing ring arching across the sky, clouds drifting fast"
+    },
+    {
+      "text": "At night it lights the dark. In winter, its shadow darkens whole countries.",
+      "audio": "pipeline/audio/what-if-earth-rings/02.mp3",
+      "big": "NIGHT LIGHT",
+      "image": "a person walking through a snowy city street at night lit by a huge silver glowing ring band across the starry sky, a dark shadow band falling over distant buildings, cinematic, vivid",
+      "motion": "the person walks forward through the snow as the camera follows, the bright ring glows overhead and a dark shadow sweeps slowly over the city"
+    },
+    {
+      "text": "Saturn's rings span 21 Earths, yet they're about ten meters thick.",
+      "say": "Saturn's rings span twenty-one Earths, yet they're about ten meters thick.",
+      "audio": "pipeline/audio/what-if-earth-rings/03.mp3",
+      "big": "21 EARTHS WIDE",
+      "image": "an astronaut floating beside the edge of Saturn's rings, the thin bright ring made of countless ice chunks stretching away to the horizon, giant golden Saturn behind, vivid, high contrast",
+      "motion": "the astronaut drifts along the razor thin edge of the ring as ice chunks tumble past and the camera glides along the ring toward Saturn"
+    },
+    {
+      "text": "Want them? Yes or no? Tomorrow: what if Earth were twice as big?",
+      "audio": "pipeline/audio/what-if-earth-rings/04.mp3",
+      "big": "YES OR NO?",
+      "image": "a child on a rooftop pointing up at a huge glowing ring across a bright blue daytime sky over a city, joyful, vivid colours",
+      "motion": "the child points up and turns to the camera, the camera tilts up to the giant ring shining across the daytime sky"
+    }
+  ]
+}
