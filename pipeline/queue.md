@@ -26,7 +26,7 @@ Refill 2026-10-23 (live views: space/cosmic what-ifs win: Earth stopped 1,565, b
 - [x] what-if-jupiter-gone: What If Jupiter Disappeared? (2026-10-23, first via GitHub job and first with moving opening clip, https://youtube.com/shorts/Hq7kDGT0eAg)
 - [x] what-if-neutron-star: What If a Neutron Star Passed Through the Solar System? (V_uj_8D4Hxk, 2026-10-28, What If #8)
 - [x] what-if-earth-rings: What If You Lived Under Rings Like Saturn's? (zJcEZdGiL-U, 2026-10-29, What If #9, first all-scenes-moving) (2026-10-28: many small channels posted plain "Earth had rings" this week; use the 'you' twist)
-- [ ] what-if-earth-twice-size: What If Earth Were Twice as Big? (Kurzgesagt 12M; "Earth as big as the Sun" 3.4M on an 8K-sub channel)  <- NEXT (promised in the #9 teaser)
+- [x] what-if-earth-twice-size: What If Earth Were Twice as Big? (QnEaZ0Y3sBE, 2026-10-30, What If #10)
 - [ ] what-if-no-spacesuit: What If You Stepped Into Space Without a Suit? (Zack D. Films 30M, Kurzgesagt 6M)  <- NEXT after #10 (teased)
 - [x] what-if-fell-into-jupiter: What If You Fell Into Jupiter? (2026-10-24, https://youtube.com/shorts/j4jw6GTggw4)
 - [ ] what-if-sun-black-hole: What If the Sun Became a Black Hole? (not "vanished", that one is overdone)
