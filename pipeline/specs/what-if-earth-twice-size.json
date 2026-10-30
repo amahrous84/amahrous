@@ -1,0 +1,41 @@
+{
+  "slug": "what-if-earth-twice-size",
+  "title": "What If Earth Were Twice as Big?",
+  "tag": "WHAT IF #10",
+  "description": "A new what-if every day at 5:48 pm (Riyadh).\n\nIf Earth were twice as wide and made of the same rock, it would have eight times the mass, and gravity at the surface would be twice as strong. You would weigh double from the moment you woke up: every step would feel like carrying a second you on your back. Leaving the planet would get much harder too. The speed needed to escape Earth's gravity would double, from about 11 km/s to about 22 km/s.\n\nThis assumes the same average density as today's Earth: surface gravity grows with radius times density, and escape speed grows with radius times the square root of density.\nSources: NASA Earth fact sheet (radius 6,371 km, surface gravity 9.8 m/s2, escape velocity 11.2 km/s).\nNarration is AI-generated (ElevenLabs) and the pictures and clips are AI-generated. This is a thought experiment.\n\nCould you live on a double-size Earth? Answer in the comments.\n\n#shorts #whatif #earth #space #science",
+  "tags": ["what if", "what if earth were twice as big", "earth twice as big", "bigger earth", "what if earth was bigger", "gravity", "space", "science", "shorts"],
+  "seed": 101,
+  "palette": {"bg1": "#06142a", "bg2": "#12406b", "accent": "#5ff0a0", "ink": "#ffffff"},
+  "keywords": ["DOUBLE", "TWICE", "22", "YOU", "YES", "NO"],
+  "segments": [
+    {
+      "text": "If Earth were twice as wide, you'd instantly weigh double.",
+      "audio": "pipeline/audio/what-if-earth-twice-size/01.mp3",
+      "big": "EARTH x2",
+      "image": "a giant bright blue and green planet Earth swelling to twice its size in space next to a normal sized Earth, a tiny astronaut in the foreground watching, vivid sunlight, high contrast",
+      "motion": "the giant Earth grows bigger and bigger beside the normal Earth while the astronaut floats closer and the camera pushes in"
+    },
+    {
+      "text": "Every step would feel like carrying another you on your back.",
+      "audio": "pipeline/audio/what-if-earth-twice-size/02.mp3",
+      "big": "DOUBLE WEIGHT",
+      "image": "a tired man walking up a city street bent forward, struggling with heavy steps as if carrying a heavy weight on his back, bright daylight, cinematic, vivid colours",
+      "motion": "the man takes slow heavy steps forward, knees bending under the weight, the camera follows him from the side"
+    },
+    {
+      "text": "Rockets would need 22 kilometres a second just to escape.",
+      "say": "Rockets would need twenty-two kilometres a second just to escape.",
+      "audio": "pipeline/audio/what-if-earth-twice-size/03.mp3",
+      "big": "22 KM/S TO ESCAPE",
+      "image": "a huge rocket launching from a launch pad with a massive bright fire plume and smoke, people watching from far away, bright blue sky, vivid, dramatic",
+      "motion": "the rocket strains upward slowly, shaking, its fire plume blasting smoke across the ground as the camera tilts up"
+    },
+    {
+      "text": "Could you live here? Yes or no? Tomorrow: space without a suit.",
+      "audio": "pipeline/audio/what-if-earth-twice-size/04.mp3",
+      "big": "YES OR NO?",
+      "image": "a young woman standing on a hill looking up at a gigantic bright blue planet filling the sky, wind in her hair, vivid colours, epic",
+      "motion": "the woman turns from the giant planet to look at the camera, wind blowing, the camera slowly circles her"
+    }
+  ]
+}
