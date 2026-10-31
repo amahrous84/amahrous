@@ -1,0 +1,41 @@
+{
+  "slug": "what-if-no-spacesuit",
+  "title": "What If You Stepped Into Space Without a Suit?",
+  "tag": "WHAT IF #11",
+  "description": "A new what-if every day at 5:48 pm (Riyadh).\n\nIn the vacuum of space you would not explode or freeze solid right away. With no air pressure, the oxygen would be pulled out of your blood and you would black out in about 10 to 15 seconds. The water on your tongue would start to boil: in a 1966 NASA vacuum chamber accident, test subject Jim LeBlanc said his last memory was saliva bubbling on his tongue. He was brought back to pressure within seconds and recovered. Holding your breath would be the worst thing to do, because the air in your lungs would expand and could tear them, so you would have to breathe out.\n\nSources: NASA Ask an Astronomer / NASA Goddard \"what happens to the human body in a vacuum\" (consciousness about 15 seconds); NASA Johnson Space Center 1966 vacuum chamber incident (Jim LeBlanc).\nNarration is AI-generated (ElevenLabs) and the pictures and clips are AI-generated. This is a thought experiment.\n\nWould you remember to breathe out? Answer in the comments.\n\n#shorts #whatif #space #astronaut #science",
+  "tags": ["what if", "what if you went to space without a suit", "space without a spacesuit", "what happens in space without a suit", "vacuum", "astronaut", "space", "science", "shorts"],
+  "seed": 111,
+  "palette": {"bg1": "#050a1a", "bg2": "#1a2a55", "accent": "#ff8a3d", "ink": "#ffffff"},
+  "keywords": ["15", "SECONDS", "EXPLODE", "BOIL", "LUNGS", "YES", "NO"],
+  "segments": [
+    {
+      "text": "Step into space without a suit, and you'd black out in about 15 seconds.",
+      "say": "Step into space without a suit, and you'd black out in about fifteen seconds.",
+      "audio": "pipeline/audio/what-if-no-spacesuit/01.mp3",
+      "big": "15 SECONDS",
+      "image": "a man in ordinary clothes floating out of an open spaceship airlock into space above a bright blue Earth, shocked face, sunlight, vivid, high contrast",
+      "motion": "the man tumbles slowly out of the airlock into space, arms flailing, the bright Earth turning below as the camera follows him"
+    },
+    {
+      "text": "You wouldn't explode, but the spit on your tongue would boil.",
+      "audio": "pipeline/audio/what-if-no-spacesuit/02.mp3",
+      "big": "YOUR SPIT BOILS",
+      "image": "extreme close up of a man's open mouth in space with tiny bubbles rising from his tongue, Earth reflected in his eyes, dramatic lighting, vivid",
+      "motion": "tiny bubbles fizz and rise from the man's tongue while his eyes widen, the camera slowly pushes in"
+    },
+    {
+      "text": "Hold your breath, and your lungs could burst.",
+      "audio": "pipeline/audio/what-if-no-spacesuit/03.mp3",
+      "big": "BREATHE OUT",
+      "image": "a man floating in space puffing his cheeks holding his breath, chest swelling, glowing red warning light around him, Earth below, vivid, dramatic",
+      "motion": "the man's cheeks puff and his chest swells as he holds his breath, then he lets the air out in a burst of mist, the camera circles him"
+    },
+    {
+      "text": "Would you breathe out in time? Yes or no? Tomorrow: the Moon explodes.",
+      "audio": "pipeline/audio/what-if-no-spacesuit/04.mp3",
+      "big": "YES OR NO?",
+      "image": "an astronaut in a suit reaching out to grab a man in ordinary clothes floating in space and pulling him back toward a glowing open spaceship door, Earth below, vivid, cinematic",
+      "motion": "the astronaut grabs the man's arm and pulls him back toward the glowing airlock as the camera pulls back to show the Earth"
+    }
+  ]
+}

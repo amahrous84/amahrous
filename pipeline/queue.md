@@ -27,14 +27,14 @@ Refill 2026-10-23 (live views: space/cosmic what-ifs win: Earth stopped 1,565, b
 - [x] what-if-neutron-star: What If a Neutron Star Passed Through the Solar System? (V_uj_8D4Hxk, 2026-10-28, What If #8)
 - [x] what-if-earth-rings: What If You Lived Under Rings Like Saturn's? (zJcEZdGiL-U, 2026-10-29, What If #9, first all-scenes-moving) (2026-10-28: many small channels posted plain "Earth had rings" this week; use the 'you' twist)
 - [x] what-if-earth-twice-size: What If Earth Were Twice as Big? (QnEaZ0Y3sBE, 2026-10-30, What If #10)
-- [ ] what-if-no-spacesuit: What If You Stepped Into Space Without a Suit? (Zack D. Films 30M, Kurzgesagt 6M)  <- NEXT after #10 (teased)
+- [ ] what-if-no-spacesuit: What If You Stepped Into Space Without a Suit? (Zack D. Films 30M, Kurzgesagt 6M)
+- [ ] what-if-moon-exploded: What If the Moon Exploded? (Zack D. Films 28M, 7.7M elsewhere)  <- NEXT after #11 (teased)
 - [x] what-if-fell-into-jupiter: What If You Fell Into Jupiter? (2026-10-24, https://youtube.com/shorts/j4jw6GTggw4)
 - [ ] what-if-sun-black-hole: What If the Sun Became a Black Hole? (not "vanished", that one is overdone)
 - [ ] what-if-everest-asteroid: What If an Asteroid the Size of Everest Hit Earth?
 
 Competitor-proven refill 2026-10-28 (yt-viral, pipeline/reviews/2026-10-28-competitors.md).
 Same topics as big Shorts elsewhere; put the payoff in the title or first caption:
-- [ ] what-if-moon-exploded: What If the Moon Exploded? (Zack D. Films 28M, 7.7M elsewhere)
 - [ ] what-if-mars-ocean: What If Mars Had an Ocean? (11M on a 61K-sub channel)
 - [ ] what-if-gravity-doubled: What If Gravity Doubled for 5 Seconds? ("for 5 seconds" format: Molli Kroni 831K-1.9M)
 
