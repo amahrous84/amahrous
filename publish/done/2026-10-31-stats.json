@@ -1,0 +1,324 @@
+{
+  "stats": true,
+  "result": {
+    "live": [
+      {
+        "id": "QnEaZ0Y3sBE",
+        "title": "What If Earth Were Twice as Big?",
+        "published": "2026-10-30T15:14:32Z",
+        "viewCount": "289",
+        "likeCount": "9",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "zJcEZdGiL-U",
+        "title": "What If You Lived Under Rings Like Saturn's?",
+        "published": "2026-10-29T15:16:08Z",
+        "viewCount": "103",
+        "likeCount": "5",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "V_uj_8D4Hxk",
+        "title": "What If a Neutron Star Passed Through the Solar System?",
+        "published": "2026-10-28T21:07:24Z",
+        "viewCount": "1013",
+        "likeCount": "24",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "j4jw6GTggw4",
+        "title": "What If You Fell Into Jupiter?",
+        "published": "2026-10-24T14:54:39Z",
+        "viewCount": "914",
+        "likeCount": "27",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "Hq7kDGT0eAg",
+        "title": "What If Jupiter Disappeared?",
+        "published": "2026-10-23T14:54:34Z",
+        "viewCount": "1303",
+        "likeCount": "18",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "5"
+      },
+      {
+        "id": "rLxH6nvM1lk",
+        "title": "What If Gravity Switched Off for 5 Seconds?",
+        "published": "2026-10-23T12:15:33Z",
+        "viewCount": "1202",
+        "likeCount": "40",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "paJWtpfof0Q",
+        "title": "What If the Moon Fell to Earth? (Two Ways It Ends)",
+        "published": "2026-10-20T14:03:28Z",
+        "viewCount": "9",
+        "likeCount": "0",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "OFbgvDHqHzQ",
+        "title": "What If the Moon Drifted Into Earth?",
+        "published": "2026-10-20T13:55:37Z",
+        "viewCount": "393",
+        "likeCount": "19",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "1MlY_3EOwcE",
+        "title": "What If the Air Lost Its Oxygen for 5 Seconds?",
+        "published": "2026-10-19T23:42:56Z",
+        "viewCount": "126",
+        "likeCount": "3",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "SP2XceAiNBY",
+        "title": "Stop Saving $5 a Day (It's a Money Trap) #shorts",
+        "published": "2026-10-17T20:15:13Z",
+        "viewCount": "59",
+        "likeCount": "2",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    ],
+    "analytics": {
+      "kind": "youtubeAnalytics#resultTable",
+      "columnHeaders": [
+        {
+          "name": "video",
+          "columnType": "DIMENSION",
+          "dataType": "STRING"
+        },
+        {
+          "name": "views",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "engagedViews",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "averageViewPercentage",
+          "columnType": "METRIC",
+          "dataType": "FLOAT"
+        },
+        {
+          "name": "averageViewDuration",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "likes",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "comments",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "shares",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "subscribersGained",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        }
+      ],
+      "rows": [
+        [
+          "Hq7kDGT0eAg",
+          1299,
+          777,
+          70.77,
+          15,
+          18,
+          3,
+          0,
+          3
+        ],
+        [
+          "MFqFitAbfiI",
+          1208,
+          542,
+          89.33,
+          17,
+          42,
+          1,
+          1,
+          2
+        ],
+        [
+          "rLxH6nvM1lk",
+          1201,
+          569,
+          79.03,
+          23,
+          40,
+          1,
+          0,
+          5
+        ],
+        [
+          "V_uj_8D4Hxk",
+          949,
+          435,
+          86.1,
+          21,
+          23,
+          1,
+          0,
+          4
+        ],
+        [
+          "j4jw6GTggw4",
+          910,
+          479,
+          68.23,
+          17,
+          27,
+          1,
+          0,
+          2
+        ],
+        [
+          "OFbgvDHqHzQ",
+          392,
+          151,
+          97.26,
+          26,
+          19,
+          1,
+          0,
+          0
+        ],
+        [
+          "j88IzmSwN24",
+          212,
+          126,
+          55.82,
+          16,
+          5,
+          1,
+          0,
+          0
+        ],
+        [
+          "1MlY_3EOwcE",
+          125,
+          25,
+          64.24,
+          15,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          "SP2XceAiNBY",
+          59,
+          31,
+          78.26,
+          30,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          "x3zALoX6jEA",
+          32,
+          9,
+          34.56,
+          67,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "2YKSh7sKl7Y",
+          13,
+          4,
+          15.659999999999998,
+          7,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "hmU3Xq4wBeY",
+          12,
+          8,
+          53.6,
+          13,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "paJWtpfof0Q",
+          9,
+          6,
+          27.91,
+          47,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "qyld9TH0D9Q",
+          8,
+          8,
+          13.48,
+          37,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "hvffgAkXxgw",
+          6,
+          3,
+          154.23,
+          38,
+          1,
+          0,
+          0,
+          1
+        ]
+      ]
+    }
+  }
+}
