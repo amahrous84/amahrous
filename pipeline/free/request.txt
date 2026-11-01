@@ -1,0 +1,1 @@
+pipeline/specs/free-sample-no-spacesuit.json
