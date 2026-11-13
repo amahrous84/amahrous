@@ -1,0 +1,24 @@
+{
+  "video": "shorts/videos/2026-11-13-what-if-earth-doubling.mp4",
+  "thumbnail": "thumbnails/what-if-earth-doubling.jpg",
+  "title": "What If Earth Doubled in Size Every Second?",
+  "description": "WHAT IF #12. A new what-if every day at 5:48 pm (Riyadh).\n\nStart with Earth's real radius, 6,371 km, and double it every second. After 3.5 seconds Earth is wider than Jupiter. At 5.9 seconds it reaches the Moon, 384,400 km away, and swallows it. At 6.8 seconds it is wider than the Sun. At 14.5 seconds it reaches the Sun, 149.6 million km away, and covers it completely. By then Earth is about 216 times wider than the Sun.\n\nThe timer in the video runs in real time. Distances are averages: Moon 384,400 km, Sun 149.6 million km, Sun radius 696,000 km (NASA fact sheets). Growth is smooth doubling, 6,371 km x 2^t. This is a thought experiment: real gravity would end things much sooner.\nAnimation drawn in code; narration is AI-generated (ElevenLabs).\n\nWhat should Earth swallow next? Tell me in the comments.\n\n#shorts #whatif #earth #space #science",
+  "tags": [
+    "what if",
+    "what if earth doubled in size",
+    "earth doubling",
+    "earth vs sun",
+    "how big is the sun",
+    "space",
+    "science",
+    "solar system",
+    "shorts"
+  ],
+  "category_id": "28",
+  "privacy_status": "public",
+  "result": {
+    "video_id": "PVE-KfMC8_M",
+    "url": "https://youtu.be/PVE-KfMC8_M",
+    "thumbnail": "set"
+  }
+}
