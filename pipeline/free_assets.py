@@ -55,6 +55,13 @@ def main():
         if seg.get('image'):
             image(seg['image'], spec.get('seed', 1) + k)
             time.sleep(8)
+        if seg.get('audio_url') and seg.get('audio'):  # pre-made voice line (e.g. ElevenLabs) to fetch
+            import urllib.request
+            path = os.path.join(ROOT, seg['audio'])
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            urllib.request.urlretrieve(seg['audio_url'], path)
+            print('audio ok', path)
+            continue
         if spec.get('free_voice') and seg.get('audio'):
             path = os.path.join(ROOT, seg['audio'])
             os.makedirs(os.path.dirname(path), exist_ok=True)

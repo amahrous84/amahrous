@@ -1,7 +1,24 @@
-{"slug": "what-if-earth-doubling", "free_voice": "en-US-AndrewNeural", "free_rate": "+5%",
+{
+ "slug": "what-if-earth-doubling",
+ "free_voice": "en-US-AndrewNeural",
+ "free_rate": "+5%",
  "note": "Animated comparison sample (code-rendered by pipeline/anim_doubling.py); only the voice lines are fetched.",
  "segments": [
-  {"text": "What if Earth doubled in size every second?", "audio": "pipeline/audio/what-if-earth-doubling/01.mp3"},
-  {"text": "Six seconds. The Moon is gone.", "audio": "pipeline/audio/what-if-earth-doubling/02.mp3"},
-  {"text": "Fifteen seconds. It swallows the Sun.", "audio": "pipeline/audio/what-if-earth-doubling/03.mp3"}
- ]}
+  {
+   "text": "What if Earth doubled in size every second?",
+   "audio": "pipeline/audio/what-if-earth-doubling/01.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/VfFZqu3GNvoGNgaUC6tK/aV4phr7S06UnTu0J8gPn/content.mp3?Expires=1794603600&KeyName=assets-cdn-key-1&Signature=wQg12EitWkMeL1hs_h8u1hg7H_c="
+  },
+  {
+   "text": "Six seconds. The Moon is gone.",
+   "audio": "pipeline/audio/what-if-earth-doubling/02.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/EHKQL6XvZvYNIXXgR5Et/tpT0M6JBFidcaztKjHVn/content.mp3?Expires=1794603600&KeyName=assets-cdn-key-1&Signature=jpkZtbPA1GgS4q5gWeju_Qq8EII="
+  },
+  {
+   "text": "Fifteen seconds. It swallows the Sun.",
+   "audio": "pipeline/audio/what-if-earth-doubling/03.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/d5Nfy1OlInMiOVg9yD2G/GKwFYhHJXTkzidQn5NY5/content.mp3?Expires=1794603600&KeyName=assets-cdn-key-1&Signature=obyDHPEIX3MwTsB4QF6jmnd1zoY="
+  }
+ ],
+ "voice": "ElevenLabs Liam (TX3LPaxmHKxFdv7VOQHJ), eleven_v4"
+}

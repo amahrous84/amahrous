@@ -27,7 +27,7 @@ jobs:
       - run: pip install edge-tts
       - name: Fetch images and voice
         run: |
-          for spec in $(cat pipeline/free/request.txt); do python pipeline/free_assets.py "$spec"; done
+          for spec in $(grep -v "^#" pipeline/free/request.txt); do python pipeline/free_assets.py "$spec"; done
       - name: Save results
         run: |
           git config user.name "publish-bot"
