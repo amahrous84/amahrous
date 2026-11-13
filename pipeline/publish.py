@@ -116,7 +116,30 @@ def vitals(yt):
     return out
 
 
+def study(yt):
+    """Every upload with live counts plus lifetime per-video analytics and daily views."""
+    import datetime
+    out = vitals(yt)
+    ya = build('youtubeAnalytics', 'v2', credentials=CREDS)
+    end, start = str(datetime.date.today()), '2025-01-01'
+    for name, q in {
+        'life_by_video': dict(metrics='views,engagedViews,averageViewPercentage,averageViewDuration,'
+                              'likes,comments,shares,subscribersGained', dimensions='video',
+                              sort='-views', maxResults=200),
+        'life_by_day': dict(metrics='views,engagedViews,subscribersGained', dimensions='day', sort='day'),
+        'life_traffic': dict(metrics='views', dimensions='insightTrafficSourceType', sort='-views'),
+    }.items():
+        try:
+            out['analytics'][name] = ya.reports().query(ids='channel==MINE', startDate=start,
+                                                        endDate=end, **q).execute().get('rows')
+        except Exception as e:
+            out['analytics'][name] = f'failed: {e}'
+    return out
+
+
 def publish(yt, entry):
+    if entry.get('study'):
+        return study(yt)
     if entry.get('vitals'):
         return vitals(yt)
     if entry.get('stats'):
