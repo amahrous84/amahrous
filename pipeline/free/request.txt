@@ -1,1 +1,1 @@
-pipeline/specs/free-sample-no-spacesuit.json
+pipeline/specs/what-if-earth-doubling.json

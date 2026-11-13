@@ -1,0 +1,7 @@
+{"slug": "what-if-earth-doubling", "free_voice": "en-US-AndrewNeural", "free_rate": "+5%",
+ "note": "Animated comparison sample (code-rendered by pipeline/anim_doubling.py); only the voice lines are fetched.",
+ "segments": [
+  {"text": "What if Earth doubled in size every second?", "audio": "pipeline/audio/what-if-earth-doubling/01.mp3"},
+  {"text": "Six seconds. The Moon is gone.", "audio": "pipeline/audio/what-if-earth-doubling/02.mp3"},
+  {"text": "Fifteen seconds. It swallows the Sun.", "audio": "pipeline/audio/what-if-earth-doubling/03.mp3"}
+ ]}
