@@ -24,7 +24,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 FONT = os.path.join(ROOT, 'fonts', 'Anton-Regular.ttf')
 TOP_M = 524
 CLIMB = 9.6            # seconds for the water to reach the top
-HOLD = 1.3             # payoff stays on screen (voice finishes)
+HOLD = 1.9             # payoff stays on screen while the last line finishes
 TOTAL = CLIMB + HOLD
 H0 = 28                # water height in frame 0 (already moving)
 SEA_Y = 1700           # screen y of sea level
@@ -228,7 +228,7 @@ def main():
     for i in range(int(TOTAL * FPS)):
         frame(i / FPS).save(f'{tmp}/{i:04d}.png')
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', f'{tmp}/%04d.png']
-    starts = [0.1, t_of(330) + 0.05, float(os.environ.get('LINE3_AT', '6.9'))]
+    starts = [0.1, t_of(330) + 0.05, float(os.environ.get('LINE3_AT', '7.5'))]
     clips = []
     if audio_dir:
         for j, s in enumerate(starts, 1):
