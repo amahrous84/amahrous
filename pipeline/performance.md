@@ -56,3 +56,18 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - 2026-10-28: What If a Neutron Star Passed Through the Solar System? (V_uj_8D4Hxk), 24.1 s, late (~21:10 Riyadh; held Oct 25-28 by fal.ai top-up lock). First numbered episode (WHAT IF #8) with 'Tomorrow: what if Earth had rings?' teaser, from the Oct 28 audit (sub rate 0.24%).
 - 2026-10-29: What If You Lived Under Rings Like Saturn's? (zJcEZdGiL-U), 20.5 s, late (~18:35 Riyadh; 5:48 routine did not fire). First with every scene moving (4 Kling clips), person in each scene, corner tag WHAT IF #9, 'you' twist on a crowded topic.
 - 2026-10-30: What If Earth Were Twice as Big? (QnEaZ0Y3sBE), 15.8 s, all scenes moving, published ~18:25 Riyadh by hand (5:48 routine had not fired by 15:00 UTC). Competitor-proven topic (Kurzgesagt 12M).
+
+## 2026-11-14 (first real-events Short)
+- Published ~18:30 Riyadh (run was cut off once and resumed): The Wave Taller Than the Empire State Building (Lituya Bay 1958), 11.5 s, https://youtu.be/P4a7gDNGjsw, thumbnail set.
+- What changed today: new series (real event, one growing number) and the FORMAT.md opening: counter running and wave moving in frame 0, no title card, red 'IT STOPS HERE' target line from the start, guess prompt for the first 2.3 s, a landmark passed at 0.8, 1.4, 2.6, 4.3 and 6.5 s. Frame check at 0, 0.5, 1, 2 s passed rules 1-3.
+- Voice: two Liam lines (ElevenLabs connector); the middle line was dropped because free generations were busy.
+- Live before posting (publish/done/2026-11-14-stats.json): #12 Earth Doubling 1,312 views, 28 likes, 0 comments in 15 h. 14-day analytics per Short:
+  - What If Earth Were Twice as Big?: 210 views, stayed 43%, avg viewed 74%, shares 0, comments 0
+  - What If a Neutron Star Passed Thro: 25 views, stayed 36%, avg viewed 93%, shares 0, comments 0
+  - What If You Lived Under Rings Like: 8 views, stayed 25%, avg viewed 76%, shares 0, comments 0
+  - What If You Fell Into Jupiter?: 2 views, stayed 100%, avg viewed 52%, shares 0, comments 0
+  - x3zALoX6jEA: 1 views, stayed 0%, avg viewed 0%, shares 0, comments 0
+  - jP1Is973p18: 1 views, stayed 100%, avg viewed 1%, shares 0, comments 0
+  - What If Gravity Switched Off for 5: 1 views, stayed 0%, avg viewed 0%, shares 0, comments 0
+  - k_5DPyiMvh4: 1 views, stayed 0%, avg viewed 0%, shares 0, comments 0
+- Search share and early relative retention for this Short: read with a deep entry on 2026-11-16.
