@@ -1,0 +1,17 @@
+{
+ "slug": "lituya-bay-wave",
+ "note": "Code-rendered by pipeline/anim_lituya.py; only the voice lines are fetched.",
+ "voice": "ElevenLabs Liam (TX3LPaxmHKxFdv7VOQHJ), eleven_v4",
+ "segments": [
+  {
+   "text": "In 1958, a wave climbed this mountain.",
+   "audio": "pipeline/free/audio/lituya-bay-wave/01.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/FL7loPlD402yUvdxrLOz/D0WF6wzv3ndsJrYg1n1A/content.mp3?Expires=1794679200&KeyName=assets-cdn-key-1&Signature=UHcCC4LUV7cP6x1ZANmMCjt-PT4="
+  },
+  {
+   "text": "Five hundred twenty-four meters. Taller than the Empire State Building.",
+   "audio": "pipeline/free/audio/lituya-bay-wave/03.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/wYUCQ5lBQs9CpxbyTtJY/BQ5I9fSsRcJB6HYUyoFf/content.mp3?Expires=1794679200&KeyName=assets-cdn-key-1&Signature=6WtA3n_Zt5xK4QHaj-u23mPfJqk="
+  }
+ ]
+}

@@ -1,3 +1,1 @@
-pipeline/specs/what-if-earth-doubling.json
-# 2026-11-13T18:52:19
-# 2026-11-13T18:55:41
+pipeline/specs/lituya-bay-wave.json
