@@ -1,0 +1,280 @@
+{
+  "stats": true,
+  "result": {
+    "live": [
+      {
+        "id": "PVE-KfMC8_M",
+        "title": "What If Earth Doubled in Size Every Second?",
+        "published": "2026-11-13T19:11:48Z",
+        "viewCount": "1312",
+        "likeCount": "28",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "QnEaZ0Y3sBE",
+        "title": "What If Earth Were Twice as Big?",
+        "published": "2026-10-30T15:14:32Z",
+        "viewCount": "448",
+        "likeCount": "11",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "zJcEZdGiL-U",
+        "title": "What If You Lived Under Rings Like Saturn's?",
+        "published": "2026-10-29T15:16:08Z",
+        "viewCount": "106",
+        "likeCount": "5",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "V_uj_8D4Hxk",
+        "title": "What If a Neutron Star Passed Through the Solar System?",
+        "published": "2026-10-28T21:07:24Z",
+        "viewCount": "1036",
+        "likeCount": "24",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "j4jw6GTggw4",
+        "title": "What If You Fell Into Jupiter?",
+        "published": "2026-10-24T14:54:39Z",
+        "viewCount": "916",
+        "likeCount": "27",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "Hq7kDGT0eAg",
+        "title": "What If Jupiter Disappeared?",
+        "published": "2026-10-23T14:54:34Z",
+        "viewCount": "1303",
+        "likeCount": "18",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "5"
+      },
+      {
+        "id": "rLxH6nvM1lk",
+        "title": "What If Gravity Switched Off for 5 Seconds?",
+        "published": "2026-10-23T12:15:33Z",
+        "viewCount": "1203",
+        "likeCount": "40",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "paJWtpfof0Q",
+        "title": "What If the Moon Fell to Earth? (Two Ways It Ends)",
+        "published": "2026-10-20T14:03:28Z",
+        "viewCount": "9",
+        "likeCount": "0",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "OFbgvDHqHzQ",
+        "title": "What If the Moon Drifted Into Earth?",
+        "published": "2026-10-20T13:55:37Z",
+        "viewCount": "394",
+        "likeCount": "19",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "1MlY_3EOwcE",
+        "title": "What If the Air Lost Its Oxygen for 5 Seconds?",
+        "published": "2026-10-19T23:42:56Z",
+        "viewCount": "126",
+        "likeCount": "3",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    ],
+    "analytics": {
+      "kind": "youtubeAnalytics#resultTable",
+      "columnHeaders": [
+        {
+          "name": "video",
+          "columnType": "DIMENSION",
+          "dataType": "STRING"
+        },
+        {
+          "name": "views",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "engagedViews",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "averageViewPercentage",
+          "columnType": "METRIC",
+          "dataType": "FLOAT"
+        },
+        {
+          "name": "averageViewDuration",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "likes",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "comments",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "shares",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "subscribersGained",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        }
+      ],
+      "rows": [
+        [
+          "QnEaZ0Y3sBE",
+          210,
+          91,
+          74.39,
+          11,
+          4,
+          0,
+          0,
+          2
+        ],
+        [
+          "V_uj_8D4Hxk",
+          25,
+          9,
+          92.81,
+          23,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "zJcEZdGiL-U",
+          8,
+          2,
+          75.57,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "j4jw6GTggw4",
+          2,
+          2,
+          52.459999999999994,
+          13,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "x3zALoX6jEA",
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "jP1Is973p18",
+          1,
+          1,
+          1.13,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "rLxH6nvM1lk",
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "k_5DPyiMvh4",
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "GUxCYepXSrk",
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "OFbgvDHqHzQ",
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "2YKSh7sKl7Y",
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}
