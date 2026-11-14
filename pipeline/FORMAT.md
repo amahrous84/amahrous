@@ -39,9 +39,11 @@ rules 1, 2 and 5 below and landed at the same ceiling (1,312 plays in 15 h).
    answer ("GUESS THE SECOND"). The description and the last frame ask if they were right.
 5. **A beat every second.** A new visible event at least every 1.0-1.5 s: a pop, a label, an
    object swallowed, a number milestone. No smooth slow zoom with nothing happening.
-6. **9 to 13 seconds.** End on the payoff number. No outro card longer than 0.7 s.
+6. **18 to 22 seconds** (Ahmed, 2026-11-14: 11.5 s felt too short). 3-4 voice lines: what happened,
+   the number growing, one "and that means" line. End on the payoff number. No padding, and no
+   outro card longer than 0.7 s.
 7. **Seamless loop.** The last frame cuts straight back to the first, so replays count.
-8. **Voice starts within 0.2 s.** First line is 7 words or fewer. 2-3 lines in total. No music.
+8. **Voice starts within 0.2 s.** First line is 7 words or fewer. 3-4 lines in total. No music.
 9. **Same look every day.** Same font, colours, counter position and WHAT IF #N tag, so the feed
    learns one audience for the channel.
 10. **Numbers on screen match the timer.** Any "X times bigger" figure is computed for the time
