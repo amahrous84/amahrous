@@ -1,5 +1,20 @@
 # Daily Short format rules (from the 2026-11-14 ceiling study)
 
+## Series from 2026-11-14: big real events (Ahmed's choice)
+Ahmed chose on 2026-11-14 to change the idea: the daily Short is now a real event that sounds
+impossible, shown with a number that proves it. The space "what if" comparisons stop (#12 was the
+last). Topics and the facts to verify are in pipeline/events-queue.md. Why this idea: Krakatoa
+("The Loudest Sound in History") is one of the two best Shorts (1,551 views) and 21% of its views
+came from YouTube search, which keeps paying after day one; plain event titles get searched.
+- Still drawn in code (maps, rings, scale bars, counters). No AI images or AI video.
+- Each Short shows ONE event and ONE measurement growing on screen: a shockwave ring crossing a
+  map, a plume rising past Everest and airliner height, a wave climbing past a skyscraper.
+- Title = the plain thing people search ("The Wave Taller Than the Empire State Building"),
+  no numbering in the title. On-screen corner tag: UNREAL BUT TRUE.
+- Every number is checked against two sources and listed in the description. Deaths and injuries
+  are stated plainly and never played for excitement.
+- All the rules below still apply; they are what the ceiling study says matters most.
+
 ## Why these rules exist
 Every Short gets one test batch of about 1,000 to 1,500 plays from the Shorts feed, then stops.
 The batch size is almost the same whatever we post (12 Shorts checked, 106 to 1,573 views), and
