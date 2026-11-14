@@ -137,7 +137,43 @@ def study(yt):
     return out
 
 
+def deep(yt, entry):
+    """Per-video curves for the videos in entry['deep']: views by day, traffic sources,
+    audience retention along the video, plus live counts."""
+    import datetime
+    ids = entry['deep']
+    ya = build('youtubeAnalytics', 'v2', credentials=CREDS)
+    end, start = str(datetime.date.today()), '2026-09-01'
+    live = yt.videos().list(part='snippet,statistics,contentDetails', id=','.join(ids)).execute()['items']
+    out = {'live': {v['id']: {'title': v['snippet']['title'], 'published': v['snippet']['publishedAt'],
+                              'duration': v['contentDetails']['duration'], **v['statistics']} for v in live},
+           'videos': {}}
+    reports = {
+        'by_day': dict(metrics='views,engagedViews,averageViewPercentage,likes,shares,subscribersGained',
+                       dimensions='day', sort='day'),
+        'traffic': dict(metrics='views,engagedViews,averageViewPercentage',
+                        dimensions='insightTrafficSourceType', sort='-views'),
+        'retention': dict(metrics='audienceWatchRatio,relativeRetentionPerformance',
+                          dimensions='elapsedVideoTimeRatio'),
+        'country': dict(metrics='views,averageViewPercentage', dimensions='country', sort='-views', maxResults=8),
+        'totals': dict(metrics='views,engagedViews,averageViewPercentage,averageViewDuration,likes,dislikes,'
+                       'comments,shares,subscribersGained'),
+    }
+    for vid in ids:
+        out['videos'][vid] = {}
+        for name, q in reports.items():
+            try:
+                out['videos'][vid][name] = ya.reports().query(
+                    ids='channel==MINE', startDate=start, endDate=end, filters=f'video=={vid}',
+                    **q).execute().get('rows')
+            except Exception as e:
+                out['videos'][vid][name] = f'failed: {e}'
+    return out
+
+
 def publish(yt, entry):
+    if entry.get('deep'):
+        return deep(yt, entry)
     if entry.get('study'):
         return study(yt)
     if entry.get('vitals'):
