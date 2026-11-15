@@ -71,3 +71,10 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
   - What If Gravity Switched Off for 5: 1 views, stayed 0%, avg viewed 0%, shares 0, comments 0
   - k_5DPyiMvh4: 1 views, stayed 0%, avg viewed 0%, shares 0, comments 0
 - Search share and early relative retention for this Short: read with a deep entry on 2026-11-16.
+
+## 2026-11-15
+- Published ~18:10 Riyadh (voice service was busy for a while): The Biggest Bomb Ever: A Cloud 7 Times Higher Than Everest (Tsar Bomba 1961), 20.5 s, https://youtu.be/jMz9QCEHYhg, thumbnail set.
+- What changed today: length 20.5 s with four Liam lines (was 11.5 s, two lines), per Ahmed. New mechanic: the camera pulls back so the cloud always fills the frame while landmarks shrink; a gauge on the right carries the 'IT STOPS HERE' line from frame 0; a live "x EVEREST" number under the counter; blast-wave lap counter as the last beat. Frame check at 0, 0.5, 1, 2 s passed rules 1-3.
+- Live before posting (publish/done/2026-11-15-stats.json): Lituya Bay 2,510 views, 17 likes, 1 comment in about 24 h, the best first day on the channel and above the usual 1-1.5K batch. #12 Earth Doubling 1,577 views, 29 likes.
+- Deep entry for PVE-KfMC8_M and P4a7gDNGjsw came back empty (analytics lag); read both again on 2026-11-17.
+- ElevenLabs free speech: "busy" errors clear after a wait of a minute or two; one line at a time worked for all four.

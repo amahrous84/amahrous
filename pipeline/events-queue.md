@@ -5,7 +5,7 @@ against two sources before it goes on screen, and correct the line here if it is
 Tick with the date and video link when published. Reorder toward what works (see FORMAT.md).
 
 - [x] Lituya Bay 1958: water ran 524 m (1,720 ft) up a mountainside, taller than the Empire State Building (443 m to tip). Verified: Alaska Earthquake Center + Wikipedia/USGS PP 354-C. Published 2026-11-14: https://youtu.be/P4a7gDNGjsw (pipeline/anim_lituya.py)
-- [ ] Tsar Bomba 1961: about 50 megatons; mushroom cloud about 64 km high; shockwave circled Earth three times. Mechanic: cloud rising past Everest and airliner height.
+- [x] Tsar Bomba 1961: 50 megatons; mushroom cloud about 64 km (40 mi) high (AHF; Wikipedia says about 67 km, Britannica more than 60 km); blast wave circled Earth three times (Wikipedia, AHF). Published 2026-11-15: https://youtu.be/jMz9QCEHYhg (pipeline/anim_tsar_bomba.py)
 - [ ] Tunguska 1908: about 80 million trees flattened over about 2,150 km2, no crater. Mechanic: blast ring over a city map for scale.
 - [ ] Hunga Tonga 2022: plume about 57 km high, pressure wave circled the globe several times. Mechanic: ring crossing a world map with a clock.
 - [ ] Valdivia 1960: magnitude 9.5, strongest earthquake recorded; tsunami crossed the Pacific to Japan in about 22 hours. Mechanic: wave front crossing the ocean with a clock.
