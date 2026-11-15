@@ -1,0 +1,27 @@
+{
+ "slug": "tsar-bomba-cloud",
+ "note": "Code-rendered by pipeline/anim_tsar_bomba.py; only the voice lines are fetched.",
+ "voice": "ElevenLabs Liam (TX3LPaxmHKxFdv7VOQHJ), eleven_v4",
+ "segments": [
+  {
+   "text": "The biggest bomb ever set off!",
+   "audio": "pipeline/free/audio/tsar-bomba-cloud/01.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/N4FAoY7ZGywvzTdlI1L3/gYxFGHmzoAz3E6RxvoAb/content.mp3?Expires=1794762000&KeyName=assets-cdn-key-1&Signature=CBli8JaLCpZxJVTelertmILYLuY="
+  },
+  {
+   "text": "Nineteen sixty-one. The Soviet Tsar Bomba. Its cloud shot past Everest, past every jet, past the highest skydive ever.",
+   "audio": "pipeline/free/audio/tsar-bomba-cloud/02.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/LacQ5A1wUwK44bY1wrcj/7sqbcbG8rJODi9liwm4P/content.mp3?Expires=1794762000&KeyName=assets-cdn-key-1&Signature=BaRBAShFudnfNNgt6MWEqOU7bnY="
+  },
+  {
+   "text": "It stopped about sixty-four kilometers up. Seven times higher than Everest!",
+   "audio": "pipeline/free/audio/tsar-bomba-cloud/03.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/mHNYEKSVE0BazdH584W1/SMhd0Ut1aJLhpB1f7bFo/content.mp3?Expires=1794762000&KeyName=assets-cdn-key-1&Signature=3jhVYt64yCTQX1dvGLX_1fvLn-Y="
+  },
+  {
+   "text": "And its blast wave circled the whole planet three times.",
+   "audio": "pipeline/free/audio/tsar-bomba-cloud/04.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/JfMcEuhkhyOWFlZPNBzJ/PFR06AWJrCBOYldhftMa/content.mp3?Expires=1794762000&KeyName=assets-cdn-key-1&Signature=qcOsGZ-jnvoZ8tcpiALY2yjPhEc="
+  }
+ ]
+}
