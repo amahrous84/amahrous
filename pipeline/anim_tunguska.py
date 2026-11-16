@@ -148,6 +148,12 @@ def frame(t):
     for k, (wd, al) in enumerate([(46, 60), (28, 120), (12, 255)]):
         rr = RING_PX + wob * (k == 2)
         d.ellipse([CX - rr, CY - rr, CX + rr, CY + rr], outline=(255, 240, 200, al), width=wd)
+    # after the front stops: ripples keep sweeping out so the frame never sits still
+    if reached:
+        for ph in (0.0, 0.5):
+            u = ((t - CLIMB) / 1.2 + ph) % 1.0
+            rr = RING_PX * u
+            d.ellipse([CX - rr, CY - rr, CX + rr, CY + rr], outline=(255, 240, 200, int(150 * (1 - u))), width=10)
     # no-crater beat: an X where a crater would be
     ct = t - CRATER_AT
     if ct > 0:
