@@ -78,3 +78,13 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Live before posting (publish/done/2026-11-15-stats.json): Lituya Bay 2,510 views, 17 likes, 1 comment in about 24 h, the best first day on the channel and above the usual 1-1.5K batch. #12 Earth Doubling 1,577 views, 29 likes.
 - Deep entry for PVE-KfMC8_M and P4a7gDNGjsw came back empty (analytics lag); read both again on 2026-11-17.
 - ElevenLabs free speech: "busy" errors clear after a wait of a minute or two; one line at a time worked for all four.
+
+## 2026-11-16
+- Published ~18:25 Riyadh (voice service busy again; about 15 tries for four lines): The Tunguska Explosion Flattened a Forest Bigger Than London, 19.5 s, https://youtu.be/qBNDPrfgDAw, thumbnail set.
+- What changed today: top-down map view (blast ring through a forest, city areas as equal-area circles), same gauge, pull-back camera and counter position as Tsar Bomba. Frame check at 0, 0.5, 1, 2 s passed rules 1-3.
+- Live before posting (publish/done/2026-11-16-stats.json):
+  - Lituya Bay (P4a7gDNGjsw): 7,538 views, 20 likes, 1 comment in 2 days. First Short past 3,000, so it cleared the feed test: keep its opening (frame-0 action, red stop line, guess prompt).
+  - Tsar Bomba (jMz9QCEHYhg): 1,453 views, 15 likes, 0 comments in 24 h.
+  - #12 Earth Doubling (PVE-KfMC8_M): 1,667 views.
+- Deep read (publish/done/2026-11-16-deep.json), #12 Earth Doubling, analytics to Nov 13: 1,312 views, stayed 44% (582 engaged), average viewed 107%, relative retention in the first third 0.81-0.86, shares 0, comments 0, search 3% of views (40), Shorts feed 96%.
+- Lituya Bay and Tsar Bomba analytics are still empty (lag); read them again on 2026-11-18.
