@@ -1,0 +1,22 @@
+{
+ "slug": "tunguska-forest",
+ "note": "Code-rendered by pipeline/anim_tunguska.py; only the voice lines are fetched.",
+ "voice": "ElevenLabs Liam (TX3LPaxmHKxFdv7VOQHJ), eleven_v4",
+ "segments": [
+  {
+   "text": "Something exploded over Siberia in 1908!",
+   "audio": "pipeline/free/audio/tunguska-forest/01.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/52DM0nwrcAGXgvNJx3xd/BoJPPbRa1FqLigvTxILx/content.mp3?Expires=1794848400&KeyName=assets-cdn-key-1&Signature=q10KSqaO4EubpDwhpzXK9m06lcY="
+  },
+  {
+   "text": "It flattened forest wider than Paris, wider than New York City, wider than London.",
+   "audio": "pipeline/free/audio/tunguska-forest/02.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/51vXs4tpGi4edyjDiOzZ/9RUy1iRi4LcCe6bhLclN/content.mp3?Expires=1794848400&KeyName=assets-cdn-key-1&Signature=6I1mPYXhdKfWCt0zVcWJ6eSXe1Y="
+  },
+  {
+   "text": "Two thousand one hundred fifty square kilometers. Millions of trees, knocked flat!",
+   "audio": "pipeline/free/audio/tunguska-forest/03.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/MdlNab0bYeptkP1laXaj/ssZbrAHMW1eMgzlul7qZ/content.mp3?Expires=1794848400&KeyName=assets-cdn-key-1&Signature=VjM9bTdyE70tj6TpYTTZwbZX070="
+  }
+ ]
+}
