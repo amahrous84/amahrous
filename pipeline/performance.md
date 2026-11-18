@@ -88,3 +88,13 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
   - #12 Earth Doubling (PVE-KfMC8_M): 1,667 views.
 - Deep read (publish/done/2026-11-16-deep.json), #12 Earth Doubling, analytics to Nov 13: 1,312 views, stayed 44% (582 engaged), average viewed 107%, relative retention in the first third 0.81-0.86, shares 0, comments 0, search 3% of views (40), Shorts feed 96%.
 - Lituya Bay and Tsar Bomba analytics are still empty (lag); read them again on 2026-11-18.
+
+## 2026-11-18
+- No Short on 2026-11-17 (missed).
+- Deep read (publish/done/2026-11-18-deep.json):
+  - Lituya Bay (P4a7gDNGjsw, 12 s): 8,935 live views. Analytics to Nov 15: 6,706 views, stayed 53% (3,539 engaged), avg viewed 101%, relative retention 0.78-0.82 in the first third, shares 0, comments 1, search 133 views (2%), Shorts feed 95%, US 75%.
+  - Tsar Bomba (jMz9QCEHYhg, 21 s): 1,528 live. Analytics: 1,467 views, stayed 46%, avg viewed 119%, relative retention 0.61-0.63 in the first third, shares 0.
+  - Tunguska (qBNDPrfgDAw, 20 s): 698 live views in 2 days; analytics not in yet.
+- Finding: Lituya (side view, wave climbing past famous landmarks, 12 s) kept people far better early (0.80 vs 0.62). Tsar Bomba and Tunguska used the pull-back gauge layout.
+- Today: Hunga Tonga 2022, "The Volcano Boom Heard 10,000 km Away", 20.0 s (pipeline/anim_hunga_tonga.py). What changed: a real world map (true distances from the volcano) with famous places lighting up as the ring passes, and a yes/no guess ("COULD THEY HEAR IT IN ALASKA?") instead of a number guess. Frame check at 0, 0.5, 1, 2 s passed rules 1-3. Scheduled release 14:48 UTC (5:48 pm Riyadh) through the new publish_at field in publish.py.
+- Uploaded as https://youtu.be/TESVlkE2A0E (private until 14:48 UTC, thumbnail set).
