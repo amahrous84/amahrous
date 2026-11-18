@@ -1,0 +1,27 @@
+{
+ "slug": "hunga-tonga-boom",
+ "note": "Code-rendered by pipeline/anim_hunga_tonga.py; only the voice lines are fetched.",
+ "voice": "ElevenLabs Liam (TX3LPaxmHKxFdv7VOQHJ), eleven_v4",
+ "segments": [
+  {
+   "text": "In 2022, a volcano exploded near Tonga!",
+   "audio": "pipeline/free/audio/hunga-tonga-boom/01.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/qY2SOpyykJQA92qrGtwj/PYwQKoZxHLDjUX7ygtMo/content.mp3?Expires=1795006800&KeyName=assets-cdn-key-1&Signature=xHhl70sN1W1Yi7aqzxOAtKJPGNs="
+  },
+  {
+   "text": "The boom raced past Fiji, New Zealand, Australia, Hawaii, Japan...",
+   "audio": "pipeline/free/audio/hunga-tonga-boom/02.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/R9q1RwyS1t0F0diq3TPW/0Qrg2FaapLYpSiXKXK61/content.mp3?Expires=1795006800&KeyName=assets-cdn-key-1&Signature=D-D9HWkcPnKH4ATBO1sm5YNolN8="
+  },
+  {
+   "text": "...and people in Alaska heard it. Ten thousand kilometers away!",
+   "audio": "pipeline/free/audio/hunga-tonga-boom/03.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/VjYwqCFfKItIr6t2JyDz/jSwG1h5vKJGxAUUONvms/content.mp3?Expires=1795006800&KeyName=assets-cdn-key-1&Signature=K6ZMqtw97Q9OzdCziyK918m0nPQ="
+  },
+  {
+   "text": "Then the pressure wave kept circling the planet. Four times one way, three times back!",
+   "audio": "pipeline/free/audio/hunga-tonga-boom/04.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/wpg3JTWt1s87OAexAF3v/87ZyMOArJE5Rkr4XPy8Q/content.mp3?Expires=1795006800&KeyName=assets-cdn-key-1&Signature=6tojWlqMu7P-6D2u-CSdf_CG8Cg="
+  }
+ ]
+}
