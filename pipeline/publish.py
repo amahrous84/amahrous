@@ -190,6 +190,9 @@ def publish(yt, entry):
         'status': {'privacyStatus': entry.get('privacy_status', 'public'),
                    'selfDeclaredMadeForKids': False},
     }
+    if entry.get('publish_at'):  # scheduled release (RFC 3339 UTC); YouTube needs private until then
+        body['status']['privacyStatus'] = 'private'
+        body['status']['publishAt'] = entry['publish_at']
     media = MediaFileUpload(entry['video'], chunksize=-1, resumable=True)
     request = yt.videos().insert(part='snippet,status', body=body, media_body=media)
     response = None
