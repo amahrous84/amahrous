@@ -268,7 +268,7 @@ def frame(t):
         text_c(d, y_cap, s, fit(d, s, 72, 1010), fill=WHITE, stroke=8)
     elif reached_all:
         pop = min(1, (t - CLIMB) / 0.12)
-        s = 'A DAY LATER, IT HIT JAPAN'
+        s = 'IT HIT JAPAN, 22 HOURS LATER'
         text_c(d, y_cap, s, fit(d, s, int(60 + 20 * pop), 1010), fill=GREEN, stroke=8)
     elif tt < 2.3:
         s = 'GUESS: HOW LONG UNTIL IT HITS JAPAN?'
