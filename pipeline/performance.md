@@ -98,3 +98,14 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Finding: Lituya (side view, wave climbing past famous landmarks, 12 s) kept people far better early (0.80 vs 0.62). Tsar Bomba and Tunguska used the pull-back gauge layout.
 - Today: Hunga Tonga 2022, "The Volcano Boom Heard 10,000 km Away", 20.0 s (pipeline/anim_hunga_tonga.py). What changed: a real world map (true distances from the volcano) with famous places lighting up as the ring passes, and a yes/no guess ("COULD THEY HEAR IT IN ALASKA?") instead of a number guess. Frame check at 0, 0.5, 1, 2 s passed rules 1-3. Scheduled release 14:48 UTC (5:48 pm Riyadh) through the new publish_at field in publish.py.
 - Uploaded as https://youtu.be/TESVlkE2A0E (private until 14:48 UTC, thumbnail set).
+
+## 2026-11-23
+- No Shorts 2026-11-19 to 11-22: the daily task was switched off (its model, Fable 5.2, needed usage credits the plan did not have). Ahmed switched everything to Opus 5.5 on 2026-11-23 and the task was turned back on.
+- Published on time at 5:48 pm Riyadh run: The Tsunami That Crossed the Whole Pacific (Valdivia 1960), 20.0 s, https://youtu.be/lC3Yq__iigE, thumbnail set.
+- What changed today: the Hunga Tonga real-map layout, turned so the target (Japan) is straight up and the front climbs toward it; the big counter is a clock (hours since the quake) instead of a distance, with distance as the second line.
+- Live and deep read (publish/done/2026-11-23-stats.json, 2026-11-23-deep.json):
+  - Lituya Bay (P4a7gDNGjsw, 12 s): 8,991 live. Analytics: 8,956 views, stayed 52%, avg viewed 101%, relative retention 0.77-0.82 in the first third, shares 0, comments 1, search 235 (2.6%).
+  - Tsar Bomba (jMz9QCEHYhg, 21 s): 1,546 live. Stayed 46%, avg viewed 117%, relative retention 0.61-0.64, shares 0, search 67 (4.4%).
+  - Tunguska (qBNDPrfgDAw, 20 s): 744 live. Stayed 39%, avg viewed 80%, relative retention 0.43-0.57 and falling, shares 0, comments 1, search 11 (1.5%).
+  - Hunga Tonga (TESVlkE2A0E, 20 s): 1,449 live. Stayed 47%, avg viewed 99%, relative retention 0.60-0.64, shares 0, comments 0, search 146 (10.5%, the best search share yet).
+- Reading: Lituya (side view, landmarks the water climbs past) is still the only one above 0.65 early. The top-down Tunguska map was the weakest. Hunga Tonga's real map held as well as Tsar Bomba and pulled the most search.
