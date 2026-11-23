@@ -1,0 +1,27 @@
+{
+ "slug": "valdivia-tsunami",
+ "note": "Code-rendered by pipeline/anim_valdivia.py; only the voice lines are fetched.",
+ "voice": "ElevenLabs Liam (TX3LPaxmHKxFdv7VOQHJ), eleven_v4",
+ "segments": [
+  {
+   "text": "The strongest earthquake ever recorded!",
+   "audio": "pipeline/free/audio/valdivia-tsunami/01.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/B4lHSL3lvwG86hh9sbBg/LIyFq6F6160gwtFIfsPB/content.mp3?Expires=1795453200&KeyName=assets-cdn-key-1&Signature=TvZ9xOK0f1JUXWFZHo1I0Tp40LE="
+  },
+  {
+   "text": "Chile, 1960. Its tsunami raced across the whole Pacific, and hit Hawaii fifteen hours later.",
+   "audio": "pipeline/free/audio/valdivia-tsunami/02.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/wnZiQ3nSbAgVcL80OX6p/wKHJqkGJaJM2u9QnrGjG/content.mp3?Expires=1795453200&KeyName=assets-cdn-key-1&Signature=1onWJ0Gq-2rmpIDJtC5g9j_c9bI="
+  },
+  {
+   "text": "Twenty-two hours after the quake, it reached Japan.",
+   "audio": "pipeline/free/audio/valdivia-tsunami/03.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/ZaVEMGP9NiSVZ7Y8hseH/bXkNsPhdMN41abYzYRdS/content.mp3?Expires=1795453200&KeyName=assets-cdn-key-1&Signature=wDNCqXCR8Zi0T4aLE3S0Itzm1D4="
+  },
+  {
+   "text": "A whole day later, it still killed more than a hundred twenty people there.",
+   "audio": "pipeline/free/audio/valdivia-tsunami/04.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/d66sspcEGq3v1Xjb07AE/zc9z9Jv6PGvzoBaInkmU/content.mp3?Expires=1795453200&KeyName=assets-cdn-key-1&Signature=Ip0za1fZAQ6Q-AxtSoePByasags="
+  }
+ ]
+}

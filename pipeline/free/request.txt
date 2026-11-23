@@ -1,2 +1,2 @@
-# 2026-11-18 Hunga Tonga voice
-pipeline/specs/hunga-tonga-boom.json
+pipeline/specs/valdivia-tsunami.json
+# 2026-11-23
