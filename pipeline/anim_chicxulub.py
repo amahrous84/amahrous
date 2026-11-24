@@ -186,6 +186,10 @@ def frame(t):
         for k in range(1, 4):   # shock rings inside
             rr = rp * (1 - 0.18 * k) + 5 * math.sin(t * 7 + k)
             d.ellipse([CX - rr, CY - rr, CX + rr, CY + rr], outline=(255, 170, 90, 90 - 20 * k), width=5)
+    if done and t > CLIMB + PULL * 0.6:   # pulse so the far view keeps moving
+        u = ((t - CLIMB) / 1.1) % 1.0
+        pr = rp + 10 + 90 * u
+        d.ellipse([CX - pr, CY - pr, CX + pr, CY + pr], outline=(255, 210, 120, int(230 * (1 - u))), width=7)
     glow = max(0.0, 1 - t / 3.5)
     if glow > 0:
         gr = rp * 0.45
