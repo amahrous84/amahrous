@@ -109,3 +109,8 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
   - Tunguska (qBNDPrfgDAw, 20 s): 744 live. Stayed 39%, avg viewed 80%, relative retention 0.43-0.57 and falling, shares 0, comments 1, search 11 (1.5%).
   - Hunga Tonga (TESVlkE2A0E, 20 s): 1,449 live. Stayed 47%, avg viewed 99%, relative retention 0.60-0.64, shares 0, comments 0, search 146 (10.5%, the best search share yet).
 - Reading: Lituya (side view, landmarks the water climbs past) is still the only one above 0.65 early. The top-down Tunguska map was the weakest. Hunga Tonga's real map held as well as Tsar Bomba and pulled the most search.
+
+## 2026-11-24
+- Published at the 5:48 pm Riyadh run: The Crater That Killed the Dinosaurs Is 180 km Wide (Chicxulub), 19.4 s, https://youtu.be/29xz9i0_0Tc, thumbnail set.
+- What changed today: the crater rim grows over a real map of Yucatan, swallowing named towns, then the camera pulls back to the whole Gulf of Mexico with a pulsing ring.
+- Live counts before publishing (publish/done/2026-11-24-stats.json): Valdivia (lC3Yq__iigE) 3,591 views in about 24 h, the best first day since Lituya; Hunga Tonga 1,467; Tunguska 747; Tsar Bomba 1,550; Lituya 8,997.

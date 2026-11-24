@@ -9,7 +9,7 @@ Tick with the date and video link when published. Reorder toward what works (see
 - [x] Tunguska 1908: forest flattened over 2,150 km2 / 830 sq mi (Wikipedia, NASA; Britannica about 2,000), no crater, airburst 5-10 km up. The "80 million trees" figure is disputed (Wikipedia), so say "millions". Published 2026-11-16: https://youtu.be/qBNDPrfgDAw (pipeline/anim_tunguska.py)
 - [x] Hunga Tonga 2022: booms heard across Alaska, more than 10,000 km away; pressure wave circled Earth 4 times one way, 3 the other (Live Science; Univ. of Liverpool / Science 2022). Plume 57-58 km (Liverpool says 58). Uploaded 2026-11-18, scheduled for 5:48 pm Riyadh: https://youtu.be/TESVlkE2A0E (pipeline/anim_hunga_tonga.py)
 - [x] Valdivia 1960: magnitude 9.5, largest earthquake ever recorded (USGS Circular 1187, NOAA); tsunami reached Hawaii in about 15 h (61 dead in Hilo) and Japan in about 22 h (122-139 dead) (USGS Circular 1187, USGS HVO, Britannica). Published 2026-11-23: https://youtu.be/lC3Yq__iigE (pipeline/anim_valdivia.py)
-- [ ] Chicxulub: asteroid about 10 km wide, crater about 180 km. Mechanic: asteroid next to Everest, then the crater over a map.
+- [x] Chicxulub: asteroid about 10 km wide, crater about 180 km. Mechanic: asteroid next to Everest, then the crater over a map. Done 2026-11-24: https://youtu.be/29xz9i0_0Tc
 - [ ] Carrington Event 1859: telegraph lines sparked; auroras seen near the tropics. Mechanic: aurora line sliding down the globe by latitude.
 - [ ] Chelyabinsk 2013: about 20 m rock, about 500 kilotons, about 1,500 people hurt, mostly by glass. Mechanic: size of the rock vs the energy bar.
 - [ ] Tambora 1815: largest eruption in recorded history; 1816 "year without a summer". Mechanic: ash veil spreading, temperature counter dropping.
