@@ -1,0 +1,27 @@
+{
+ "slug": "chicxulub-crater",
+ "note": "Code-rendered by pipeline/anim_chicxulub.py; only the voice lines are fetched.",
+ "voice": "ElevenLabs Liam (TX3LPaxmHKxFdv7VOQHJ), eleven_v4",
+ "segments": [
+  {
+   "text": "This is where the dinosaurs ended!",
+   "audio": "pipeline/free/audio/chicxulub-crater/01.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/I4TH78p7OyNQ7YuP0WM6/jpcg2gzw04rvBIw2j8Ic/content.mp3?Expires=1795539600&KeyName=assets-cdn-key-1&Signature=z_fZild5YZkG4ucCySLfAj0LDjs="
+  },
+  {
+   "text": "Sixty-six million years ago, a rock about ten kilometers wide hit Mexico. And its crater kept spreading.",
+   "audio": "pipeline/free/audio/chicxulub-crater/02.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/gugjLVzcxdARXz7Rma1b/Xi0BBXFsOFkyAbdBMqcl/content.mp3?Expires=1795539600&KeyName=assets-cdn-key-1&Signature=Hlo1ABqAA4Ocr9rksZQQHiTmGkY="
+  },
+  {
+   "text": "One hundred eighty kilometers wide!",
+   "audio": "pipeline/free/audio/chicxulub-crater/03.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/4Hm1BwBWNRtZEhvNaorV/O8eEGFitLLVhcNP1TskQ/content.mp3?Expires=1795539600&KeyName=assets-cdn-key-1&Signature=cjVAiRb2A7_4j-Lc4Uo1h2_raio="
+  },
+  {
+   "text": "And it's still down there, buried under a kilometer of rock.",
+   "audio": "pipeline/free/audio/chicxulub-crater/04.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/dJisRckDNRDthE7unBWa/C0rHrPJAbLDuZMFz3imj/content.mp3?Expires=1795539600&KeyName=assets-cdn-key-1&Signature=JOsQZvPlyvHtjAQG6nB8Q50S2z0="
+  }
+ ]
+}

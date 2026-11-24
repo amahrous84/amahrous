@@ -1,2 +1,2 @@
-pipeline/specs/valdivia-tsunami.json
-# 2026-11-23
+pipeline/specs/chicxulub-crater.json
+# 2026-11-24
