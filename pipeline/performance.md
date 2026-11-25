@@ -114,3 +114,13 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Published at the 5:48 pm Riyadh run: The Crater That Killed the Dinosaurs Is 180 km Wide (Chicxulub), 19.4 s, https://youtu.be/29xz9i0_0Tc, thumbnail set.
 - What changed today: the crater rim grows over a real map of Yucatan, swallowing named towns, then the camera pulls back to the whole Gulf of Mexico with a pulsing ring.
 - Live counts before publishing (publish/done/2026-11-24-stats.json): Valdivia (lC3Yq__iigE) 3,591 views in about 24 h, the best first day since Lituya; Hunga Tonga 1,467; Tunguska 747; Tsar Bomba 1,550; Lituya 8,997.
+
+## 2026-11-25
+- Published at the 5:48 pm Riyadh run: The Solar Storm That Put Northern Lights Over Cuba (Carrington Event 1859), 18.0 s, https://youtu.be/fBlEp2BYCvA, thumbnail set.
+- What changed today: the first Short where the counter falls instead of climbing (aurora edge latitude 68 N to 23 N) on a night map seen from above the North Pole, with the target (Tropic of Cancer and CUBA) at the bottom of the frame from frame 0; telegraph sparks during the last line.
+- Live counts (publish/done/2026-11-25-stats.json): Valdivia 4,502 (2 days, second best in the series); Chicxulub 1,390 (1 day); Hunga Tonga 1,480; Tsar Bomba 1,550; Tunguska 748; Lituya 8,997.
+- Deep read (publish/done/2026-11-25-deep.json; Valdivia not in analytics yet):
+  - Lituya: stayed 52%, avg viewed 101%, early relative retention 0.77-0.82, shares 0, comments 1, search 3.0%.
+  - Tsar Bomba: stayed 46%, avg viewed 117%, early 0.61-0.64, shares 0, search 4.6%.
+  - Tunguska: stayed 39%, avg viewed 80%, early 0.43-0.57, shares 0, comments 1, search 1.5%.
+  - Hunga Tonga: stayed 47%, avg viewed 98%, early 0.60-0.64, shares 0, search 11.9% (still the best search share).
