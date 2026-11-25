@@ -1,2 +1,2 @@
-pipeline/specs/chicxulub-crater.json
-# 2026-11-24
+pipeline/specs/carrington-aurora.json
+# 2026-11-25

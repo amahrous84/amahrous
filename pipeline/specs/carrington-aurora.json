@@ -1,0 +1,27 @@
+{
+ "slug": "carrington-aurora",
+ "note": "Code-rendered by pipeline/anim_carrington.py; only the voice lines are fetched.",
+ "voice": "ElevenLabs Liam (TX3LPaxmHKxFdv7VOQHJ), eleven_v4",
+ "segments": [
+  {
+   "text": "Northern lights, all the way to Cuba!",
+   "audio": "pipeline/free/audio/carrington-aurora/01.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/CBsCHM3uZJoJ47JX0uo8/aBC9KlKRwYfNNtMSvjA9/content.mp3?Expires=1795626000&KeyName=assets-cdn-key-1&Signature=7h4_xbj_vkzYXB2aAHCVqlnOyRk="
+  },
+  {
+   "text": "In eighteen fifty-nine, the Sun hurled a storm at Earth, and the northern lights slid south.",
+   "audio": "pipeline/free/audio/carrington-aurora/02.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/DbjAdlBD2Mh6jfiO3KJP/yOAoIkb02YaNsNXGlQK5/content.mp3?Expires=1795626000&KeyName=assets-cdn-key-1&Signature=y8EtmXi7B2DyGjxx78WaGcfdbvs="
+  },
+  {
+   "text": "All the way to the tropics!",
+   "audio": "pipeline/free/audio/carrington-aurora/03.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/B2RMPGLyH98wwWAMd4MD/qTKsYpr86wluVakVkEYi/content.mp3?Expires=1795626000&KeyName=assets-cdn-key-1&Signature=_Cva89WnDcmHpiTBGOnOmWHMFes="
+  },
+  {
+   "text": "Telegraph wires threw sparks, and some paper caught fire.",
+   "audio": "pipeline/free/audio/carrington-aurora/04.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/FEsFacI76iZfPXbN2Rzs/vqEbN3aHbqZKM3SLWgAv/content.mp3?Expires=1795626000&KeyName=assets-cdn-key-1&Signature=vBNO0mLfwVPZgUY8uvgpBONndxA="
+  }
+ ]
+}
