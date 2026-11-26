@@ -124,3 +124,11 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
   - Tsar Bomba: stayed 46%, avg viewed 117%, early 0.61-0.64, shares 0, search 4.6%.
   - Tunguska: stayed 39%, avg viewed 80%, early 0.43-0.57, shares 0, comments 1, search 1.5%.
   - Hunga Tonga: stayed 47%, avg viewed 98%, early 0.60-0.64, shares 0, search 11.9% (still the best search share).
+
+## 2026-11-26
+- Published at the 5:48 pm Riyadh run: The Chelyabinsk Meteor: 30 Hiroshima Bombs From a 20 m Rock, 18.8 s, https://youtu.be/ebQR1lmNdsw, thumbnail set.
+- What changed today: back to a side view (like Lituya) instead of a map; the counter is a count of Hiroshima bombs with 30 bomb icons lighting one by one, and the target (30) is both the red gauge line and the empty icons from frame 0.
+- Live counts (publish/done/2026-11-26-stats.json): Carrington (fBlEp2BYCvA) only 42 views after about 24 h, the weakest start of the series (the feed barely tested it; dark polar map in frame 0 is the main suspect). Chicxulub 1,459; Valdivia 4,744; Hunga Tonga 1,483.
+- Deep read (publish/done/2026-11-26-deep.json; Chicxulub not in analytics yet):
+  - Valdivia (lC3Yq__iigE, 20 s): 3,267 views in analytics, stayed 45%, avg viewed 96%, early relative retention 0.56-0.62, shares 0, comments 0, 2 subscribers, search 1,028 (31%). Its extra views came from YouTube search, not the feed: the plain searchable title is what lifted it.
+  - Hunga Tonga: stayed 47%, avg viewed 98%, early 0.60-0.64, shares 0, search 190 (13%).
