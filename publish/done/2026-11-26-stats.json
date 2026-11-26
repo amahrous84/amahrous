@@ -1,0 +1,324 @@
+{
+  "stats": true,
+  "result": {
+    "live": [
+      {
+        "id": "fBlEp2BYCvA",
+        "title": "The Solar Storm That Put Northern Lights Over Cuba",
+        "published": "2026-11-25T14:58:20Z",
+        "viewCount": "42",
+        "likeCount": "2",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "29xz9i0_0Tc",
+        "title": "The Crater That Killed the Dinosaurs Is 180 km Wide",
+        "published": "2026-11-24T15:00:44Z",
+        "viewCount": "1459",
+        "likeCount": "9",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "lC3Yq__iigE",
+        "title": "The Tsunami That Crossed the Whole Pacific",
+        "published": "2026-11-23T15:00:07Z",
+        "viewCount": "4744",
+        "likeCount": "24",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "TESVlkE2A0E",
+        "title": "The Volcano Boom Heard 10,000 km Away",
+        "published": "2026-11-18T14:48:07Z",
+        "viewCount": "1483",
+        "likeCount": "11",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "qBNDPrfgDAw",
+        "title": "The Tunguska Explosion Flattened a Forest Bigger Than London",
+        "published": "2026-11-16T15:04:10Z",
+        "viewCount": "747",
+        "likeCount": "9",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "jMz9QCEHYhg",
+        "title": "The Biggest Bomb Ever: A Cloud 7 Times Higher Than Everest",
+        "published": "2026-11-15T15:02:30Z",
+        "viewCount": "1550",
+        "likeCount": "15",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "P4a7gDNGjsw",
+        "title": "The Wave Taller Than the Empire State Building",
+        "published": "2026-11-14T15:29:24Z",
+        "viewCount": "8997",
+        "likeCount": "22",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      },
+      {
+        "id": "PVE-KfMC8_M",
+        "title": "What If Earth Doubled in Size Every Second?",
+        "published": "2026-11-13T19:11:48Z",
+        "viewCount": "1691",
+        "likeCount": "29",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "QnEaZ0Y3sBE",
+        "title": "What If Earth Were Twice as Big?",
+        "published": "2026-10-30T15:14:32Z",
+        "viewCount": "451",
+        "likeCount": "11",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      {
+        "id": "zJcEZdGiL-U",
+        "title": "What If You Lived Under Rings Like Saturn's?",
+        "published": "2026-10-29T15:16:08Z",
+        "viewCount": "110",
+        "likeCount": "5",
+        "dislikeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    ],
+    "analytics": {
+      "kind": "youtubeAnalytics#resultTable",
+      "columnHeaders": [
+        {
+          "name": "video",
+          "columnType": "DIMENSION",
+          "dataType": "STRING"
+        },
+        {
+          "name": "views",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "engagedViews",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "averageViewPercentage",
+          "columnType": "METRIC",
+          "dataType": "FLOAT"
+        },
+        {
+          "name": "averageViewDuration",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "likes",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "comments",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "shares",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        },
+        {
+          "name": "subscribersGained",
+          "columnType": "METRIC",
+          "dataType": "INTEGER"
+        }
+      ],
+      "rows": [
+        [
+          "P4a7gDNGjsw",
+          8997,
+          4703,
+          101.37,
+          12,
+          22,
+          1,
+          0,
+          0
+        ],
+        [
+          "lC3Yq__iigE",
+          3267,
+          1462,
+          95.99,
+          19,
+          23,
+          0,
+          0,
+          2
+        ],
+        [
+          "PVE-KfMC8_M",
+          1691,
+          763,
+          114.36,
+          19,
+          29,
+          0,
+          0,
+          2
+        ],
+        [
+          "jMz9QCEHYhg",
+          1550,
+          711,
+          117.06999999999998,
+          24,
+          15,
+          0,
+          0,
+          0
+        ],
+        [
+          "TESVlkE2A0E",
+          1466,
+          691,
+          98.07,
+          19,
+          11,
+          0,
+          0,
+          0
+        ],
+        [
+          "qBNDPrfgDAw",
+          747,
+          292,
+          80.76,
+          16,
+          9,
+          1,
+          0,
+          0
+        ],
+        [
+          "zJcEZdGiL-U",
+          5,
+          3,
+          83.48,
+          17,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "QnEaZ0Y3sBE",
+          4,
+          3,
+          74.67,
+          11,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "V_uj_8D4Hxk",
+          4,
+          3,
+          79.6,
+          19,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "jP1Is973p18",
+          4,
+          4,
+          22.98,
+          68,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          "Hq7kDGT0eAg",
+          3,
+          1,
+          67.64,
+          14,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "rLxH6nvM1lk",
+          3,
+          2,
+          58.18,
+          17,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "OFbgvDHqHzQ",
+          2,
+          1,
+          22.3,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "j4jw6GTggw4",
+          2,
+          1,
+          76.32,
+          19,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "paJWtpfof0Q",
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}
