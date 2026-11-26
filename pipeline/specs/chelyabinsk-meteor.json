@@ -1,0 +1,27 @@
+{
+ "slug": "chelyabinsk-meteor",
+ "note": "Code-rendered by pipeline/anim_chelyabinsk.py; only the voice lines are fetched.",
+ "voice": "ElevenLabs Liam (TX3LPaxmHKxFdv7VOQHJ), eleven_v4",
+ "segments": [
+  {
+   "text": "This rock was only twenty meters wide!",
+   "audio": "pipeline/free/audio/chelyabinsk-meteor/01.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/muRWKwdAD0R2aGlxakwE/n7Ls583XmsEz84owLzOh/content.mp3?Expires=1795712400&KeyName=assets-cdn-key-1&Signature=f4w-GCPxXk4Tq9Eiqrszqpu0TG8="
+  },
+  {
+   "text": "In twenty thirteen, it blew up over Chelyabinsk, Russia, brighter than the Sun.",
+   "audio": "pipeline/free/audio/chelyabinsk-meteor/02.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/rOYQvFB9hzYBxRqQtgaI/xkP46R3qMD0fUG6cAYyY/content.mp3?Expires=1795712400&KeyName=assets-cdn-key-1&Signature=UmkJZoN6synZ3K8DqdRPczk_h2I="
+  },
+  {
+   "text": "About thirty Hiroshima bombs!",
+   "audio": "pipeline/free/audio/chelyabinsk-meteor/03.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/AJSyu6gWpoEVFxJExExv/IPwfMyhCOxOIhsKfGY56/content.mp3?Expires=1795712400&KeyName=assets-cdn-key-1&Signature=jiB5BUbUH-WF-Ovf53AqIVJThnY="
+  },
+  {
+   "text": "The blast broke windows, and about fifteen hundred people were hurt, mostly by glass.",
+   "audio": "pipeline/free/audio/chelyabinsk-meteor/04.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/OPRVH6TP6AL3kjAfBNRC/6YlrMoaAV07K8daviTJe/content.mp3?Expires=1795712400&KeyName=assets-cdn-key-1&Signature=yQ-N6enVr4xSgBRCtaMiR5AAexQ="
+  }
+ ]
+}

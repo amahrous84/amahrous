@@ -1,2 +1,2 @@
-pipeline/specs/carrington-aurora.json
-# 2026-11-25
+pipeline/specs/chelyabinsk-meteor.json
+# 2026-11-26
