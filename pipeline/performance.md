@@ -132,3 +132,11 @@ One block per daily run: date, stats read, what won or flopped, why today's topi
 - Deep read (publish/done/2026-11-26-deep.json; Chicxulub not in analytics yet):
   - Valdivia (lC3Yq__iigE, 20 s): 3,267 views in analytics, stayed 45%, avg viewed 96%, early relative retention 0.56-0.62, shares 0, comments 0, 2 subscribers, search 1,028 (31%). Its extra views came from YouTube search, not the feed: the plain searchable title is what lifted it.
   - Hunga Tonga: stayed 47%, avg viewed 98%, early 0.60-0.64, shares 0, search 190 (13%).
+
+## 2026-11-27
+- Published at the 5:48 pm Riyadh run: The Volcano That Blew Its Own Top Off: Tambora 1815, 19.2 s, https://youtu.be/grHqaiDnbpE, thumbnail set.
+- What changed today: side view again, with a landmark comparison like Lituya (Empire State Buildings stacking in the missing summit) and the target (today's 2,851 m line) across the frame from frame 0.
+- Live counts (publish/done/2026-11-27-stats.json): Chelyabinsk 786 after about 24 h (feed test running); Carrington still only 48; Chicxulub 1,466; Valdivia 5,498.
+- Deep read (publish/done/2026-11-27-deep.json; Carrington not in analytics yet):
+  - Chicxulub (29xz9i0_0Tc, 19.4 s): stayed 43%, avg viewed 86%, early relative retention 0.50-0.58, shares 0, comments 0, search 68 (5%).
+  - Valdivia: 4,497 in analytics, stayed 45%, avg viewed 95%, early 0.56-0.61, shares 0, 2 subs, search 1,215 (27%). Still growing through search.
