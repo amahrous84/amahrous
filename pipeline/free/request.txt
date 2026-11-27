@@ -1,2 +1,2 @@
-pipeline/specs/chelyabinsk-meteor.json
-# 2026-11-26
+pipeline/specs/tambora-1815.json
+# 2026-11-27

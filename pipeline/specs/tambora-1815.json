@@ -1,0 +1,27 @@
+{
+ "slug": "tambora-1815",
+ "note": "Code-rendered by pipeline/anim_tambora.py; only the voice lines are fetched.",
+ "voice": "ElevenLabs Liam (TX3LPaxmHKxFdv7VOQHJ), eleven_v4",
+ "segments": [
+  {
+   "text": "This volcano blew its own top off!",
+   "audio": "pipeline/free/audio/tambora-1815/01.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/4NdA0VIfWhBiJPHMqseL/Jdv67hNTNRazaMnT70c9/content.mp3?Expires=1795798800&KeyName=assets-cdn-key-1&Signature=DXX8kdReMGMjQGbLyA_3o9Fr1SU="
+  },
+  {
+   "text": "In eighteen fifteen, Tambora in Indonesia erupted, and the mountain kept shrinking.",
+   "audio": "pipeline/free/audio/tambora-1815/02.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/DWatJiijTInLeoAufwk6/cRTDLBoA7ckEs97RWRTc/content.mp3?Expires=1795798800&KeyName=assets-cdn-key-1&Signature=HPOBmIlRKuOsCDlK4si1-BfCQ4g="
+  },
+  {
+   "text": "About fourteen hundred and fifty meters, gone!",
+   "audio": "pipeline/free/audio/tambora-1815/03.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/J6VO114Jk7ZPHmAoEDLW/uTjTLBMs3pTlrxsuSTQz/content.mp3?Expires=1795798800&KeyName=assets-cdn-key-1&Signature=CMuRcw3MEJAgs6WEQIIx9qQTc2k="
+  },
+  {
+   "text": "Tens of thousands died, and eighteen sixteen became the year without a summer.",
+   "audio": "pipeline/free/audio/tambora-1815/04.mp3",
+   "audio_url": "https://elevenlabsusercontent.com/database/workspace/409d57212dff4b2a9ce418fb773ffc78/content_generation/mM5ID0RfuOpOEcGBm5QO/A2ukn4RaAYRKQnE4IXww/content.mp3?Expires=1795798800&KeyName=assets-cdn-key-1&Signature=ysKlduda5Kf-2M_7x56OnnJfyRE="
+  }
+ ]
+}
